@@ -9,7 +9,7 @@ const IndexPage = () => (
   <div>
     <h1>Hello! We're Getting Married!</h1>
     <p>There will be a website here, until then....</p>
-    <div style={{ maxWidth: `300px`, marginBottom: `1.45rem` }}>
+    <div style={{ maxWidth: `600px`, marginBottom: `1.45rem` }}>
       <Image />
     </div>
     </div>
