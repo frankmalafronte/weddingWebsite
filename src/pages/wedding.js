@@ -8,12 +8,10 @@ import Header from '../components/header'
 import Links from '../components/links'
 import styles from '../components/styles.module.css'
 
-const IndexPage = () => (
+const WeddingPage = () => (
   <div>
-    <Links>
-    <TheWedding/>
-    </Links>
+     <TheWedding/>
   </div>
 )
 
-export default IndexPage
+export default WeddingPage
