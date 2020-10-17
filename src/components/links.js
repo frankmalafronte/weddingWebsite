@@ -1,22 +1,22 @@
 import { Link } from "gatsby"
 import PropTypes from "prop-types"
 import React from "react"
-import '../components/styles.css';
+import styles from '../components/styles.module.css';
 
-const Links = ()=>{
+export default function Links ({children}){
   return (
-  <div style ={{display:'flex'}}>
-  <Link to ="/#Home"><button>Our Wedding</button></Link>
-  <Link to="/photos">
-          <button
-            type="button"
-          >
-          Photos
-          </button>
-          </Link>
-          <Link to="/#Registry"><button>Registry</button></Link>
+    <header className="app-wrapper">
+  <div className={styles.header} >
+  <Link to ="/"><button>Our Wedding</button></Link>
+  <Link to="/photos"><button>Photos</button></Link>
+  <Link to="/registry"><button>Registry</button></Link>
+  <Link to="/FAQ"><button>FAQ</button></Link>
+  <Link to ="/guestBook"><button>Guest Book</button> </Link>
   </div>
+  <div>  
+    {children}
+</div>
+  </header>
   )
 }
 
-export default Links

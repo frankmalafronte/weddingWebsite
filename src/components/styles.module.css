@@ -1,0 +1,21 @@
+.header {
+  display: flex;
+  justify-content: center;
+  background-color:grey;
+  position: -webkit-sticky;
+  position:sticky;
+  top:0px;
+  padding-top:30px;
+  padding-bottom:30px;
+  z-index:100;
+}
+
+.center {
+  display:flex;
+  justify-content: center
+}
+
+body {
+  background-color:gold
+}
+

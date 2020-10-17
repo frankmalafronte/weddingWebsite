@@ -2,6 +2,7 @@ import React from "react"
 import { useStaticQuery, graphql } from "gatsby"
 import Layout from "../components/layout";
 import Img from "gatsby-image"
+import Links from '../components/links'
 
 
 export default function Photos() {
@@ -28,6 +29,7 @@ query {
 
 return (
 <div>
+<Links/>
   <div>Hello Photos</div>
   <Img fluid = {data.kissy.childImageSharp.fluid}/>
   <Img fluid ={data.second.childImageSharp.fluid}/>
