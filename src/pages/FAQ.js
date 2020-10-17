@@ -42,8 +42,9 @@ export default function FAQ() {
   }
   
 return (
-  <div className="blah">
+  <div>
 <Links/>
+<div className={styles.title}>FAQ</div>
 <div className={styles.faqs}>
 {faqs.map((faq,i)=>
 <FAQComponent faq={faq} index={i} toggleFAQ ={toggleFAQ} />

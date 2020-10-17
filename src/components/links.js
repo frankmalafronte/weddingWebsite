@@ -8,10 +8,12 @@ export default function Links ({children}){
     <header className="app-wrapper">
   <div className={styles.header} >
   <Link to ="/"><button>Our Wedding</button></Link>
+  <Link to ="/RSVP"><button>RSVP</button></Link>
+  <Link to ="/ourStory"><button>Our Story</button></Link>
   <Link to="/photos"><button>Photos</button></Link>
-  <Link to="/registry"><button>Registry</button></Link>
   <Link to="/FAQ"><button>FAQ</button></Link>
   <Link to ="/guestBook"><button>Guest Book</button> </Link>
+  <Link to ="/registry"><button>Registry</button> </Link>
   </div>
   <div>  
     {children}
