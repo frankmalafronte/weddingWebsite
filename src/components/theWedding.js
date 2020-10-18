@@ -35,7 +35,7 @@ const usAndCats = useStaticQuery(graphql`
 <div className ={styles.center}>December 31st, 2020</div>
   <div className ={styles.center}>5:30 PM</div>
   <div className ={styles.center}>On Zoom (zoom link here?)</div>
-<WeddingParty/>
+{/* <WeddingParty/> */}
   </div>
 </div>
   )
