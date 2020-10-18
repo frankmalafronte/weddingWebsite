@@ -1,8 +1,16 @@
-*{
+/* *{
   margin:0;
   padding:0;
   box-sizing:border-box
+} */
+
+.sideBySide {
+  display: flex;
+  flex-direction: column;
+  /* justify-Content:space-between; */
+  background-color:blue;
 }
+
 .header {
   display: flex;
   justify-content: center;
@@ -26,6 +34,8 @@
    margin: 0 auto;
    font-size:40px
 }
+
+
 
 body {
   background-color:gold
