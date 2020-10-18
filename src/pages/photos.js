@@ -3,50 +3,78 @@ import { useStaticQuery, graphql } from "gatsby"
 import Img from "gatsby-image"
 import Links from '../components/links'
 import styles from '../components/styles.module.css'
-import styled from "styled-components"
 
 
 
   
 
-
 export default function Photos() {
   const data =  useStaticQuery(graphql`
-query {
-  kissy: file(relativePath: { eq: "kissy.jpg" }) {
-    childImageSharp {
-      fluid(maxWidth:50 maxHeight:50 fit:FILL) {
-        ...GatsbyImageSharpFluid
+  query {
+    drBoom: file(relativePath: { eq: "Dr._Boom.jpg" }) {
+      childImageSharp {
+        fluid(maxWidth:300 maxHeight:300 fit:FILL) {
+          ...GatsbyImageSharpFluid_withWebp
+        }
+        }
       }
-      }
-    }
-  second: file(relativePath: { eq: "blah.jpg" }) {
-    childImageSharp {
-      fluid(maxWidth:50 maxHeight:50 ) {
-        ...GatsbyImageSharpFluid_withWebp
-      }
-      }
-    }
-}
-`)
-
-const Area = styled.div`
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  grid-auto-rows: 50vw;
-`
-
+        melbibi: file(relativePath: { eq: "melbibi.jpg" }) {
+          childImageSharp {
+            fluid(maxWidth:300 maxHeight:300 fit:FILL) {
+              ...GatsbyImageSharpFluid_withWebp
+            }
+            }
+          }
+          usAndCats: file(relativePath: { eq: "usAndCats.jpg" }) {
+            childImageSharp {
+              fluid(maxWidth:200 maxHeight:200 fit:COVER) {
+                ...GatsbyImageSharpFluid_withWebp
+              }
+              }
+            }
+            twoFranks: file(relativePath: { eq: "twoFranks.jpg" }) {
+              childImageSharp {
+                fluid(maxWidth:300 maxHeight:300 fit:COVER) {
+                  ...GatsbyImageSharpFluid_withWebp
+                }
+                }
+              }
+    }`)
 
 
 return (
   <div>
 <Links>
 </Links>
-  <div>Hello Photos</div>
-  <div>Lorem Ipsum</div>
-  <div>Lorem Ipsum</div>
-  <div>Lorem Ipsum</div>
-  <div>Lorem Ipsum</div>
+<div>Hello Photos</div>
+<div className ={styles.row}>
+<div id ="1" className={styles.column}>
+  {/* <div>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec lacinia nunc ac vestibulum rutrum. In et eros euismod, lobortis diam dictum, rutrum ipsum. Maecenas sed molestie augue. Proin placerat tellus non lorem porttitor, quis pulvinar lorem tincidunt. Aliquam vel turpis sit amet ligula egestas efficitur et eu leo. Nullam euismod metus ut odio blandit, ac posuere risus auctor. Morbi ac nibh eros. Mauris tincidunt nunc quis velit ultricies aliquam. Nunc vitae libero neque. Quisque lobortis iaculis condimentum. Suspendisse commodo lobortis est, vitae finibus urna porta a. Aliquam eu elit efficitur sapien consequat sollicitudin. Morbi viverra erat non semper fermentum. Proin nisl lacus, malesuada vitae mauris a, iaculis auctor est. Nam tempor erat quis congue tristique.</div> */}
+  {/* <div>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec lacinia nunc ac vestibulum rutrum. In et eros euismod, lobortis diam dictum, rutrum ipsum. Maecenas sed molestie augue. Proin placerat tellus non lorem porttitor, quis pulvinar lorem tincidunt. Aliquam vel turpis sit amet ligula egestas efficitur et eu leo. Nullam euismod metus ut odio blandit, ac posuere risus auctor. Morbi ac nibh eros. Mauris tincidunt nunc quis velit ultricies aliquam. Nunc vitae libero neque. Quisque lobortis iaculis condimentum. Suspendisse commodo lobortis est, vitae finibus urna porta a. Aliquam eu elit efficitur sapien consequat sollicitudin. Morbi viverra erat non semper fermentum. Proin nisl lacus, malesuada vitae mauris a, iaculis auctor est. Nam tempor erat quis congue tristique.</div> */}
+  <Img fluid = {data.usAndCats.childImageSharp.fluid} />
+  <Img fluid = {data.twoFranks.childImageSharp.fluid} />
+  <Img fluid = {data.drBoom.childImageSharp.fluid} />
+  <Img fluid = {data.drBoom.childImageSharp.fluid} />
+  </div>
+  <div id="2" className={styles.column}>
+  <Img fluid = {data.drBoom.childImageSharp.fluid} />
+  <Img fluid = {data.drBoom.childImageSharp.fluid} />
+  <Img fluid = {data.drBoom.childImageSharp.fluid} />
+  <Img fluid = {data.drBoom.childImageSharp.fluid} />
+  </div>
+  <div id="3" className={styles.column}>
+  <Img fluid = {data.drBoom.childImageSharp.fluid} />
+  <Img fluid = {data.drBoom.childImageSharp.fluid} />
+  <Img fluid = {data.drBoom.childImageSharp.fluid} />
+  <Img fluid = {data.drBoom.childImageSharp.fluid} />
+  </div>
+  <div id="4" className={styles.column}>
+  <Img fluid = {data.drBoom.childImageSharp.fluid} />
+  <Img fluid = {data.drBoom.childImageSharp.fluid} />
+  <Img fluid = {data.drBoom.childImageSharp.fluid} />
+  <Img fluid = {data.drBoom.childImageSharp.fluid} />
+  </div>
+ </div>
  </div>
 )
 }
