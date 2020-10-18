@@ -1,8 +1,10 @@
 *{
   margin:0;
   box-sizing:border-box;
-  font-family: "Bookman Old Style", Times, serif;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  background-color: rgb(27, 34, 55)
 }
+
 
 .sideBySide {
   display: flex;
@@ -14,7 +16,6 @@
 .nav {
   display: flex;
   justify-content: center;
-  background-color:rgb(163, 159, 159);
   position: -webkit-sticky;
   position:sticky;
   top:0px;
@@ -41,6 +42,7 @@
   display:flex;
   justify-content: center
 }
+
 .title {
   display:flex;
   justify-content:center;
@@ -87,6 +89,25 @@ opacity: 0;
 max-height: 0;
 overflow-y:hidden;
 transition:all 0.4s ease
+}
+
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0 4px;
+}
+
+.column {
+  flex: 25%;
+  max-width: 23%;
+  padding: 0 4px;
+}
+
+.column div {
+  margin-top: 8px;
+  vertical-align: middle;
+  width: 100%;
 }
 
 
