@@ -8,20 +8,19 @@ export default function Links ({children}){
     <header className="app-wrapper">
   <div className={styles.header} >
   <Link to ="/">
-  <div> <button className={styles.dropButton}>Our Wedding</button></div></Link>
+  <div> <button >Our Wedding</button></div></Link>
   <Link to ="/RSVP"><button>RSVP</button></Link>
   <Link to ="/ourStory"><button>Our Story</button></Link>
 
-  <Link to="/photos">
-  <div className={styles.dropDown}>
+  <div className={styles.dropDown} >
   <button className={styles.dropButton}>Photos</button>
-  <div className = {styles.dropDownContent}>
-  <a>Us In Love</a>
-  <a>Proposal Photos</a>
-  <a>Engagement Photos</a>
+  <div className ={styles.dropDownContent} id="dropDownContainer">
+  <Link to="/photos">Us In Love</Link>
+  <Link to="/proposal">Proposal Photos</Link>
+  <Link to="/engagement">Engagement Photos</Link>
+  <Link to="/cats">Cat Photos</Link>
   </div>
   </div>
-  </Link>
 
   <Link to="/FAQ"><button>FAQ</button></Link>
   <Link to ="/guestBook"><button>Guest Book</button> </Link>
