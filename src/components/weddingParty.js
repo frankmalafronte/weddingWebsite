@@ -36,29 +36,36 @@ export default function WeddingParty() {
 
 return (
   <div>
-    <div className={styles.center} id ="header">The Wedding Party</div>
-<div className={styles.weddingPartyContainer}id ="top level">
+    <div c id ="header">The Wedding Party</div>
+<div className={styles.weddingPartyContainer} id ="top level">
+
 <div id="Bride Container"  style={{width:"49%",backgroundColor:'pink'}}>
-<div id ="Megan" >
+
+<div className={styles.weddingPartyContainer} id ="Megan">
 <Img style={{width:'200px'}} fluid = {data.drBoom.childImageSharp.fluid} />
 <div>Megan Peters</div>
 </div>
+
 <div id ="Christine "className={styles.weddingPartyContainer}>
 <Img style={{width:'200px'}} fluid = {data.drBoom.childImageSharp.fluid} />
 <div>Christine</div>
 </div>
+
 <div id ="katie"className={styles.weddingPartyContainer}>
 <Img style={{width:'200px'}} fluid = {data.drBoom.childImageSharp.fluid} />
 <div>Katie</div>
 </div>
+
 <div id ="laura"className={styles.weddingPartyContainer}>
 <Img style={{width:'200px'}} fluid = {data.drBoom.childImageSharp.fluid} />
 <div>Laura</div>
 </div>
+
 <div id ="Erin"className={styles.weddingPartyContainer}>
 <Img style={{width:'200px'}} fluid = {data.drBoom.childImageSharp.fluid} />
 <div>Erin</div>
 </div>
+
 </div>
 
 <div  style={{width:"49%", backgroundColor:'blue' }}id= "Groom Container">
