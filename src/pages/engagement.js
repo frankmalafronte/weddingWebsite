@@ -8,7 +8,7 @@ import styles from '../components/styles.module.css'
 
   
 
-export default function Photos() {
+export default function Engagement() {
   const data =  useStaticQuery(graphql`
   query {
     drBoom: file(relativePath: { eq: "Dr._Boom.jpg" }) {
@@ -45,7 +45,7 @@ export default function Photos() {
 return (
   <div>
 <Links>
-<div>Hello Photos</div>
+<div>Hello Engagement</div>
 <div className ={styles.row}>
 <div id ="1" className={styles.column}>
   {/* <div>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec lacinia nunc ac vestibulum rutrum. In et eros euismod, lobortis diam dictum, rutrum ipsum. Maecenas sed molestie augue. Proin placerat tellus non lorem porttitor, quis pulvinar lorem tincidunt. Aliquam vel turpis sit amet ligula egestas efficitur et eu leo. Nullam euismod metus ut odio blandit, ac posuere risus auctor. Morbi ac nibh eros. Mauris tincidunt nunc quis velit ultricies aliquam. Nunc vitae libero neque. Quisque lobortis iaculis condimentum. Suspendisse commodo lobortis est, vitae finibus urna porta a. Aliquam eu elit efficitur sapien consequat sollicitudin. Morbi viverra erat non semper fermentum. Proin nisl lacus, malesuada vitae mauris a, iaculis auctor est. Nam tempor erat quis congue tristique.</div> */}
@@ -77,6 +77,4 @@ return (
  </Links>
  </div>
 
-)
-}
-
+)}
