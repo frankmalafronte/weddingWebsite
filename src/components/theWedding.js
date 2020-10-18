@@ -31,9 +31,9 @@ const usAndCats = useStaticQuery(graphql`
 <div>
  <Img fluid={usAndCats.cats.childImageSharp.fluid}/>
 <div className ={styles.center}>The Wedding</div>
-<div className ={styles.center}>December 31st, 2020</div>
+<div className ={styles.center}>December 31, 2020</div>
   <div className ={styles.center}>5:30 PM</div>
-  <div className ={styles.center}>On Zoom (zoom link here?)</div>
+  <div className ={styles.center}>On Zoom (link coming soon)</div>
   <div className ={styles.center}>Wedding Party</div>
 </div>
 </div>
