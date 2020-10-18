@@ -2,7 +2,6 @@ import React from "react"
 import { useStaticQuery, graphql } from "gatsby"
 import Img from "gatsby-image"
 import Links from '../components/links'
-import GridItem from '../components/gridItem'
 import styles from '../components/styles.module.css'
 import styled from "styled-components"
 
@@ -40,17 +39,15 @@ const Area = styled.div`
 
 
 return (
+  <div>
 <Links>
-  <Area>
-  <GridItem>
+</Links>
   <div>Hello Photos</div>
   <div>Lorem Ipsum</div>
   <div>Lorem Ipsum</div>
   <div>Lorem Ipsum</div>
   <div>Lorem Ipsum</div>
-  </GridItem>
- </Area>
-</Links>
+ </div>
 )
 }
 
