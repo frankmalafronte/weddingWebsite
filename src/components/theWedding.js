@@ -3,6 +3,7 @@ import { useStaticQuery, graphql } from "gatsby"
 import Img from "gatsby-image"
 import styles from '../components/styles.module.css'
 import Links from './links'
+import WeddingParty from '../components/weddingParty'
 
 
 const TheWedding = () => {
@@ -34,13 +35,8 @@ const usAndCats = useStaticQuery(graphql`
 <div className ={styles.center}>December 31st, 2020</div>
   <div className ={styles.center}>5:30 PM</div>
   <div className ={styles.center}>On Zoom (zoom link here?)</div>
-  <div id="wedding party container"></div>
-  <div className ={styles.center}>Wedding Party</div>
-  <div id ="megan peters container">
-  <div id="megan peters content"></div>
-  <div id="megan peters picture"></div>
+<WeddingParty/>
   </div>
-</div>
 </div>
   )
 }

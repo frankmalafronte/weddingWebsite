@@ -81,7 +81,7 @@ transition:all 0.4s ease
 
 .column {
   flex: 25%;
-  max-width: 23%;
+  max-width: 24%;
   padding: 0 4px;
 }
 
@@ -89,6 +89,11 @@ transition:all 0.4s ease
   margin-top: 8px;
   vertical-align: middle;
   width: 100%;
+}
+
+.weddingPartyContainer {
+  display:flex;
+  padding:2px;
 }
 
 

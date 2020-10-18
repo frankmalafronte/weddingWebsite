@@ -45,7 +45,6 @@ export default function Photos() {
 return (
   <div>
 <Links>
-</Links>
 <div>Hello Photos</div>
 <div className ={styles.row}>
 <div id ="1" className={styles.column}>
@@ -75,7 +74,9 @@ return (
   <Img fluid = {data.drBoom.childImageSharp.fluid} />
   </div>
  </div>
+ </Links>
  </div>
+
 )
 }
 
