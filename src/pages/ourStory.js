@@ -15,20 +15,55 @@ export default function OurStory() {
         }
         }
       }
-        melbibi: file(relativePath: { eq: "melbibi.jpg" }) {
+        melbibi: file(relativePath: { eq: "cats/melbibi.jpg" }) {
           childImageSharp {
             fluid(maxWidth:300 maxHeight:300 fit:FILL) {
               ...GatsbyImageSharpFluid_withWebp
             }
             }
           }
-          sydneyBear: file(relativePath: { eq: "melbibi.jpg" }) {
+          melOnSuitcase: file(relativePath: { eq: "cats/melOnSuitcase.jpg" }) {
             childImageSharp {
               fluid(maxWidth:300 maxHeight:300 fit:FILL) {
                 ...GatsbyImageSharpFluid_withWebp
               }
               }
             }
+          sydneyBear: file(relativePath: { eq: "cats/sydneyBear.jpg" }) {
+            childImageSharp {
+              fluid(maxWidth:300 maxHeight:300 fit:FILL) {
+                ...GatsbyImageSharpFluid_withWebp
+              }
+              }
+            }
+            beccaBoth: file(relativePath: { eq: "cats/beccaBoth.jpg" }) {
+              childImageSharp {
+                fluid(maxWidth:300 maxHeight:300 fit:FILL) {
+                  ...GatsbyImageSharpFluid_withWebp
+                }
+                }
+              }
+              bothGuys: file(relativePath: { eq: "cats/bothGuys.jpg" }) {
+                childImageSharp {
+                  fluid(maxWidth:300 maxHeight:300 fit:FILL) {
+                    ...GatsbyImageSharpFluid_withWebp
+                  }
+                  }
+                }
+                sleepingBecca: file(relativePath: { eq: "cats/sleepingBecca.jpg" }) {
+                  childImageSharp {
+                    fluid(maxWidth:300 maxHeight:300 fit:FILL) {
+                      ...GatsbyImageSharpFluid_withWebp
+                    }
+                    }
+                  }
+                  melCute: file(relativePath: { eq: "cats/melCute.jpg" }) {
+                    childImageSharp {
+                      fluid(maxWidth:300 maxHeight:300 fit:FILL) {
+                        ...GatsbyImageSharpFluid_withWebp
+                      }
+                      }
+                    }
     }`);
 
 
@@ -64,11 +99,11 @@ Phasellus tellus enim, elementum sit amet laoreet sit amet, pharetra eget est. S
           <div style={{width: '30%'}}>Melbourne</div>
           <div className ={styles.row} style ={{width: '70%', backgroundColor: 'yellow'}}>
             <div id = "imageContainer" className={styles.storyColumn} >
-              <Img fluid = {data.melbibi.childImageSharp.fluid}/>
+              <Img fluid = {data.melCute.childImageSharp.fluid}/>
               <Img fluid = {data.melbibi.childImageSharp.fluid}/>
             </div>
             <div id = "imageContainer" className={styles.storyColumn} >
-              <Img fluid = {data.melbibi.childImageSharp.fluid}/>
+              <Img fluid = {data.melOnSuitcase.childImageSharp.fluid}/>
               <Img fluid = {data.melbibi.childImageSharp.fluid}/>
             </div>
           </div>
@@ -80,12 +115,12 @@ Phasellus tellus enim, elementum sit amet laoreet sit amet, pharetra eget est. S
           <div style={{width: '30%'}}>Sydney</div>
           <div className ={styles.row} style ={{width: '70%', backgroundColor: 'yellow'}}>
             <div id = "imageContainer" className={styles.storyColumn} >
-              <Img fluid = {data.melbibi.childImageSharp.fluid}/>
-              <Img fluid = {data.melbibi.childImageSharp.fluid}/>
+              <Img fluid = {data.sydneyBear.childImageSharp.fluid}/>
+              <Img fluid = {data.sleepingBecca.childImageSharp.fluid}/>
             </div>
             <div id = "imageContainer" className={styles.storyColumn} >
-              <Img fluid = {data.melbibi.childImageSharp.fluid}/>
-              <Img fluid = {data.melbibi.childImageSharp.fluid}/>
+              <Img fluid = {data.beccaBoth.childImageSharp.fluid}/>
+              <Img fluid = {data.bothGuys.childImageSharp.fluid}/>
             </div>
           </div>
         </div>
