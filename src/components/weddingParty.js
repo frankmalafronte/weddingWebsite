@@ -9,6 +9,13 @@ export default function WeddingParty() {
 
     const data =  useStaticQuery(graphql`
     query {
+      twoFranks: file(relativePath: { eq: "twoFranks.jpg" }) {
+        childImageSharp {
+          fluid(maxWidth:300 maxHeight:300 fit:COVER) {
+            ...GatsbyImageSharpFluid_withWebp
+          }
+          }
+        }
       drBoom: file(relativePath: { eq: "Dr._Boom.jpg" }) {
         childImageSharp {
           fluid(maxWidth:300 maxHeight:300 fit:FILL) {
@@ -42,7 +49,7 @@ return (
 <div id="Bride Container"  style={{width:"49%",backgroundColor:'pink'}}>
 
 <div className={styles.weddingPartyContainer} id ="Megan">
-<Img style={{width:'200px'}} fluid = {data.drBoom.childImageSharp.fluid} />
+<Img style={{width:'200px'}} fluid = {data.twoFranks.childImageSharp.fluid} />
 <div>Megan Peters</div>
 </div>
 
