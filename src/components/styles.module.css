@@ -55,54 +55,53 @@ h1 {
 }
 
 .center {
-  display:flex;
-  justify-content: center
+  display: flex;
+  justify-content: center;
 }
 
 .title {
-  display:flex;
-  justify-content:center;
-  padding:10px;
-   margin: 0 auto;
-   font-size:40px
+  display: flex;
+  justify-content: center;
+  padding: 10px;
+  margin: 0 auto;
+  font-size: 40px;
 }
 
 
 
 .faqContainer {
-  display:flex;
-  justify-content:center;
-   margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
 }
 
 .faq {
   width: 50%;
   margin: 15px;
   padding: 15px;
-  background-color:white;
-  border-radius:8px;
-  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2)
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
 }
 
- .faqQuestion{
-  position:relative; 
-  font-size:20px;
-  padding-right:80px;
-  transition: all 0.4s sease
+.faqQuestion {
+  position: relative;
+  font-size: 20px;
+  padding-right: 80px;
+  transition: all 0.4s sease;
 }
 .faqOpen {
-  margin-bottom:15px;
-  max-height:1000px;
-  opacity:1;
+  margin-bottom: 15px;
+  max-height: 1000px;
+  opacity: 1;
 }
 
-.faqClosed{
-opacity: 0;
-max-height: 0;
-overflow-y:hidden;
-transition:all 0.4s ease
+.faqClosed {
+  opacity: 0;
+  max-height: 0;
+  overflow-y: hidden;
+  transition: all 0.4s ease;
 }
-
 
 .row {
   display: flex;
@@ -130,12 +129,12 @@ transition:all 0.4s ease
 
 .galleryImg {
   width: 10%;
-  height:10%
+  height: 10%;
 }
 
 .weddingPartyContainer {
-  display:flex;
-  padding:2px;
+  display: flex;
+  padding: 2px;
 }
 
 .dropDown {
@@ -177,12 +176,11 @@ transition:all 0.4s ease
   display: block;
 }
 
-.dropDownContent a:hover {background-color: #ddd;}
+.dropDownContent a:hover {
+  background-color: #ddd;
+}
 
 .dropDown:hover .dropDownContent {
   display: flex;
-  flex-direction: column
+  flex-direction: column;
 }
-
-
-

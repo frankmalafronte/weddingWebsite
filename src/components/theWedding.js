@@ -1,16 +1,15 @@
-import React from "react"
-import { useStaticQuery, graphql } from "gatsby"
-import Img from "gatsby-image"
-import styles from '../components/styles.module.css'
-import Links from './links'
-import WeddingParty from '../components/weddingParty'
+import React from 'react';
+import {useStaticQuery, graphql} from 'gatsby';
+import Img from 'gatsby-image';
+import styles from '../components/styles.module.css';
+import Links from './links';
+import WeddingParty from '../components/weddingParty';
 
 
 const TheWedding = () => {
-
-const usAndCats = useStaticQuery(graphql`
+  const data = useStaticQuery(graphql`
     query {
-      cats: file(relativePath: { eq: "usAndCats.jpg" }) {
+      coolGuy: file(relativePath: { eq: "proposal/coolGuy.jpg" }) {
         id
         childImageSharp {
           fluid (maxWidth:1500 maxHeight:600 ) {
@@ -19,11 +18,8 @@ const usAndCats = useStaticQuery(graphql`
         }
       }
     }
-  `)
+  `);
 
-  if (!usAndCats.cats.childImageSharp.fluid) {
-    return <div>Picture not found</div>
-  }
 
   return (
     <div>
@@ -42,4 +38,4 @@ const usAndCats = useStaticQuery(graphql`
   )
 }
 
-export default TheWedding
+export default TheWedding;

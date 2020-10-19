@@ -1,9 +1,9 @@
-import { Link } from "gatsby"
-import PropTypes from "prop-types"
-import React from "react"
+import {Link} from 'gatsby';
+import PropTypes from 'prop-types';
+import React from 'react';
 import styles from '../components/styles.module.css';
 
-export default function Links ({children}){
+export default function Links({children}) {
   return (
     <header className="app-wrapper">
   <div className={styles.nav} >
@@ -15,21 +15,18 @@ export default function Links ({children}){
   <div className={styles.dropDown} >
   <button className={styles.dropButton}>Photos</button>
   <div className ={styles.dropDownContent} id="dropDownContainer">
-  <Link to="/photos">Us In Love</Link>
+  <Link to="/usInLove">Us In Love</Link>
   <Link to="/proposal">The Proposal</Link>
-  <Link to="/engagement">Engagement</Link>
-  <Link to="/cats">Our Boys 😺😺</Link>
+  {/* <Link to="/engagement">Engagement</Link>
+  <Link to="/cats">Our Boys 😺😺</Link> */}
   </div>
   </div>
 
   <Link to="/FAQ"><button className={styles.navLink}>FAQ</button></Link>
-  <Link to ="/guestBook"><button className={styles.navLink}>Guest Book</button> </Link>
+  {/* <Link to ="/guestBook"><button className={styles.navLink}>Guest Book</button> </Link> */}
   <Link to ="/registry"><button className={styles.navLink}>Registry</button> </Link>
   </div>
   <div>  
     {children}
 </div>
-  </header>
-  )
-}
-
+  </header>)}

@@ -5,173 +5,167 @@ import Links from '../components/links';
 import styles from '../components/styles.module.css';
 
 
-export default function Proposal() {
+export default function UsInLove() {
   const data = useStaticQuery(graphql`
   query {
-    drBoom: file(relativePath: { eq: "Dr._Boom.jpg" }) {
+    amazon: file(relativePath: { eq: "usInLove/amazon.jpg" }) {
       childImageSharp {
         fluid(maxWidth:300 maxHeight:300 fit:FILL) {
           ...GatsbyImageSharpFluid_withWebp
         }
         }
       }
-    smooch: file(relativePath: { eq: "proposal/smooch.jpg" }) {
-      childImageSharp {
-        fluid(maxWidth:300 maxHeight:300 fit:FILL) {
-          ...GatsbyImageSharpFluid_withWebp
-        }
-        }
-      }
-        handsClasp: file(relativePath: { eq: "proposal/handsClasp.jpg" }) {
+        angusBarn: file(relativePath: { eq: "usInLove/angusBarn.jpg" }) {
           childImageSharp {
             fluid(maxWidth:300 maxHeight:300 fit:FILL) {
               ...GatsbyImageSharpFluid_withWebp
             }
             }
           }
-          usAndCats: file(relativePath: { eq: "usAndCats.jpg" }) {
+          beccaKiss: file(relativePath: { eq: "usInLove/beccaKiss.jpg" }) {
             childImageSharp {
-              fluid(maxWidth:200 maxHeight:200 fit:COVER) {
+              fluid(maxWidth:300 maxHeight:300 fit:COVER) {
                 ...GatsbyImageSharpFluid_withWebp
               }
               }
             }
-            ahh: file(relativePath: { eq: "proposal/ah!!!.jpg" }) {
+            boardGame: file(relativePath: { eq: "usInLove/boardGame.jpg" }) {
               childImageSharp {
                 fluid(maxWidth:300 maxHeight:300 fit:COVER) {
                   ...GatsbyImageSharpFluid_withWebp
                 }
                 }
               }
-              poloroids: file(relativePath: { eq: "proposal/poloroids.jpg" }) {
+              catalog: file(relativePath: { eq: "usInLove/catalog.jpg" }) {
                 childImageSharp {
                   fluid(maxWidth:300 maxHeight:300 fit:COVER) {
                     ...GatsbyImageSharpFluid_withWebp
                   }
                   }
                 }
-                handsSign: file(relativePath: { eq: "proposal/handsSign.jpg" }) {
+                chapelHill: file(relativePath: { eq: "usInLove/chapelHill.jpg" }) {
                   childImageSharp {
                     fluid(maxWidth:300 maxHeight:300 fit:COVER) {
                       ...GatsbyImageSharpFluid_withWebp
                     }
                     }
                   }
-                  cuties: file(relativePath: { eq: "usInLove/cuties.jpg" }) {
+                  drunkAndHot: file(relativePath: { eq: "usInLove/drunkAndHot.jpg" }) {
                     childImageSharp {
                       fluid(maxWidth:300 maxHeight:300 fit:COVER) {
                         ...GatsbyImageSharpFluid_withWebp
                       }
                       }
                     }
-                    sign: file(relativePath: { eq: "proposal/sign.jpg" }) {
+                    eifelTower: file(relativePath: { eq: "usInLove/eifelTower.jpg" }) {
                       childImageSharp {
                         fluid(maxWidth:300 maxHeight:300 fit:COVER) {
                           ...GatsbyImageSharpFluid_withWebp
                         }
                         }
                       }
-                        coolGuy: file(relativePath: { eq: "proposal/coolGuy.jpg" }) {
+                      flower: file(relativePath: { eq: "usInLove/flower.jpg" }) {
+                        childImageSharp {
+                          fluid(maxWidth:300 maxHeight:300 fit:COVER) {
+                            ...GatsbyImageSharpFluid_withWebp
+                          }
+                          }
+                        }
+                        niceHair: file(relativePath: { eq: "usInLove/niceHair.jpg" }) {
                           childImageSharp {
                             fluid(maxWidth:300 maxHeight:300 fit:COVER) {
                               ...GatsbyImageSharpFluid_withWebp
                             }
                             }
                           }
-                          blush: file(relativePath: { eq: "proposal/blush.jpg" }) {
+                          packers: file(relativePath: { eq: "usInLove/packers.jpg" }) {
                             childImageSharp {
                               fluid(maxWidth:300 maxHeight:300 fit:COVER) {
                                 ...GatsbyImageSharpFluid_withWebp
                               }
                               }
                             }
-                            happyBecca: file(relativePath: { eq: "proposal/happyBecca.jpg" }) {
+                            SC: file(relativePath: { eq: "usInLove/SC.jpg" }) {
                               childImageSharp {
                                 fluid(maxWidth:300 maxHeight:300 fit:COVER) {
                                   ...GatsbyImageSharpFluid_withWebp
                                 }
                                 }
                               }
-                              beccaSmiles: file(relativePath: { eq: "proposal/beccaSmiles.jpg" }) {
+                              wearWolf: file(relativePath: { eq: "usInLove/wearWolf.jpg" }) {
                                 childImageSharp {
                                   fluid(maxWidth:300 maxHeight:300 fit:COVER) {
                                     ...GatsbyImageSharpFluid_withWebp
                                   }
                                   }
                                 }
-                                waterFeet: file(relativePath: { eq: "proposal/waterFeet.jpg" }) {
+                                weddingDance: file(relativePath: { eq: "usInLove/weddingDance.jpg" }) {
                                   childImageSharp {
                                     fluid(maxWidth:300 maxHeight:300 fit:COVER) {
                                       ...GatsbyImageSharpFluid_withWebp
                                     }
                                     }
                                   }
-                                  shoulder: file(relativePath: { eq: "proposal/shoulder.jpg" }) {
+                                  usAndCats: file(relativePath: { eq: "usInLove/usAndCats.jpg" }) {
                                     childImageSharp {
                                       fluid(maxWidth:300 maxHeight:300 fit:COVER) {
                                         ...GatsbyImageSharpFluid_withWebp
                                       }
                                       }
                                     }
-                                    nature: file(relativePath: { eq: "proposal/nature.jpg" }) {
+                                    drBoom: file(relativePath: { eq: "Dr._Boom.jpg" }) {
                                       childImageSharp {
                                         fluid(maxWidth:300 maxHeight:300 fit:COVER) {
                                           ...GatsbyImageSharpFluid_withWebp
                                         }
                                         }
                                       }
-                                      scenery: file(relativePath: { eq: "proposal/scenery.jpg" }) {
+                                      cuties: file(relativePath: { eq: "usInLove/cuties.jpg" }) {
                                         childImageSharp {
                                           fluid(maxWidth:300 maxHeight:300 fit:COVER) {
                                             ...GatsbyImageSharpFluid_withWebp
                                           }
                                           }
                                         }
-                                        otherMountain: file(relativePath: { eq: "proposal/otherMountain.jpg" }) {
+                                        yankees: file(relativePath: { eq: "usInLove/yankees.jpg" }) {
                                           childImageSharp {
                                             fluid(maxWidth:300 maxHeight:300 fit:COVER) {
                                               ...GatsbyImageSharpFluid_withWebp
                                             }
                                             }
                                           }
-                                          lean: file(relativePath: { eq: "proposal/lean.jpg" }) {
-                                            childImageSharp {
-                                              fluid(maxWidth:300 maxHeight:300 fit:COVER) {
-                                                ...GatsbyImageSharpFluid_withWebp
-                                              }
-                                              }
-                                            }
+
     }`);
 
 
   return (
     <div>
       <Links>
-        <div>Hello Proposal</div>
+        <div>Hello Photos</div>
         <div className ={styles.row}>
           <div id ="1" className={styles.column}>
-            <Img fluid = {data.smooch.childImageSharp.fluid} />
-            <Img fluid = {data.poloroids.childImageSharp.fluid} />
-            <Img fluid = {data.sign.childImageSharp.fluid} />
-            <Img fluid = {data.blush.childImageSharp.fluid} />
+            <Img fluid = {data.chapelHill.childImageSharp.fluid} />
+            <Img fluid = {data.cuties.childImageSharp.fluid} />
+            <Img fluid = {data.boardGame.childImageSharp.fluid} />
+            <Img fluid = {data.beccaKiss.childImageSharp.fluid} />
           </div>
           <div id="2" className={styles.column}>
-            <Img fluid = {data.handsClasp.childImageSharp.fluid} />
-            <Img fluid = {data.handsSign.childImageSharp.fluid} />
-            <Img fluid = {data.lean.childImageSharp.fluid} />
-            <Img fluid = {data.ahh.childImageSharp.fluid} />
+            <Img fluid = {data.drunkAndHot.childImageSharp.fluid} />
+            <Img fluid = {data.flower.childImageSharp.fluid} />
+            <Img fluid = {data.SC.childImageSharp.fluid} />
+            <Img fluid = {data.usAndCats.childImageSharp.fluid} />
           </div>
           <div id="3" className={styles.column}>
-            <Img fluid = {data.coolGuy.childImageSharp.fluid} />
-            <Img fluid = {data.happyBecca.childImageSharp.fluid} />
-            <Img fluid = {data.otherMountain.childImageSharp.fluid} />
-            <Img fluid = {data.beccaSmiles.childImageSharp.fluid} />
+            <Img fluid = {data.catalog.childImageSharp.fluid} />
+            <Img fluid = {data.eifelTower.childImageSharp.fluid} />
+            <Img fluid = {data.packers.childImageSharp.fluid} />
+            <Img fluid = {data.yankees.childImageSharp.fluid} />
           </div>
           <div id="4" className={styles.column}>
-            <Img fluid = {data.nature.childImageSharp.fluid} />
-            <Img fluid = {data.waterFeet.childImageSharp.fluid} />
-            <Img fluid = {data.shoulder.childImageSharp.fluid} />
-            <Img fluid = {data.scenery.childImageSharp.fluid} />
+            <Img fluid = {data.niceHair.childImageSharp.fluid} />
+            <Img fluid = {data.wearWolf.childImageSharp.fluid} />
+            <Img fluid = {data.amazon.childImageSharp.fluid} />
+            <Img fluid = {data.angusBarn.childImageSharp.fluid} />
           </div>
         </div>
       </Links>

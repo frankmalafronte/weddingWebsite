@@ -1,13 +1,12 @@
-import React, {useState} from "react"
-import { useStaticQuery, graphql } from "gatsby"
-import Img from "gatsby-image"
-import Links from './links'
-import styles from '../components/styles.module.css'
+import React, {useState} from 'react';
+import {useStaticQuery, graphql} from 'gatsby';
+import Img from 'gatsby-image';
+import Links from './links';
+import styles from '../components/styles.module.css';
 
 
 export default function WeddingParty() {
-
-    const data =  useStaticQuery(graphql`
+  const data = useStaticQuery(graphql`
     query {
       twoFranks: file(relativePath: { eq: "twoFranks.jpg" }) {
         childImageSharp {
