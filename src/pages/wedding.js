@@ -1,16 +1,16 @@
-import React from "react"
-import { Link } from "gatsby"
+import React from 'react';
+import {Link} from 'gatsby';
 
-import Image from "../components/image"
-import TheWedding from '../components/theWedding'
-import Header from '../components/header'
-import Links from '../components/links'
-import styles from '../components/styles.module.css'
+import Image from '../components/image';
+import TheWedding from '../components/theWedding';
+import Header from '../components/header';
+import Links from '../components/links';
+import styles from '../components/styles.module.css';
 
 const WeddingPage = () => (
   <div>
-     <TheWedding/>
+    <TheWedding/>
   </div>
-)
+);
 
-export default WeddingPage
+export default WeddingPage;

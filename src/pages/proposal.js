@@ -1,15 +1,12 @@
-import React from "react"
-import { useStaticQuery, graphql } from "gatsby"
-import Img from "gatsby-image"
-import Links from '../components/links'
-import styles from '../components/styles.module.css'
+import React from 'react';
+import {useStaticQuery, graphql} from 'gatsby';
+import Img from 'gatsby-image';
+import Links from '../components/links';
+import styles from '../components/styles.module.css';
 
-
-
-  
 
 export default function Proposal() {
-  const data =  useStaticQuery(graphql`
+  const data = useStaticQuery(graphql`
   query {
     drBoom: file(relativePath: { eq: "Dr._Boom.jpg" }) {
       childImageSharp {
@@ -130,42 +127,42 @@ export default function Proposal() {
                                           }
                                           }
                                         }
-    }`)
+    }`);
 
 
-return (
-  <div>
-<Links>
-<div>Hello Proposal</div>
-<div className ={styles.row}>
-<div id ="1" className={styles.column}>
-  <Img fluid = {data.smooch.childImageSharp.fluid} />
-  <Img fluid = {data.poloroids.childImageSharp.fluid} />
-  <Img fluid = {data.sign.childImageSharp.fluid} />
-  <Img fluid = {data.cuties.childImageSharp.fluid} />
-  </div>
-  <div id="2" className={styles.column}>
-  <Img fluid = {data.handsClasp.childImageSharp.fluid} />
-  <Img fluid = {data.handsSign.childImageSharp.fluid} />
-  <Img fluid = {data.sign.childImageSharp.fluid} />
-  <Img fluid = {data.ahh.childImageSharp.fluid} />
-  </div>
-  <div id="3" className={styles.column}>
-  <Img fluid = {data.coolGuy.childImageSharp.fluid} />
-  <Img fluid = {data.happyBecca.childImageSharp.fluid} />
-  <Img fluid = {data.blush.childImageSharp.fluid} />
-  <Img fluid = {data.beccaSmiles.childImageSharp.fluid} />
-  </div>
-  <div id="4" className={styles.column}>
-  <Img fluid = {data.nature.childImageSharp.fluid} />
-  <Img fluid = {data.waterFeet.childImageSharp.fluid} />
-  <Img fluid = {data.shoulder.childImageSharp.fluid} />
-  <Img fluid = {data.scenery.childImageSharp.fluid} />
-  </div>
- </div>
- </Links>
- </div>
+  return (
+    <div>
+      <Links>
+        <div>Hello Proposal</div>
+        <div className ={styles.row}>
+          <div id ="1" className={styles.column}>
+            <Img fluid = {data.smooch.childImageSharp.fluid} />
+            <Img fluid = {data.poloroids.childImageSharp.fluid} />
+            <Img fluid = {data.sign.childImageSharp.fluid} />
+            <Img fluid = {data.cuties.childImageSharp.fluid} />
+          </div>
+          <div id="2" className={styles.column}>
+            <Img fluid = {data.handsClasp.childImageSharp.fluid} />
+            <Img fluid = {data.handsSign.childImageSharp.fluid} />
+            <Img fluid = {data.sign.childImageSharp.fluid} />
+            <Img fluid = {data.ahh.childImageSharp.fluid} />
+          </div>
+          <div id="3" className={styles.column}>
+            <Img fluid = {data.coolGuy.childImageSharp.fluid} />
+            <Img fluid = {data.happyBecca.childImageSharp.fluid} />
+            <Img fluid = {data.blush.childImageSharp.fluid} />
+            <Img fluid = {data.beccaSmiles.childImageSharp.fluid} />
+          </div>
+          <div id="4" className={styles.column}>
+            <Img fluid = {data.nature.childImageSharp.fluid} />
+            <Img fluid = {data.waterFeet.childImageSharp.fluid} />
+            <Img fluid = {data.shoulder.childImageSharp.fluid} />
+            <Img fluid = {data.scenery.childImageSharp.fluid} />
+          </div>
+        </div>
+      </Links>
+    </div>
 
-)
+  );
 }
 
