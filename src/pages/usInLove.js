@@ -127,6 +127,13 @@ export default function UsInLove() {
                                           }
                                           }
                                         }
+                                        yankees: file(relativePath: { eq: "usInLove/yankees.jpg" }) {
+                                          childImageSharp {
+                                            fluid(maxWidth:300 maxHeight:300 fit:COVER) {
+                                              ...GatsbyImageSharpFluid_withWebp
+                                            }
+                                            }
+                                          }
 
     }`);
 
@@ -152,7 +159,7 @@ export default function UsInLove() {
             <Img fluid = {data.catalog.childImageSharp.fluid} />
             <Img fluid = {data.eifelTower.childImageSharp.fluid} />
             <Img fluid = {data.packers.childImageSharp.fluid} />
-            <Img fluid = {data.drBoom.childImageSharp.fluid} />
+            <Img fluid = {data.yankees.childImageSharp.fluid} />
           </div>
           <div id="4" className={styles.column}>
             <Img fluid = {data.niceHair.childImageSharp.fluid} />

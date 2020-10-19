@@ -18,12 +18,12 @@ export default function Links({children}) {
             <Link to="/usInLove">Us In Love</Link>
             <Link to="/proposal">Proposal Photos</Link>
             {/* <Link to="/engagement">Engagement Photos</Link> */}
-            <Link to="/cats">Cat Photos</Link>
+            {/* <Link to="/cats">Cat Photos</Link> */}
           </div>
         </div>
 
         <Link to="/FAQ"><button>FAQ</button></Link>
-        <Link to ="/guestBook"><button>Guest Book</button> </Link>
+        {/* <Link to ="/guestBook"><button>Guest Book</button> </Link> */}
         <Link to ="/registry"><button>Registry</button> </Link>
       </div>
       <div>

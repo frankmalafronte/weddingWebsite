@@ -64,6 +64,29 @@ export default function OurStory() {
                       }
                       }
                     }
+                    snowDay: file(relativePath: { eq: "usInLove/snowDay.jpg" }) {
+                      childImageSharp {
+                        fluid(maxWidth:300 maxHeight:300 fit:FILL) {
+                          ...GatsbyImageSharpFluid_withWebp
+                        }
+                        }
+                      }
+                      dudamel: file(relativePath: { eq: "usInLove/dudamel.jpg" }) {
+                        childImageSharp {
+                          fluid(maxWidth:300 maxHeight:300 fit:FILL) {
+                            ...GatsbyImageSharpFluid_withWebp
+                          }
+                          }
+                        }
+                        waist: file(relativePath: { eq: "usInLove/waist.jpg" }) {
+                          childImageSharp {
+                            fluid(maxWidth:300 maxHeight:300 fit:FILL) {
+                              ...GatsbyImageSharpFluid_withWebp
+                            }
+                            }
+                          }
+                          
+
     }`);
 
 

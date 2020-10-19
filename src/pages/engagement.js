@@ -15,14 +15,14 @@ export default function Engagement() {
         }
         }
       }
-        melbibi: file(relativePath: { eq: "melbibi.jpg" }) {
+        melbibi: file(relativePath: { eq: "cats/melbibi.jpg" }) {
           childImageSharp {
             fluid(maxWidth:300 maxHeight:300 fit:FILL) {
               ...GatsbyImageSharpFluid_withWebp
             }
             }
           }
-          usAndCats: file(relativePath: { eq: "usAndCats.jpg" }) {
+          usAndCats: file(relativePath: { eq: "usInLove/usAndCats.jpg" }) {
             childImageSharp {
               fluid(maxWidth:200 maxHeight:200 fit:COVER) {
                 ...GatsbyImageSharpFluid_withWebp
