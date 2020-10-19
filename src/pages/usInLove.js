@@ -57,7 +57,7 @@ export default function UsInLove() {
                       }
                       }
                     }
-                    efifelTower: file(relativePath: { eq: "usInLove/eifelTower.jpg" }) {
+                    eifelTower: file(relativePath: { eq: "usInLove/eifelTower.jpg" }) {
                       childImageSharp {
                         fluid(maxWidth:300 maxHeight:300 fit:COVER) {
                           ...GatsbyImageSharpFluid_withWebp
@@ -113,6 +113,20 @@ export default function UsInLove() {
                                       }
                                       }
                                     }
+                                    drBoom: file(relativePath: { eq: "Dr._Boom.jpg" }) {
+                                      childImageSharp {
+                                        fluid(maxWidth:300 maxHeight:300 fit:COVER) {
+                                          ...GatsbyImageSharpFluid_withWebp
+                                        }
+                                        }
+                                      }
+                                      cuties: file(relativePath: { eq: "usInLove/cuties.jpg" }) {
+                                        childImageSharp {
+                                          fluid(maxWidth:300 maxHeight:300 fit:COVER) {
+                                            ...GatsbyImageSharpFluid_withWebp
+                                          }
+                                          }
+                                        }
 
     }`);
 
@@ -123,28 +137,28 @@ export default function UsInLove() {
         <div>Hello Photos</div>
         <div className ={styles.row}>
           <div id ="1" className={styles.column}>
-            <Img fluid = {data.usAndCats.childImageSharp.fluid} />
-            <Img fluid = {data.weddingDance.childImageSharp.fluid} />
+            <Img fluid = {data.chapelHill.childImageSharp.fluid} />
+            <Img fluid = {data.cuties.childImageSharp.fluid} />
             <Img fluid = {data.boardGame.childImageSharp.fluid} />
             <Img fluid = {data.beccaKiss.childImageSharp.fluid} />
           </div>
           <div id="2" className={styles.column}>
-            <Img fluid = {data.chapelHill.childImageSharp.fluid} />
+            <Img fluid = {data.drunkAndHot.childImageSharp.fluid} />
             <Img fluid = {data.flower.childImageSharp.fluid} />
-            <Img fluid = {data.drBoom.childImageSharp.fluid} />
-            <Img fluid = {data.drBoom.childImageSharp.fluid} />
+            <Img fluid = {data.SC.childImageSharp.fluid} />
+            <Img fluid = {data.usAndCats.childImageSharp.fluid} />
           </div>
           <div id="3" className={styles.column}>
             <Img fluid = {data.catalog.childImageSharp.fluid} />
-            <Img fluid = {data.drBoom.childImageSharp.fluid} />
-            <Img fluid = {data.drBoom.childImageSharp.fluid} />
+            <Img fluid = {data.eifelTower.childImageSharp.fluid} />
+            <Img fluid = {data.packers.childImageSharp.fluid} />
             <Img fluid = {data.drBoom.childImageSharp.fluid} />
           </div>
           <div id="4" className={styles.column}>
-            <Img fluid = {data.eirfelTower.childImageSharp.fluid} />
-            <Img fluid = {data.drBoom.childImageSharp.fluid} />
-            <Img fluid = {data.drBoom.childImageSharp.fluid} />
-            <Img fluid = {data.drBoom.childImageSharp.fluid} />
+            <Img fluid = {data.niceHair.childImageSharp.fluid} />
+            <Img fluid = {data.wearWolf.childImageSharp.fluid} />
+            <Img fluid = {data.amazon.childImageSharp.fluid} />
+            <Img fluid = {data.angusBarn.childImageSharp.fluid} />
           </div>
         </div>
       </Links>
