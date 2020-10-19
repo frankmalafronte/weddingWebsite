@@ -15,7 +15,7 @@ export default function Links({children}) {
         <div className={styles.dropDown} >
           <button className={styles.dropButton}>Photos</button>
           <div className ={styles.dropDownContent} id="dropDownContainer">
-            <Link to="/photos">Us In Love</Link>
+            <Link to="/usInLove">Us In Love</Link>
             <Link to="/proposal">Proposal Photos</Link>
             {/* <Link to="/engagement">Engagement Photos</Link> */}
             <Link to="/cats">Cat Photos</Link>
