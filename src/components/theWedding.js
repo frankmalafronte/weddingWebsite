@@ -12,7 +12,7 @@ const TheWedding = () => {
       coolGuy: file(relativePath: { eq: "proposal/coolGuy.jpg" }) {
         id
         childImageSharp {
-          fluid (maxWidth:500 maxHeight:200 ) {
+          fluid (maxWidth:1500 maxHeight:600 ) {
             ...GatsbyImageSharpFluid
           }
         }
@@ -23,14 +23,15 @@ const TheWedding = () => {
 
   return (
     <div>
-      <div className ={styles.center} style={{padding: '50px', fontSize: '100px'}}>Frank + Becca</div>
-      <div className ={styles.center} style={{paddingBottom: '50px', fontSize: '50px'}}>December 31st, 2020</div>
+      <div className ={styles.center} style={{paddingTop: '50px', fontSize: '100px'}}>Frank & Becca</div>
+      <div className ={styles.center} style={{paddingBottom: '50px', fontSize: '50px'}}>December 31, 2020</div>
       <div>
         <Img fluid={data.coolGuy.childImageSharp.fluid}/>
-        <div className ={styles.center}>The Wedding</div>
-        <div className ={styles.center}>December 31st, 2020</div>
-        <div className ={styles.center}>5:30 PM</div>
-        <div className ={styles.center}>On Zoom (zoom link here?)</div>
+        <div className ={styles.center} style={{paddingTop: '50px', fontSize: '50px'}}>The Wedding</div>
+        <h3 className ={styles.center} style={{paddingTop: '25px'}}>December 31, 2020</h3>
+        <h3 className ={styles.center}>5:30 – 7:30PM EST</h3>
+        <div className ={styles.center}><br/>On Zoom </div>
+        <div className ={styles.center}>(Link coming soon!)<br/><br/><br/><br/></div>
         {/* <WeddingParty/> */}
       </div>
     </div>

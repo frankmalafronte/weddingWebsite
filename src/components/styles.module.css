@@ -1,26 +1,56 @@
-/* *{
-  margin:0;
-  padding:0;
-  box-sizing:border-box
+* {
+  margin: 0;
+  box-sizing: border-box;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  background-color: rgb(230, 230, 230);
+  color: rgb(27, 34, 55);
+}
+
+/* 
+body {
+  background-color:rgb(250,250,250);
 } */
+
+h1 {
+  justify-content: center;
+  margin-top: 30pt;
+  margin-bottom: 12pt;
+}
 
 .sideBySide {
   display: flex;
   flex-direction: column;
   /* justify-Content:space-between; */
-  background-color: blue;
+  background-color: rgb(89, 89, 189);
 }
 
-.header {
+.nav {
   display: flex;
   justify-content: center;
-  background-color: grey;
   position: -webkit-sticky;
   position: sticky;
   top: 0px;
   padding-top: 30px;
   padding-bottom: 30px;
   z-index: 100;
+  background-color: rgb(27, 34, 55);
+}
+
+.navLink {
+  font-size: 30px;
+  padding-left: 20px;
+  padding-right: 20px;
+  color: rgb(230, 230, 230);
+  background-color: rgb(27, 34, 55);
+  background-repeat: no-repeat;
+  border: none;
+  cursor: pointer;
+  overflow: hidden;
+  outline: none;
+}
+
+.navLink:hover {
+  text-decoration: underline;
 }
 
 .center {
@@ -107,17 +137,31 @@
 .dropDown {
   position: relative;
   display: inline-block;
+  font-size: 30px;
+  color: rgb(230, 230, 230);
+  background-color: rgb(27, 34, 55);
 }
 
 .dropButton {
+  color: rgb(230, 230, 230);
+  font-size: 30px;
+  padding-left: 20px;
+  padding-right: 20px;
+  background-color: Transparent;
+  background-repeat: no-repeat;
+  border: none;
+  cursor: pointer;
+  overflow: hidden;
+  outline: none;
 }
 
 .dropDownContent {
+  font-size: 20px;
   display: none;
   position: absolute;
   background-color: #f1f1f1;
-  min-width: 160px;
-  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  min-width: 200px;
+  box-shadow: 0px 8px 16px 0px rgba(27, 34, 55, 0.2);
   z-index: 1;
 }
 
