@@ -57,7 +57,7 @@ export default function Proposal() {
                     }
                     }
                   }
-                  cuties: file(relativePath: { eq: "cuties.jpg" }) {
+                  cuties: file(relativePath: { eq: "usInLove/cuties.jpg" }) {
                     childImageSharp {
                       fluid(maxWidth:300 maxHeight:300 fit:COVER) {
                         ...GatsbyImageSharpFluid_withWebp
