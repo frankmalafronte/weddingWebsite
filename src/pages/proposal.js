@@ -127,6 +127,20 @@ export default function Proposal() {
                                           }
                                           }
                                         }
+                                        otherMountain: file(relativePath: { eq: "proposal/otherMountain.jpg" }) {
+                                          childImageSharp {
+                                            fluid(maxWidth:300 maxHeight:300 fit:COVER) {
+                                              ...GatsbyImageSharpFluid_withWebp
+                                            }
+                                            }
+                                          }
+                                          lean: file(relativePath: { eq: "proposal/lean.jpg" }) {
+                                            childImageSharp {
+                                              fluid(maxWidth:300 maxHeight:300 fit:COVER) {
+                                                ...GatsbyImageSharpFluid_withWebp
+                                              }
+                                              }
+                                            }
     }`);
 
 
@@ -139,18 +153,18 @@ export default function Proposal() {
             <Img fluid = {data.smooch.childImageSharp.fluid} />
             <Img fluid = {data.poloroids.childImageSharp.fluid} />
             <Img fluid = {data.sign.childImageSharp.fluid} />
-            <Img fluid = {data.cuties.childImageSharp.fluid} />
+            <Img fluid = {data.blush.childImageSharp.fluid} />
           </div>
           <div id="2" className={styles.column}>
             <Img fluid = {data.handsClasp.childImageSharp.fluid} />
             <Img fluid = {data.handsSign.childImageSharp.fluid} />
-            <Img fluid = {data.sign.childImageSharp.fluid} />
+            <Img fluid = {data.lean.childImageSharp.fluid} />
             <Img fluid = {data.ahh.childImageSharp.fluid} />
           </div>
           <div id="3" className={styles.column}>
             <Img fluid = {data.coolGuy.childImageSharp.fluid} />
             <Img fluid = {data.happyBecca.childImageSharp.fluid} />
-            <Img fluid = {data.blush.childImageSharp.fluid} />
+            <Img fluid = {data.otherMountain.childImageSharp.fluid} />
             <Img fluid = {data.beccaSmiles.childImageSharp.fluid} />
           </div>
           <div id="4" className={styles.column}>
