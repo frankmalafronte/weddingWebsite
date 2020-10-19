@@ -22,9 +22,9 @@ export default function WeddingParty() {
           }
           }
         }
-          melbibi: file(relativePath: { eq: "melbibi.jpg" }) {
+          lauraAndBecca: file(relativePath: { eq: "lauraAndBecca.jpg" }) {
             childImageSharp {
-              fluid(maxWidth:300 maxHeight:300 fit:FILL) {
+              fluid(maxWidth:300 maxHeight:300 fit:COVER) {
                 ...GatsbyImageSharpFluid_withWebp
               }
               }
@@ -62,7 +62,7 @@ export default function WeddingParty() {
           </div>
 
           <div id ="laura"className={styles.weddingPartyContainer}>
-            <Img style={{width: '200px'}} fluid = {data.drBoom.childImageSharp.fluid} />
+            <Img style={{width: '200px'}} fluid = {data.lauraAndBecca.childImageSharp.fluid} />
             <div>Laura</div>
           </div>
 

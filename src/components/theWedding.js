@@ -32,7 +32,7 @@ const TheWedding = () => {
         <h3 className ={styles.center}>5:30 – 7:30PM EST</h3>
         <div className ={styles.center}><br/>On Zoom </div>
         <div className ={styles.center}>(Link coming soon!)<br/><br/><br/><br/></div>
-        {/* <WeddingParty/> */}
+        <WeddingParty/>
       </div>
     </div>
   );
