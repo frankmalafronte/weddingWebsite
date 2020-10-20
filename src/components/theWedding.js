@@ -12,7 +12,7 @@ const TheWedding = () => {
       coolGuy: file(relativePath: { eq: "proposal/coolGuy.jpg" }) {
         id
         childImageSharp {
-          fluid (maxWidth:1500 maxHeight:600 fit:FILL ) {
+          fluid (maxWidth:1500 maxHeight:600 fit:COVER ) {
             ...GatsbyImageSharpFluid
           }
         }
@@ -28,10 +28,16 @@ const TheWedding = () => {
       <div>
         <Img fluid={data.coolGuy.childImageSharp.fluid}/>
         <div className ={styles.heroBottom} style={{paddingTop: '50px'}}>The Wedding</div>
-        <h2 className ={styles.center}>December 31, 2020</h2>
-        <h2 className ={styles.center}>5:30 – 7:30PM EST</h2>
-        <div className ={styles.center}><br/>On Zoom </div>
-        <div className ={styles.center}>(Link coming soon!)<br/><br/><br/><br/></div>
+        <div className = {styles.faqContainer}>
+          <div className={styles.faq} style={{fontSize: '16pt', textAlign: 'center'}}><br/>
+            December 31, 2020<br/>5:30 – 7:30PM EST<br/>
+            <br/>
+            On Zoom<br/>
+            (Link coming soon!)<br/><br/></div>
+          <div className={styles.faq} style={{fontSize: '14pt'}}>As we prepare to start the next chapter of our lives together,
+          we want to be surrounded by all of the people who have helped shape who we are as individuals and as a couple. <br/><br/>
+          That's why we are so grateful to be able to make things official over Zoom on New Year's Eve. <a href="/FAQ">Read more here >></a>> </div>
+        </div>
         {/* <WeddingParty/> */}
       </div>
     </div>
