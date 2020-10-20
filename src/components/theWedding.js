@@ -12,7 +12,7 @@ const TheWedding = () => {
       coolGuy: file(relativePath: { eq: "proposal/coolGuy.jpg" }) {
         id
         childImageSharp {
-          fluid (maxWidth:1500 maxHeight:600 ) {
+          fluid (maxWidth:1500 maxHeight:600 fit:FILL ) {
             ...GatsbyImageSharpFluid
           }
         }
