@@ -147,7 +147,7 @@ export default function Proposal() {
   return (
     <div>
       <Links>
-        <div>Hello Proposal</div>
+        <div> </div>
         <div className ={styles.row}>
           <div id ="1" className={styles.column}>
             <Img fluid = {data.smooch.childImageSharp.fluid} />
