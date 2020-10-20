@@ -10,21 +10,21 @@ export default function Proposal() {
   query {
     drBoom: file(relativePath: { eq: "Dr._Boom.jpg" }) {
       childImageSharp {
-        fluid(maxWidth:300 maxHeight:300 fit:FILL) {
+        fluid(maxWidth:300 maxHeight:300 fit:COVER) {
           ...GatsbyImageSharpFluid_withWebp
         }
         }
       }
     smooch: file(relativePath: { eq: "proposal/smooch.jpg" }) {
       childImageSharp {
-        fluid(maxWidth:300 maxHeight:300 fit:FILL) {
+        fluid(maxWidth:300 maxHeight:300 fit:COVER) {
           ...GatsbyImageSharpFluid_withWebp
         }
         }
       }
         handsClasp: file(relativePath: { eq: "proposal/handsClasp.jpg" }) {
           childImageSharp {
-            fluid(maxWidth:300 maxHeight:300 fit:FILL) {
+            fluid(maxWidth:300 maxHeight:300 fit:COVER) {
               ...GatsbyImageSharpFluid_withWebp
             }
             }
