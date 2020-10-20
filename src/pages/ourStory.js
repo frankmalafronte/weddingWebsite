@@ -10,77 +10,77 @@ export default function OurStory() {
   query {
     drBoom: file(relativePath: { eq: "Dr._Boom.jpg" }) {
       childImageSharp {
-        fluid(maxWidth:300 maxHeight:300 fit:FILL) {
+        fluid(maxWidth:300 maxHeight:300 fit:COVER) {
           ...GatsbyImageSharpFluid_withWebp
         }
         }
       }
         melbibi: file(relativePath: { eq: "cats/melbibi.jpg" }) {
           childImageSharp {
-            fluid(maxWidth:300 maxHeight:300 fit:FILL) {
+            fluid(maxWidth:300 maxHeight:300 fit:COVER) {
               ...GatsbyImageSharpFluid_withWebp
             }
             }
           }
           melOnSuitcase: file(relativePath: { eq: "cats/melOnSuitcase.jpg" }) {
             childImageSharp {
-              fluid(maxWidth:300 maxHeight:300 fit:FILL) {
+              fluid(maxWidth:300 maxHeight:300 fit:COVER) {
                 ...GatsbyImageSharpFluid_withWebp
               }
               }
             }
           sydneyBear: file(relativePath: { eq: "cats/sydneyBear.jpg" }) {
             childImageSharp {
-              fluid(maxWidth:300 maxHeight:300 fit:FILL) {
+              fluid(maxWidth:300 maxHeight:300 fit:COVER) {
                 ...GatsbyImageSharpFluid_withWebp
               }
               }
             }
             beccaBoth: file(relativePath: { eq: "cats/beccaBoth.jpg" }) {
               childImageSharp {
-                fluid(maxWidth:300 maxHeight:300 fit:FILL) {
+                fluid(maxWidth:300 maxHeight:300 fit:COVER) {
                   ...GatsbyImageSharpFluid_withWebp
                 }
                 }
               }
               bothGuys: file(relativePath: { eq: "cats/bothGuys.jpg" }) {
                 childImageSharp {
-                  fluid(maxWidth:300 maxHeight:300 fit:FILL) {
+                  fluid(maxWidth:300 maxHeight:300 fit:COVER) {
                     ...GatsbyImageSharpFluid_withWebp
                   }
                   }
                 }
                 sleepingBecca: file(relativePath: { eq: "cats/sleepingBecca.jpg" }) {
                   childImageSharp {
-                    fluid(maxWidth:300 maxHeight:300 fit:FILL) {
+                    fluid(maxWidth:300 maxHeight:300 fit:COVER) {
                       ...GatsbyImageSharpFluid_withWebp
                     }
                     }
                   }
                   melCute: file(relativePath: { eq: "cats/melCute.jpg" }) {
                     childImageSharp {
-                      fluid(maxWidth:300 maxHeight:300 fit:FILL) {
+                      fluid(maxWidth:300 maxHeight:300 fit:COVER) {
                         ...GatsbyImageSharpFluid_withWebp
                       }
                       }
                     }
                     snowDay: file(relativePath: { eq: "usInLove/snowDay.jpg" }) {
                       childImageSharp {
-                        fluid(maxWidth:300 maxHeight:300 fit:FILL) {
+                        fluid(maxWidth:300 maxHeight:300 fit:COVER) {
                           ...GatsbyImageSharpFluid_withWebp
                         }
                         }
                       }
                       dudamel: file(relativePath: { eq: "usInLove/dudamel.jpg" }) {
                         childImageSharp {
-                          fluid(maxWidth:300 maxHeight:300 fit:FILL) {
+                          fluid(maxWidth:300 maxHeight:300 fit:COVER) {
                             ...GatsbyImageSharpFluid_withWebp
                           }
                           }
                         }
                         waist: file(relativePath: { eq: "usInLove/waist.jpg" }) {
                           childImageSharp {
-                            fluid(maxWidth:300 maxHeight:300 fit:FILL) {
+                            fluid(maxWidth:300 maxHeight:300 fit:COVER) {
                               ...GatsbyImageSharpFluid_withWebp
                             }
                             }

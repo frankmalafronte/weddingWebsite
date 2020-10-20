@@ -23,13 +23,13 @@ const TheWedding = () => {
 
   return (
     <div>
-      <div className ={styles.center} style={{paddingTop: '50px', fontSize: '100px'}}>Frank & Becca</div>
-      <div className ={styles.center} style={{paddingBottom: '50px', fontSize: '50px'}}>December 31, 2020</div>
+      <div className={styles.heroTop}>Frank + Becca</div>
+      <div className={styles.heroBottom}>December 31, 2020</div>
       <div>
         <Img fluid={data.coolGuy.childImageSharp.fluid}/>
-        <div className ={styles.center} style={{paddingTop: '50px', fontSize: '50px'}}>The Wedding</div>
-        <h3 className ={styles.center} style={{paddingTop: '25px'}}>December 31, 2020</h3>
-        <h3 className ={styles.center}>5:30 – 7:30PM EST</h3>
+        <div className ={styles.heroBottom} style={{paddingTop: '50px'}}>The Wedding</div>
+        <h2 className ={styles.center}>December 31, 2020</h2>
+        <h2 className ={styles.center}>5:30 – 7:30PM EST</h2>
         <div className ={styles.center}><br/>On Zoom </div>
         <div className ={styles.center}>(Link coming soon!)<br/><br/><br/><br/></div>
         {/* <WeddingParty/> */}
