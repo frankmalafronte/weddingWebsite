@@ -1,5 +1,5 @@
 * {
-  /* margin: 0; */
+  margin: 0;
   /* box-sizing: border-box; */
   font-family: Georgia, "Times New Roman", Times, serif;
   color: rgb(27, 34, 55);
@@ -82,12 +82,14 @@ h1 {
 
 .faqContainer {
   display: flex;
+  flex-direction: column;
   justify-content: center;
-  margin: 0 auto;
+  margin: 0px auto;
+  padding-right: 20px;
 }
 
 .faq {
-  width: 50%;
+  width: 90%;
   margin: 15px;
   padding: 15px;
   background-color: white;
@@ -99,6 +101,7 @@ h1 {
   position: relative;
   font-size: 20px;
   padding-right: 80px;
+  padding-bottom: 10px;
   transition: all 0.4s sease;
 }
 .faqOpen {
@@ -121,8 +124,9 @@ h1 {
 }
 
 .column {
-  flex: 25%;
-  max-width: 24%;
+  /* flex: 33%; */
+  /* max-width: 33%; */
+  width: 33%;
   padding: 0 4px;
 }
 
@@ -274,11 +278,13 @@ body {
   .faqContainer {
     display: flex;
     justify-content: center;
+    flex-direction: row;
     margin: 0 auto;
+    padding-right: 0px;
   }
 
   .faq {
-    width: 50%;
+    width: 75%;
     margin: 15px;
     padding: 15px;
     background-color: white;
@@ -290,6 +296,7 @@ body {
     position: relative;
     font-size: 20px;
     padding-right: 80px;
+    padding-bottom: 10px;
     transition: all 0.4s sease;
   }
   .faqOpen {

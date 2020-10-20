@@ -16,16 +16,16 @@ export default function FAQ() {
     SO, we were inspired by the creativity of other friends and family to instead consider hosting a Zoom wedding. We chose a date that holds special significance for us: December 31, 2020, which will mark five years since we first met at a New Year’s Eve party.
     We hope you’ll be able to join us before the ball drops (or doesn’t — who knows?) and close out 2020 on a happy note, despite all the challenges it has brought us.
     To RSVP to our Zoom wedding and receive an invitation, click here.`,
-      open: false,
+      open: true,
     },
     {
-      question: `Will there be a reception?`,
+      question: `Will there be an in-person reception eventually?`,
       answer: `Yes! We’re not sure when it will be or what it will look like exactly, but our hope is to have an in-person, more traditional ceremony in North Carolina sometime in 2022.`,
       open: false,
     },
     {
       question: `What is a Zoom Wedding exactly?`,
-      answer: `It’s just what it sounds like! A wedding but over Zoom.`,
+      answer: `It’s just what it sounds like! A wedding but over Zoom. We will send more detail closer to the wedding date, but for now, be prepared to party in your living room!`,
       open: false,
     },
   ]);
