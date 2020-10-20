@@ -12,7 +12,7 @@ const TheWedding = () => {
       coolGuy: file(relativePath: { eq: "proposal/coolGuy.jpg" }) {
         id
         childImageSharp {
-          fluid (maxWidth:1500 maxHeight:600 ) {
+          fluid (maxWidth:1500 maxHeight:600 fit:FILL ) {
             ...GatsbyImageSharpFluid
           }
         }
@@ -32,7 +32,7 @@ const TheWedding = () => {
         <h3 className ={styles.center}>5:30 – 7:30PM EST</h3>
         <div className ={styles.center}><br/>On Zoom </div>
         <div className ={styles.center}>(Link coming soon!)<br/><br/><br/><br/></div>
-        <WeddingParty/>
+        {/* <WeddingParty/> */}
       </div>
     </div>
   );
