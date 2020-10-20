@@ -24,7 +24,7 @@ export default function Links({children}) {
 
         <Link to="/FAQ"><button className={styles.navLink}>FAQ</button></Link>
         {/* <Link to ="/guestBook"><button className={styles.navLink}>Guest Book</button> </Link> */}
-        <Link to ="https://www.zola.com/wedding/beccafrank"><button className={styles.navLink}>Registry</button> </Link>
+        <Link to ="https://www.zola.com/registry/beccafrank"><button className={styles.navLink}>Registry</button> </Link>
       </div>
       <div>
         {children}
