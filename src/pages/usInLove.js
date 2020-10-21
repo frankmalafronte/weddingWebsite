@@ -141,7 +141,6 @@ export default function UsInLove() {
   return (
     <div>
       <Links>
-        <div>Hello Photos</div>
         <div className ={styles.row}>
           <div id ="1" className={styles.column}>
             <Img fluid = {data.chapelHill.childImageSharp.fluid} />
