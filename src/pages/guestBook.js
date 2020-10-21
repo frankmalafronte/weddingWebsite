@@ -8,6 +8,7 @@ import styles from '../components/styles.module.css';
 export default function guestBook() {
   return (
     <Links>
+      <title>Becca + Frank</title>
       <div>guest book</div>
     </Links>
   );

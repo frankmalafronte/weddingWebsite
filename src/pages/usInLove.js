@@ -140,6 +140,7 @@ export default function UsInLove() {
 
   return (
     <div>
+      <title>Becca + Frank</title>
       <Links>
         <div className ={styles.row}>
           <div id ="1" className={styles.column}>

@@ -9,6 +9,7 @@ import {Link} from 'gatsby';
 export default function Photos() {
   return (
     <div>
+      <title>Becca + Frank</title>
       <Links/>
       <div className={styles.title}>Registry </div>
       <div>We are registered at the following:</div>

@@ -146,6 +146,7 @@ export default function Proposal() {
 
   return (
     <div>
+      <title>Becca + Frank</title>
       <Links>
         <div> </div>
         <div className ={styles.row}>

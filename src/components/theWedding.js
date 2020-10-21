@@ -4,6 +4,7 @@ import Img from 'gatsby-image';
 import styles from '../components/styles.module.css';
 import Links from './links';
 import WeddingParty from '../components/weddingParty';
+import Helmet from '../components/Helmet'
 
 
 const TheWedding = () => {
@@ -17,12 +18,14 @@ const TheWedding = () => {
           }
         }
       }
-    }
+  }
   `);
+
 
 
   return (
     <div>
+      <title>Becca + Frank</title>
       <div className={styles.heroTop}>Frank + Becca</div>
       <div className={styles.heroBottom}>December 31, 2020</div>
       <div>

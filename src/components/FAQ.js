@@ -8,6 +8,7 @@ import styles from '../components/styles.module.css';
 export default function FAQComponent({faq, index, toggleFAQ}) {
   return (
     <div className = {styles.faqContainer}>
+      <title>Becca + Frank</title>
       <div className={styles.faq}
         key={index}
         onClick={()=>toggleFAQ(index)}>

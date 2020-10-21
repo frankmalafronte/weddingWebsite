@@ -1,10 +1,11 @@
 module.exports = {
   siteMetadata: {
-    title: `Frank and Becca's Wedding Website`,
+    title: `Frank + Becca`,
     description: 'Were getting married!',
     author: `Frank Malafronte`,
   },
   plugins: [
+
     {
       resolve: 'gatsby-plugin-prettier-eslint',
       options: {

@@ -92,6 +92,7 @@ export default function OurStory() {
 
   return (
     <div>
+      <title>Becca + Frank</title>
       <Links>
       </Links>
       <div id="Our Story" style={{display: 'flex', justifyContent: 'center'}}>

@@ -42,6 +42,7 @@ export default function Engagement() {
   return (
     <div>
       <Links>
+        <title>Becca + Frank</title>
         <div>Hello Engagement</div>
         <div className ={styles.row}>
           <div id ="1" className={styles.column}>

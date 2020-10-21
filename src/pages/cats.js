@@ -42,6 +42,7 @@ export default function Cats() {
   return (
     <div>
       <Links>
+        <title>Melbourne + Sydney</title>
         <div>Hello Cats</div>
         <div className ={styles.row}>
           <div id ="1" className={styles.column}>
