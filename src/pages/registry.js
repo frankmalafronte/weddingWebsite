@@ -21,7 +21,7 @@ export default function Photos() {
           <div style ={{fontSize: '20px', textAlign: 'center'}} >Our mailing address is 50 east 18th St #C7, Brooklyn NY, 11226</div>
           <br></br>
           <div style ={{display: 'flex', justifyContent: 'center'}} >
-            <a style ={{fontSize: '20px'}} href="https://www.zola.com/beccafrank">We are registered at Zola.com</a>
+            <a style ={{fontSize: '20px'}} href="https://www.zola.com/registry/beccafrank">We are registered at Zola.com</a>
           </div>
         </div>
       </div>
