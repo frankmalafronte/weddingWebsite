@@ -12,7 +12,19 @@ export default function Photos() {
       <title>Becca + Frank</title>
       <Links/>
       <div className={styles.title}>Registry </div>
-      <div>We are registered at the following:</div>
+      <br></br>
+      <div style ={{display: 'flex', justifyContent: 'center'}}>
+        <div className ={styles.faq}>
+
+          <div style ={{fontSize: '20px', textAlign: 'center'}}>We love receiving mail and especially greeting cards! We would love to add your card to our collage wall!</div>
+          <br></br>
+          <div style ={{fontSize: '20px', textAlign: 'center'}} >Our mailing address is 50 east 18th St #C7, Brooklyn NY, 11226</div>
+          <br></br>
+          <div style ={{display: 'flex', justifyContent: 'center'}} >
+            <a style ={{fontSize: '20px'}} href="https://www.zola.com/beccafrank">We are registered at Zola.com</a>
+          </div>
+        </div>
+      </div>
       <Link/>
     </div>
   );
