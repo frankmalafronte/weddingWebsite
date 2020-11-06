@@ -40,7 +40,7 @@ const TheWedding = () => {
           we want to be surrounded by all of the people who have helped shape who we are as individuals and as a couple. <br/><br/>
           That's why we are so grateful to be able to make things official over Zoom on New Year's Eve. <a href="/FAQ">Read more here >></a>> </div>
         </div>
-        {/* <WeddingParty/> */}
+        <WeddingParty/>
       </div>
     </div>
   );
