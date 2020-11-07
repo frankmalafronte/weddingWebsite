@@ -1,7 +1,7 @@
 module.exports = {
   siteMetadata: {
     title: `Frank and Becca's Wedding Website`,
-    description:'Were getting married!',
+    description: 'Were getting married!',
     author: `Frank Malafronte`,
   },
   plugins: [
@@ -14,7 +14,7 @@ module.exports = {
       },
     },
     `gatsby-transformer-sharp`,
-    `gatsby-plugin-sharp`
+    `gatsby-plugin-sharp`,
     // {
     //   resolve: `gatsby-plugin-manifest`,
     //   options: {
@@ -31,4 +31,4 @@ module.exports = {
     // To learn more, visit: https://gatsby.dev/offline
     // `gatsby-plugin-offline`,
   ],
-}
+};
