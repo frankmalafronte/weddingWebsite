@@ -1,43 +1,49 @@
-import React from "react"
-import { useStaticQuery, graphql } from "gatsby"
-import Img from "gatsby-image"
-import styles from '../components/styles.module.css'
-import Links from './links'
+import React from 'react';
+import {useStaticQuery, graphql} from 'gatsby';
+import Img from 'gatsby-image';
+import styles from '../components/styles.module.css';
+import Links from './links';
+import WeddingParty from './weddingParty';
 
 
 const TheWedding = () => {
-
-const usAndCats = useStaticQuery(graphql`
+  const data = useStaticQuery(graphql`
     query {
-      cats: file(relativePath: { eq: "usAndCats.jpg" }) {
+      coolGuy: file(relativePath: { eq: "proposal/coolGuy.jpg" }) {
         id
         childImageSharp {
-          fluid (maxWidth:500 maxHeight:200 ) {
+          fluid (maxWidth:1500 maxHeight:600 fit:COVER ) {
             ...GatsbyImageSharpFluid
           }
         }
       }
-    }
-  `)
-
-  if (!usAndCats.cats.childImageSharp.fluid) {
-    return <div>Picture not found</div>
   }
+  `);
+
+
 
   return (
     <div>
-    <div className ={styles.center} style={{padding:"50px",fontSize:"100px"}}>Frank + Becca</div>
-    <div className ={styles.center} style={{paddingBottom:"50px",fontSize:"50px"}}>December 31st, 2020</div>
-<div>
- <Img fluid={usAndCats.cats.childImageSharp.fluid}/>
-<div className ={styles.center}>The Wedding</div>
-<div className ={styles.center}>December 31st, 2020</div>
-  <div className ={styles.center}>5:30 PM</div>
-  <div className ={styles.center}>On Zoom (zoom link here?)</div>
-  <div className ={styles.center}>Wedding Party</div>
-</div>
-</div>
-  )
-}
+      <title>Becca + Frank</title>
+      <div className={styles.heroTop}>Frank + Becca</div>
+      <div className={styles.heroBottom}>December 31, 2020</div>
+      <div>
+        <Img fluid={data.coolGuy.childImageSharp.fluid}/>
+        <div className ={styles.heroBottom} style={{paddingTop: '50px'}}>The Wedding</div>
+        <div className = {styles.faqContainer}>
+          <div className={styles.faq} style={{fontSize: '16pt', textAlign: 'center'}}><br/>
+            December 31, 2020<br/>5:30 – 7:30PM EST<br/>
+            <br/>
+            On Zoom<br/>
+            (Link coming soon!)<br/><br/></div>
+          <div className={styles.faq} style={{fontSize: '14pt'}}>As we prepare to start the next chapter of our lives together,
+          we want to be surrounded by all of the people who have helped shape who we are as individuals and as a couple. <br/><br/>
+          That's why we are so grateful to be able to make things official over Zoom on New Year's Eve. <a href="/FAQ">Read more here >></a>> </div>
+        </div>
+        {/* <WeddingParty/> */}
+      </div>
+    </div>
+  );
+};
 
-export default TheWedding
+export default TheWedding;
