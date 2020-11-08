@@ -21,7 +21,6 @@ const TheWedding = () => {
   `);
 
 
-
   return (
     <div>
       <title>Becca + Frank</title>
@@ -38,7 +37,7 @@ const TheWedding = () => {
             (Link coming soon!)<br/><br/></div>
           <div className={styles.faq} style={{fontSize: '14pt'}}>As we prepare to start the next chapter of our lives together,
           we want to be surrounded by all of the people who have helped shape who we are as individuals and as a couple. <br/><br/>
-          That's why we are so grateful to be able to make things official over Zoom on New Year's Eve. <a href="/FAQ">Read more here >></a>> </div>
+          That's why we are so grateful to be able to make things official over Zoom on New Year's Eve. <a href="/FAQ">Read more here </a></div>
         </div>
         {/* <WeddingParty/> */}
       </div>

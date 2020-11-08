@@ -1,7 +1,9 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
+
 * {
   margin: 0;
   /* box-sizing: border-box; */
-  font-family: Georgia, "Times New Roman", Times, serif;
+  font-family: "Montserrat", sans-serif;
   color: rgb(27, 34, 55);
 }
 
@@ -89,6 +91,7 @@ h1 {
 }
 
 .faq {
+  line-height: 150%;
   width: 90%;
   margin: 15px;
   padding: 15px;
