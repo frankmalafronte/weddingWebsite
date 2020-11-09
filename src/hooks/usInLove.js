@@ -10,7 +10,7 @@ export const getusInLove = () =>{
         }
         }
       }
-        angusBarnCrop: file(relativePath: { eq: "usInLove/angusBarnCrop.JPG" }) {
+        angusBarn: file(relativePath: { eq: "usInLove/angusBarn.jpg" }) {
           childImageSharp {
             fluid(maxWidth:1200 maxHeight:1200 fit:COVER) {
               ...GatsbyImageSharpFluid_withWebp
@@ -52,14 +52,14 @@ export const getusInLove = () =>{
                       }
                       }
                     }
-                    eifelTower: file(relativePath: { eq: "usInLove/eifelTower.jpg" }) {
-                      childImageSharp {
-                        fluid(maxWidth:1200 maxHeight:1200 fit:COVER) {
-                          ...GatsbyImageSharpFluid_withWebp
+                      usAndCats: file(relativePath: { eq: "usInLove/usAndCats.jpg" }) {
+                        childImageSharp {
+                          fluid(maxWidth:1200 maxHeight:1200 fit:COVER) {
+                            ...GatsbyImageSharpFluid_withWebp
+                          }
+                          }
                         }
-                        }
-                      }
-                      flower: file(relativePath: { eq: "usInLove/flower.jpg" }) {
+                        flower: file(relativePath: { eq: "usInLove/flower.jpg" }) {
                         childImageSharp {
                           fluid(maxWidth:1200 maxHeight:1200 fit:COVER) {
                             ...GatsbyImageSharpFluid_withWebp
@@ -89,42 +89,28 @@ export const getusInLove = () =>{
                               }
                               wearWolf: file(relativePath: { eq: "usInLove/wearWolf.jpg" }) {
                                 childImageSharp {
-                                  fluid(maxWidth:1200 maxHeight:1200 fit:COVER) {
+                                  fluid(maxWidth:1100 maxHeight:1200 fit:COVER) {
                                     ...GatsbyImageSharpFluid_withWebp
                                   }
                                   }
                                 }
-                                weddingDance: file(relativePath: { eq: "usInLove/weddingDance.jpg" }) {
+                                eifelTower: file(relativePath: { eq: "usInLove/eifelTower.jpg" }) {
                                   childImageSharp {
-                                    fluid(maxWidth:1200 maxHeight:1200 fit:COVER) {
+                                    fluid(maxWidth:1100 maxHeight:1200 fit:COVER) {
                                       ...GatsbyImageSharpFluid_withWebp
                                     }
                                     }
                                   }
-                                  usAndCats: file(relativePath: { eq: "usInLove/usAndCats.jpg" }) {
-                                    childImageSharp {
-                                      fluid(maxWidth:1200 maxHeight:1200 fit:COVER) {
-                                        ...GatsbyImageSharpFluid_withWebp
-                                      }
-                                      }
-                                    }
-                                    drBoom: file(relativePath: { eq: "Dr._Boom.jpg" }) {
-                                      childImageSharp {
-                                        fluid(maxWidth:1200 maxHeight:1200 fit:COVER) {
-                                          ...GatsbyImageSharpFluid_withWebp
-                                        }
-                                        }
-                                      }
                                       cuties: file(relativePath: { eq: "usInLove/cuties.jpg" }) {
                                         childImageSharp {
-                                          fluid(maxWidth:1200 maxHeight:1200 fit:COVER) {
+                                          fluid(maxWidth:1100 maxHeight:1200 fit:COVER) {
                                             ...GatsbyImageSharpFluid_withWebp
                                           }
                                           }
                                         }
                                         yankees: file(relativePath: { eq: "usInLove/yankees.jpg" }) {
                                           childImageSharp {
-                                            fluid(maxWidth:1200 maxHeight:1200 fit:COVER) {
+                                            fluid(maxWidth:1100 maxHeight:1200 fit:COVER) {
                                               ...GatsbyImageSharpFluid_withWebp
                                             }
                                             }

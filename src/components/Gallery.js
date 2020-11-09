@@ -11,7 +11,7 @@ export default class Gallery extends Component {
     super(props);
     this.state ={
       isOpen: false,
-      photoIndex: 0
+      photoIndex: 0,
     };
   }
 
@@ -27,7 +27,7 @@ export default class Gallery extends Component {
 
   openLightbox(index, event) {
     event.preventDefault();
-    this.setState({isOpen: true,photoIndex:index});
+    this.setState({isOpen: true, photoIndex: index});
     console.log('hello', this.state);
   }
 
@@ -37,8 +37,8 @@ export default class Gallery extends Component {
 
   render() {
     const {photos, array} = this.props;
-    const {photoIndex,isOpen} = this.state
-    console.log(array)
+    const {photoIndex, isOpen} = this.state;
+    console.log(array);
     return (
       <div>
         <div className={styles.row}>
@@ -51,23 +51,23 @@ export default class Gallery extends Component {
           })}
         </div>
         {isOpen && (
-      <Lightbox
-        mainSrc={array[photoIndex].childImageSharp.fluid.src}
-        nextSrc={array[(photoIndex + 1) % array.length]}
-        prevSrc={array[(photoIndex + array.length - 1) % array.length]}
-        onCloseRequest={() => this.setState({ isOpen: false })}
-        onMovePrevRequest={() =>
-          this.setState({
-            photoIndex: (photoIndex + array.length - 1) % array.length,
-          })
-        }
-        onMoveNextRequest={() =>
-          this.setState({
-            photoIndex: (photoIndex + 1) % array.length,
-          })
-        }
-      />
-    )}
+          <Lightbox
+            mainSrc={array[photoIndex].childImageSharp.fluid.src}
+            nextSrc={array[(photoIndex + 1) % array.length]}
+            prevSrc={array[(photoIndex + array.length - 1) % array.length]}
+            onCloseRequest={() => this.setState({isOpen: false})}
+            onMovePrevRequest={() =>
+              this.setState({
+                photoIndex: (photoIndex + array.length - 1) % array.length,
+              })
+            }
+            onMoveNextRequest={() =>
+              this.setState({
+                photoIndex: (photoIndex + 1) % array.length,
+              })
+            }
+          />
+        )}
       </div>
     );
   }
