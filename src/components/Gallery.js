@@ -38,7 +38,6 @@ export default class Gallery extends Component {
   render() {
     const {photos, array} = this.props;
     const {photoIndex,isOpen} = this.state
-    console.log(array)
     return (
       <div>
         <div className={styles.row}>
