@@ -13,7 +13,7 @@ export default function Proposal() {
 
   return (
     <Links>
-    <Gallery photos = {data} array ={array}/>
+      <Gallery photos = {data} array ={array}/>
     </Links>
   );
 }
