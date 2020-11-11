@@ -10,11 +10,10 @@ import {getProposal} from '../hooks/proposal';
 export default function Proposal() {
   const data = getProposal();
   const array = Object.values(data);
-  console.log(array)
 
   return (
     <Links>
-    <Gallery photos = {data} array ={array}/>
+      <Gallery photos = {data} array ={array}/>
     </Links>
   );
 }

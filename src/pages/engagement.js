@@ -9,10 +9,10 @@ import {getEngagement} from '../hooks/engagement';
 
 export default function Engagement() {
   const data = getEngagement();
-  const array = Object.values(data);  
+  const array = Object.values(data);
   return (
     <Links>
-    <Gallery photos = {data} array ={array}/>
+      <Gallery photos = {data} array ={array}/>
     </Links>
   );
 }

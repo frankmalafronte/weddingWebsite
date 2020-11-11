@@ -22,7 +22,7 @@ export default function Photos() {
             <br />50 E 18 Street Apt C7<br />Brooklyn, NY, 11226</div>
           <br></br>
           <div style ={{display: 'flex', justifyContent: 'center'}} >
-            <a style ={{fontSize: '20px'}} href="https://www.zola.com/registry/beccafrank">We are registered at Zola.com</a>
+            <a style ={{fontSize: '20px'}} href="https://www.zola.com/registry/beccafrank">We are registered at Zola.com <img src="/Users/beccabrenner/Coding/weddingWebsite/src/content/images/zola_crop.png"></img></a>
           </div>
         </div>
       </div>
@@ -30,3 +30,4 @@ export default function Photos() {
     </div>
   );
 }
+

@@ -3,13 +3,27 @@ import {useStaticQuery, graphql} from 'gatsby';
 export const getProposal = () =>{
   const data = useStaticQuery(graphql`
   query {
-    smooch: file(relativePath: { eq: "proposal/smooch.jpg" }) {
+    oneKnee: file(relativePath: { eq: "proposal/oneKnee.jpg" }) {
       childImageSharp {
         fluid(maxWidth:1200 maxHeight:1200 fit:COVER) {
           ...GatsbyImageSharpFluid_withWebp
         }
         }
       }
+    ahh: file(relativePath: { eq: "proposal/ah!!!.jpg" }) {
+      childImageSharp {
+        fluid(maxWidth:1200 maxHeight:1200 fit:COVER) {
+          ...GatsbyImageSharpFluid_withWebp
+        }
+        }
+      }
+      inTheClouds: file(relativePath: { eq: "proposal/inTheClouds.jpg" }) {
+        childImageSharp {
+          fluid(maxWidth:1200 maxHeight:1200 fit:COVER) {
+            ...GatsbyImageSharpFluid_withWebp
+          }
+          }
+        }
         handsClasp: file(relativePath: { eq: "proposal/handsClasp.jpg" }) {
           childImageSharp {
             fluid(maxWidth:1200 maxHeight:1200 fit:COVER) {
@@ -17,48 +31,34 @@ export const getProposal = () =>{
             }
             }
           }
-            ahh: file(relativePath: { eq: "proposal/ah!!!.jpg" }) {
+          beccaBeaming: file(relativePath: { eq: "proposal/beccaBeaming.jpg" }) {
+            childImageSharp {
+              fluid(maxWidth:1200 maxHeight:1200 fit:COVER cropFocus:NORTH) {
+                ...GatsbyImageSharpFluid_withWebp
+              }
+              }
+            }
+            coolGuy: file(relativePath: { eq: "proposal/coolGuy.jpg" }) {
               childImageSharp {
                 fluid(maxWidth:1200 maxHeight:1200 fit:COVER) {
                   ...GatsbyImageSharpFluid_withWebp
                 }
                 }
               }
-              poloroids: file(relativePath: { eq: "proposal/poloroids.jpg" }) {
-                childImageSharp {
-                  fluid(maxWidth:1200 maxHeight:1200 fit:COVER) {
-                    ...GatsbyImageSharpFluid_withWebp
-                  }
-                  }
-                }
-                handsSign: file(relativePath: { eq: "proposal/handsSign.jpg" }) {
-                  childImageSharp {
-                    fluid(maxWidth:1200 maxHeight:1200 fit:COVER) {
-                      ...GatsbyImageSharpFluid_withWebp
-                    }
-                    }
-                  }
-                  cuties: file(relativePath: { eq: "usInLove/cuties.jpg" }) {
-                    childImageSharp {
-                      fluid(maxWidth:1200 maxHeight:1200 fit:COVER) {
-                        ...GatsbyImageSharpFluid_withWebp
-                      }
-                      }
-                    }
                     sign: file(relativePath: { eq: "proposal/sign.jpg" }) {
                       childImageSharp {
-                        fluid(maxWidth:1200 maxHeight:1200 fit:COVER) {
+                        fluid(maxWidth:1200 maxHeight:1200 fit:COVER cropFocus:NORTH) {
                           ...GatsbyImageSharpFluid_withWebp
                         }
                         }
                       }
-                        coolGuy: file(relativePath: { eq: "proposal/coolGuy.jpg" }) {
-                          childImageSharp {
-                            fluid(maxWidth:1200 maxHeight:1200 fit:COVER) {
-                              ...GatsbyImageSharpFluid_withWebp
-                            }
-                            }
+                      smooch: file(relativePath: { eq: "proposal/smooch.jpg" }) {
+                        childImageSharp {
+                          fluid(maxWidth:1200 maxHeight:1200 fit:COVER) {
+                            ...GatsbyImageSharpFluid_withWebp
                           }
+                          }
+                        }
                           blush: file(relativePath: { eq: "proposal/blush.jpg" }) {
                             childImageSharp {
                               fluid(maxWidth:1200 maxHeight:1200 fit:COVER) {
@@ -66,27 +66,20 @@ export const getProposal = () =>{
                               }
                               }
                             }
-                            happyBecca: file(relativePath: { eq: "proposal/happyBecca.jpg" }) {
-                              childImageSharp {
-                                fluid(maxWidth:1200 maxHeight:1200 fit:COVER) {
-                                  ...GatsbyImageSharpFluid_withWebp
+                            stillLife: file(relativePath: { eq: "proposal/stillLife.jpg" }) {
+                                childImageSharp {
+                                  fluid(maxWidth:1200 maxHeight:1200 fit:COVER cropFocus:CENTER) {
+                                    ...GatsbyImageSharpFluid_withWebp
+                                  }
+                                  }
                                 }
-                                }
-                              }
-                              beccaSmiles: file(relativePath: { eq: "proposal/beccaSmiles.jpg" }) {
+                              handsSign: file(relativePath: { eq: "proposal/handsSign.jpg" }) {
                                 childImageSharp {
                                   fluid(maxWidth:1200 maxHeight:1200 fit:COVER) {
                                     ...GatsbyImageSharpFluid_withWebp
                                   }
                                   }
                                 }
-                                waterFeet: file(relativePath: { eq: "proposal/waterFeet.jpg" }) {
-                                  childImageSharp {
-                                    fluid(maxWidth:1200 maxHeight:1200 fit:COVER) {
-                                      ...GatsbyImageSharpFluid_withWebp
-                                    }
-                                    }
-                                  }
                                   shoulder: file(relativePath: { eq: "proposal/shoulder.jpg" }) {
                                     childImageSharp {
                                       fluid(maxWidth:1200 maxHeight:1200 fit:COVER) {
@@ -96,12 +89,12 @@ export const getProposal = () =>{
                                     }
                                     nature: file(relativePath: { eq: "proposal/nature.jpg" }) {
                                       childImageSharp {
-                                        fluid(maxWidth:1200 maxHeight:1200 fit:COVER) {
+                                        fluid(maxWidth:1200 maxHeight:1200 fit:COVER cropFocus:NORTH) {
                                           ...GatsbyImageSharpFluid_withWebp
                                         }
                                         }
                                       }
-                                      scenery: file(relativePath: { eq: "proposal/scenery.jpg" }) {
+                                      theRing: file(relativePath: { eq: "proposal/theRing.jpg" }) {
                                         childImageSharp {
                                           fluid(maxWidth:1200 maxHeight:1200 fit:COVER) {
                                             ...GatsbyImageSharpFluid_withWebp
@@ -110,7 +103,7 @@ export const getProposal = () =>{
                                         }
                                         otherMountain: file(relativePath: { eq: "proposal/otherMountain.jpg" }) {
                                           childImageSharp {
-                                            fluid(maxWidth:1200 maxHeight:1200 fit:COVER) {
+                                            fluid(maxWidth:1200 maxHeight:1200 fit:COVER cropFocus:SOUTH) {
                                               ...GatsbyImageSharpFluid_withWebp
                                             }
                                             }
