@@ -28,7 +28,6 @@ export default class Gallery extends Component {
   openLightbox(index, event) {
     event.preventDefault();
     this.setState({isOpen: true, photoIndex: index});
-    console.log('hello', this.state);
   }
 
   closeLightbox() {

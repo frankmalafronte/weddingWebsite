@@ -168,6 +168,7 @@ export default function WeddingParty() {
               <p>Kevin is Frank’s oldest friend. They met at the lunch table in 2004, and bonded over Magic: The Gathering, and on the freshman football field. Frank and Kevin spent most of high school together, and though they now live in different states, have remained close. Frank was honored to share best man duties at Kevin’s wedding, and will be grateful for Kevin’s kindness and steadfast presence always.
               </p></div>
           </div>
+          <div id="Tim">Tim!!</div>
         </div>
       </div>
     </div>
