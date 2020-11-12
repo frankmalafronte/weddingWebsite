@@ -10,6 +10,7 @@
 body {
   background-image: url("../content/images/confetti.jpg");
   background-color: rgb(230, 230, 230);
+  /* line-height: 150%; */
 }
 
 /* Extra small devices (phones, 600px and down) */
@@ -150,9 +151,19 @@ h1 {
   height: 10%;
 }
 
+.wrapper {
+  width: 20%;
+  padding: 40px;
+  background: #fff;
+}
+.image img {
+  max-width: 100%;
+}
+
 .weddingPartyContainer {
   display: flex;
-  padding: 2px;
+  padding: 20px;
+  line-height: 150%;
 }
 
 .dropDown {
@@ -212,6 +223,12 @@ body {
   h1 {
     justify-content: center;
     margin-top: 50pt;
+    margin-bottom: 12pt;
+  }
+
+  h2 {
+    text-align: center;
+    margin-top: 20pt;
     margin-bottom: 12pt;
   }
 
@@ -346,7 +363,7 @@ body {
 
   .weddingPartyContainer {
     display: flex;
-    padding: 2px;
+    padding: 20px;
   }
 
   .dropDown {
