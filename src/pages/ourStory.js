@@ -135,7 +135,7 @@ export default function OurStory() {
               <div><Img fluid = {data.nyeFrank.childImageSharp.fluid} /></div>
               <h2>How We Met</h2>
               <h2 style={{fontSize: '90%', marginTop: '-10px', fontStyle: 'italic'}}>(His perspective)</h2>
-              <p>In the winter of 2015 I was in a rut. With New Year’s approaching, I told my friends I was “over” New Year’s Eve and would be skipping it this year. I’m very lucky to have such great friends, because Ankit called and convinced me to give a usually forgettable night another go. I’m so glad I did. Something something I met Becca and we connected right away, and had an hour-long conversation in the kitchen. When we gathered in the courtyard to light our sparklers and count down the year, I knew I had to find her again. We locked eyes while holding our sparklers and after shouting “Happy New Year!” we kissed for the first time.</p>
+              <p>In the winter of 2015 I was in a rut. With New Year’s approaching, I told my friends I was “over” New Year’s Eve and would be skipping it this year. I’m very lucky to have such great friends, because Ankit called and convinced me to give a usually forgettable night another go. I’m so glad I did. I met Becca and we connected right away, and had an hour-long conversation in the kitchen. She told me she worked at the New York Philharmonic, which I found very interesting, so I hid my ignorance about classical music and asked her a lot of questions about it! When we gathered in the courtyard to light our sparklers and count down the year, I knew I had to find her again. We locked eyes while holding our sparklers and after shouting “Happy New Year!” we kissed for the first time.</p>
             </div>
           </div>
         </div>
