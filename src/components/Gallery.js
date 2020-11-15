@@ -39,7 +39,7 @@ export default class Gallery extends Component {
     const {photoIndex, isOpen} = this.state;
     return (
       <div>
-        <div className={styles.row}>
+        <div className={styles.row} style={{cursor: 'pointer'}}>
           {array.map((photo, i)=>{
             return (
               <a className ={styles.column} onClick={(e)=>this.openLightbox(i, e)} >
