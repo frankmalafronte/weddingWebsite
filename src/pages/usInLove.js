@@ -12,7 +12,7 @@ export default function usInLove() {
   const array = Object.values(data);
   return (
     <Links>
-      <Gallery photos = {data} array ={array} style={{cursor: 'pointer'}}/>
+      <Gallery photos = {data} array ={array}/>
     </Links>
   );
 }

@@ -9,8 +9,8 @@ export default function Links({children}) {
       <div className={styles.nav} >
         <Link to ="/">
           <div> <button className={styles.navLink} >Our Wedding</button></div></Link>
-        {/* <Link to ="/RSVP"><button className={styles.navLink}>RSVP</button></Link> */}
-        {/* <Link to ="/ourStory"><button className={styles.navLink}>Our Story</button></Link> */}
+        <Link to ="/RSVP"><button className={styles.navLink}>RSVP</button></Link>
+        <Link to ="/ourStory"><button className={styles.navLink}>Our Story</button></Link>
         <div className={styles.dropDown} >
           <button className={styles.dropButton}>Photos</button>
           <div className ={styles.dropDownContent} id="dropDownContainer">

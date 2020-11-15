@@ -87,7 +87,29 @@ export default function OurStory() {
                           }
                           
 
-    }`);
+                          nyeBecca: file(relativePath: { eq: "nyeBecca.JPG" }) {
+                            childImageSharp {
+                              fluid(maxWidth:600 maxHeight:400 fit:COVER) {
+                                ...GatsbyImageSharpFluid_withWebp
+                              }
+                              }
+                            }
+                              nyeFrank: file(relativePath: { eq: "nyeFrank.JPG" }) {
+                                childImageSharp {
+                                  fluid(maxWidth:600 maxHeight:400 fit:COVER cropFocus:CENTER) {
+                                    ...GatsbyImageSharpFluid_withWebp
+                                  }
+                                  }
+                                }
+                                snowstorm: file(relativePath: { eq: "snowstormBeccaFrank.JPG" }) {
+                                  childImageSharp {
+                                    fluid(maxWidth:600 maxHeight:400 fit:COVER) {
+                                      ...GatsbyImageSharpFluid_withWebp
+                                    }
+                                    }
+                                  }             
+                      
+                          }`);
 
 
   return (
@@ -95,6 +117,40 @@ export default function OurStory() {
       <title>Becca + Frank</title>
       <Links>
       </Links>
+
+      <div c id ="header" className ={styles.heroBottom} style={{paddingTop: '50px'}}>Our Story</div>
+
+      <div className={styles.weddingPartyContainer} id ="top level" >
+
+        <div id="His Story" className={styles.weddingPartyColumn}>
+          <div id ="nyeFrank" className={styles.weddingParty}>
+            <div>
+              <div><Img fluid = {data.nyeFrank.childImageSharp.fluid} /></div>
+              <h2>How We Met (His perspective)</h2>
+              <p>In the winter of 2015 I was in a rut. With New Year’s approaching, I told my friends I was “over” New Year’s Eve and would be skipping it this year. I’m very lucky to have such great friends, because Ankit called and convinced me to give a usually forgettable night another go. I’m so glad I did. Something something I met Becca and we connected right away, and had an hour-long conversation in the kitchen. When we gathered in the courtyard to light our sparklers and count down the year, I knew I had to find her again. We locked eyes while holding our sparklers and after shouting “Happy New Year!” we kissed for the first time.</p>
+            </div>
+          </div>
+        </div>
+
+        <div id="Her Story" className={styles.weddingPartyColumn}>
+          <div id ="nyeBecca" className={styles.weddingParty}>
+            <div>
+              <div><Img fluid = {data.nyeBecca.childImageSharp.fluid} /></div>
+              <h2>How We Met (Her perspective)</h2>
+              <p>New Year’s Eve 2015, I was with my friends Reese and Christine, enjoying a party at my friend Lauren and Steven’s place when Reese told us his buddy Kevin was hosting a party not too far away. Christine and I made a pact to go in and meet new people, and the second person we walked up to was Frank. I remember his checked blazer and his stories of many different interests — the stock market, books he had read, politics, and past memorable jobs. Christine was an incredible wing-woman that night, slipping away casually when she saw that we were hitting it off. I remember him also asking a lot of questions, taking genuine interest in my career in the arts and my life in the city. We ended the conversation, but found each other shortly after midnight and started talking more and he asked for my number. A few days later, he texted and we had our first official date at a tea shop in Manhattan. (He insisted on tea because I was cleansing for January!) I knew immediately that he was a special guy and someone I’d be able to talk to openly about everything. It’s amazing to me that five years later to the day, we’re tying the knot!</p>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+      <div id ="snowstorm" className={styles.weddingParty}>
+        <div className="wrapper">
+          <div className="image"><Img fluid = {data.snowstorm.childImageSharp.fluid} /></div>
+          <h2>January 2016</h2>
+        </div>
+      </div>
+
       <div id="Our Story" style={{display: 'flex', justifyContent: 'center'}}>
         <div >How We Met</div>
       </div>
