@@ -196,10 +196,33 @@ export default function WeddingParty() {
       <div id ="Tim"className={styles.weddingParty}>
         <div className="wrapper" style={{backgroundColor: 'white'}}>
           <div style={{margin: '20px'}}>
-            <div className="singleImage"><Img fluid = {data.tim.childImageSharp.fluid}/></div>
+            <div className="centerPic"><Img fluid = {data.tim.childImageSharp.fluid}/></div>
             <h2>Tim (Officiant)</h2>
             <p>Frank and Becca are thrilled to be married by their dear friend Tim, who has played a significant role in their relationship. Tim and Becca met within weeks after joining the New York Philharmonic staff, and they grew close after realizing they both lived in Astoria. They would often commute home together after concerts, where they would trade stores about life and laugh endlessly. Tim shares the couple's appreciation of family, love of the arts, and passion for good books. Tim has been a great source of wisdom, joy, and empathy for the couple through the years, and we know he will be the perfect person to lead the celebrations this New Year's Eve!
             </p></div>
+        </div>
+      </div>
+
+      <div className={styles.weddingPartyContainer} id ="top level" >
+
+        <div id="Bride Container" className={styles.weddingPartyColumn}>
+          <div id ="sydney" className={styles.weddingParty}>
+            <div className="wrapper">
+              <div className="image"><Img fluid = {data.sydney.childImageSharp.fluid} /></div>
+              <h2>Sydney</h2>
+              <p>Sydney is definitely mama's cat, and is one of the best snugglers around! He's a bit more of a diva than Mel, and got away with a lot more as a kitten thanks to his big eyes. While Syd never wants to be picked up, he is one of the best ploppers and has one of the best purrs in town! He loves his cuddles from Frank and Becca, and is thrilled for this union to take place.</p>
+            </div>
+          </div>
+        </div>
+
+        <div id="Bride Container" className={styles.weddingPartyColumn}>
+          <div id ="melbourne" className={styles.weddingParty}>
+            <div className="wrapper">
+              <div className="image"><Img fluid = {data.melbourne.childImageSharp.fluid} /></div>
+              <h2>Melbourne</h2>
+              <p>Melbourne was one of the first to welcome Frank into the family. When Frank and Becca met, he wasn't much of a cat person, but that didn't discourage Mel. Over time, he has melted Frank's heart and carved out space in Frank's lap, where he spends most nights getting a good brushing. He loves to sing morning greetings to Frank, and these days he helps Frank work while sitting next to him at his desk.</p>
+            </div>
+          </div>
         </div>
       </div>
 

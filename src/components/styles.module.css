@@ -30,6 +30,11 @@ h3 {
   font-size: 12pt;
 }
 
+.centerPic {
+  width: 100%;
+  padding-left: 0pt;
+}
+
 .heroTop {
   font-size: 30pt;
   display: flex;
@@ -162,11 +167,6 @@ h3 {
   max-width: 100%;
 }
 
-.singleImage {
-  width: 100%;
-  padding-left: 0pt;
-}
-
 .weddingPartyContainer {
   display: flex;
   flex-direction: column;
@@ -259,6 +259,11 @@ body {
 
   h3 {
     font-size: 14pt;
+  }
+
+  .centerPic {
+    width: 50%;
+    padding-left: 25%;
   }
 
   .heroTop {
@@ -377,11 +382,6 @@ body {
     margin-top: 8px;
     vertical-align: middle;
     width: 100%;
-  }
-
-  .singleImage {
-    width: 50%;
-    padding-left: 25%;
   }
 
   .weddingPartyContainer {
