@@ -157,12 +157,14 @@ h3 {
   padding: 40px;
   background: #fff;
 }
+
 .image img {
   max-width: 100%;
 }
 
 .singleImage {
   width: 100%;
+  padding-left: 0pt;
 }
 
 .weddingPartyContainer {
