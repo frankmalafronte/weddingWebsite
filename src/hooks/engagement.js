@@ -40,14 +40,14 @@ export const getEngagement = () =>{
             }
             masks: file(relativePath: { eq: "engagement/masks.jpg" }) {
               childImageSharp {
-                fluid(maxWidth:1200 maxHeight:1200 fit:COVER) {
+                fluid(maxWidth:1200 maxHeight:1200 fit:COVER cropFocus:CENTER) {
                   ...GatsbyImageSharpFluid_withWebp
                 }
                 }
               }             
               shiningBecca: file(relativePath: { eq: "engagement/shiningBecca.jpg" }) {
                 childImageSharp {
-                fluid(maxWidth:1200 maxHeight:1200 fit:COVER) {
+                fluid(maxWidth:1200 maxHeight:1200 fit:COVER cropFocus:CENTER) {
                 ...GatsbyImageSharpFluid_withWebp
                }
               }
@@ -75,7 +75,7 @@ export const getEngagement = () =>{
             }
             prettyBecca: file(relativePath: { eq: "engagement/prettyBecca.jpg" }) {
               childImageSharp {
-                fluid(maxWidth:1200 maxHeight:1200 fit:COVER) {
+                fluid(maxWidth:1200 maxHeight:1200 fit:COVER cropFocus:CENTER) {
                   ...GatsbyImageSharpFluid_withWebp
                 }
                 }
@@ -131,7 +131,7 @@ export const getEngagement = () =>{
         }           
         awesome: file(relativePath: { eq: "engagement/awesome.jpg" }) {
           childImageSharp {
-          fluid(maxWidth:1200 maxHeight:1200 fit:COVER) {
+          fluid(maxWidth:1200 maxHeight:1200 fit:COVER cropFocus:CENTER) {
             ...GatsbyImageSharpFluid_withWebp
             }
            }

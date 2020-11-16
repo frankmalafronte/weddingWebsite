@@ -19,7 +19,7 @@ export const getProposal = () =>{
       }
       inTheClouds: file(relativePath: { eq: "proposal/inTheClouds.jpg" }) {
         childImageSharp {
-          fluid(maxWidth:1200 maxHeight:1200 fit:COVER) {
+          fluid(maxWidth:1200 maxHeight:1200 fit:COVER cropFocus:CENTER) {
             ...GatsbyImageSharpFluid_withWebp
           }
           }

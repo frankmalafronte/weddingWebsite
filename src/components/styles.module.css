@@ -2,14 +2,13 @@
 
 * {
   margin: 0;
-  /* box-sizing: border-box; */
   font-family: "Montserrat", sans-serif;
-  /* color: rgb(27, 34, 55); */
 }
 
 body {
   background-image: url("../content/images/confetti.jpg");
   background-color: rgb(230, 230, 230);
+  /* line-height: 150%; */
 }
 
 /* Extra small devices (phones, 600px and down) */
@@ -17,6 +16,16 @@ h1 {
   justify-content: center;
   margin-top: 30pt;
   margin-bottom: 12pt;
+}
+
+h2 {
+  text-align: center;
+  margin-top: 10pt;
+  margin-bottom: 8pt;
+}
+
+h3 {
+  font-size: 12pt;
 }
 
 .heroTop {
@@ -31,12 +40,6 @@ h1 {
   display: flex;
   justify-content: center;
   padding-bottom: 16px;
-}
-
-.sideBySide {
-  display: flex;
-  flex-direction: column;
-  /* justify-Content:space-between; */
 }
 
 .nav {
@@ -69,15 +72,17 @@ h1 {
 }
 
 .center {
-  font-size: 75%;
   display: flex;
-  justify-content: center;
+  flex-direction:column;
+  align-items: center;
+  padding:20px
 }
 
 .title {
   display: flex;
   justify-content: center;
   padding: 10px;
+  padding-bottom: 0px;
   margin: 0 auto;
   font-size: 40px;
 }
@@ -102,6 +107,7 @@ h1 {
 
 .faqQuestion {
   position: relative;
+  cursor: pointer;
   font-size: 20px;
   padding-right: 80px;
   padding-bottom: 10px;
@@ -127,7 +133,7 @@ h1 {
 }
 
 .column {
-  /* flex: 33%; */
+  flex: 33%;
   /* max-width: 33%; */
   width: 33%;
   padding: 0 4px;
@@ -145,14 +151,37 @@ h1 {
   width: 100%;
 }
 
-.galleryImg {
-  width: 10%;
-  height: 10%;
+.wrapper {
+  width: 20%;
+  padding: 40px;
+  background: #fff;
+}
+
+.image img {
+  max-width: 100%;
 }
 
 .weddingPartyContainer {
   display: flex;
-  padding: 2px;
+  flex-direction: column;
+  padding: 20px;
+  line-height: 150%;
+}
+/* 
+.weddingPartyContainer2 {
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  line-height: 150%;
+} */
+
+.weddingPartyColumn {
+  background-color: #ffffff;
+}
+
+.weddingParty {
+  padding: 20px;
+  line-height: 150%;
 }
 
 .dropDown {
@@ -201,6 +230,9 @@ h1 {
   display: flex;
   flex-direction: column;
 }
+.centerPic {
+  width:100%
+}
 
 /* Large devices (laptops/desktops, 768px and up) */
 @media only screen and (min-width: 768px) {
@@ -215,6 +247,20 @@ body {
     margin-bottom: 12pt;
   }
 
+  h2 {
+    text-align: center;
+    margin-top: 20pt;
+    margin-bottom: 12pt;
+  }
+
+  h3 {
+    font-size: 14pt;
+  }
+
+  .centerPic {
+    width: 70%;
+  }
+
   .heroTop {
     font-size: 50pt;
     display: flex;
@@ -227,13 +273,6 @@ body {
     display: flex;
     justify-content: center;
     padding-bottom: 40px;
-  }
-
-  .sideBySide {
-    display: flex;
-    flex-direction: column;
-    /* justify-Content:space-between; */
-    background-color: rgb(89, 89, 189);
   }
 
   .nav {
@@ -265,17 +304,18 @@ body {
     text-decoration: underline;
   }
 
-  .center {
-    display: flex;
-    justify-content: center;
-  }
 
   .title {
     display: flex;
     justify-content: center;
     padding: 10px;
+    padding-top: 30px;
     margin: 0 auto;
     font-size: 40px;
+  }
+
+  .image img {
+    max-width: 70%;
   }
 
   .faqContainer {
@@ -302,10 +342,12 @@ body {
     padding-bottom: 10px;
     transition: all 0.4s sease;
   }
+
   .faqOpen {
     margin-bottom: 15px;
     max-height: 1000px;
     opacity: 1;
+    content: "-";
   }
 
   .faqClosed {
@@ -313,6 +355,7 @@ body {
     max-height: 0;
     overflow-y: hidden;
     transition: all 0.4s ease;
+    content: "\f068";
   }
 
   .row {
@@ -339,14 +382,26 @@ body {
     width: 100%;
   }
 
-  .galleryImg {
-    width: 10%;
-    height: 10%;
-  }
-
   .weddingPartyContainer {
     display: flex;
-    padding: 2px;
+    flex-direction: row;
+    padding: 20px;
+    line-height: 150%;
+  }
+  /* 
+  .weddingPartyContainer2 {
+    padding: 20px;
+    line-height: 150%;
+  } */
+
+  .weddingPartyColumn {
+    background-color: #ffffff;
+    width: 50%;
+  }
+
+  .weddingParty {
+    padding: 20px;
+    line-height: 150%;
   }
 
   .dropDown {

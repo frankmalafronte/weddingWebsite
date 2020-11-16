@@ -9,10 +9,10 @@ export default function FAQComponent({faq, index, toggleFAQ}) {
   return (
     <div className = {styles.faqContainer}>
       <title>Becca + Frank</title>
-      <div className={styles.faq}
-        key={index}
-        onClick={()=>toggleFAQ(index)}>
-        <div className ={ styles.faqQuestion}>
+      <div className={styles.faq}>
+        <div className ={ styles.faqQuestion}
+          key={index}
+          onClick={()=>toggleFAQ(index)}>
           {faq.question}
         </div>
         <div className={ (faq.open ? styles.faqOpen : styles.faqClosed)}>

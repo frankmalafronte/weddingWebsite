@@ -22,14 +22,47 @@ export default function FAQ() {
       open: true,
     },
     {
-      question: `Will there be an in-person reception eventually?`,
-      answer: `Yes! We’re not sure when it will be or what it will look like exactly, but our hope is to have an in-person, more traditional ceremony in North Carolina sometime in 2022.`,
-      open: true,
+      question: 'Will there be an in-person reception eventually?',
+      answer: 'Yes! We’re not sure when it will be or what it will look like exactly, but our hope is to have an in-person, more traditional ceremony in North Carolina sometime in 2022.',
+      open: false,
+    },
+    {
+      question: 'New to Zoom? These instructions should help you get set up.',
+      answer: <div>To sign up for your own free account, visit <a href='https://zoom.us/signup' target='_blank'>zoom.us/signup</a> and enter your email address. You will receive an email from Zoom. In this email, click <b>Activate Account.</b>
+        <br/><br/>You can login to your Zoom account on the web at any time, at <a href='https://zoom.us/signin' target='_blank'>zoom.us/signin</a>. Once you're logged in, use the panel on the left side to navigate the Zoom web portal.  You can update your profile, schedule a meeting, edit your settings, and more.
+        <br/><br/>You can download Zoom for desktop (<b>Zoom Client for Meetings</b>) or mobile (<b>Zoom Mobile Apps</b>) from their <a href='https://zoom.us/download' target='_blank'>Downloads page.</a>
+        <br/><br/>Learn more from their Zoom's <a href='https://zoom.us/signup' target='_blank'>Quick start guide for new users</a>.</div>,
+      open: false,
+    },
+    {
+      question: 'What should I wear?',
+      answer: 'We’ll be wearing festive attire inspired by New Year’s Eve, but encourage you to wear whatever you would to a party! It can be an excuse to dress up, or an excuse to wear PJs to a wedding for the first time.',
+      open: false,
     },
     // {
-    //   question: `What is a Zoom Wedding exactly?`,
-    //   answer: `It’s just what it sounds like! A wedding but over Zoom. We will send more detail closer to the wedding date, but for now, be prepared to party in your living room!`,
+    //   question: 'What if I’m home for the holidays and have other people in the room with me?',
+    //   answer: 'Feel free to invite them to join you — the more the merrier this year! If you’ve got kids joining you, let us know and we can try to pair you together with other parents. And feel free to bring your pets, too. We hope to have Sydney and Melbourne tuning in from the next room if we can!',
     //   open: false,
+    // },
+    {
+      question: 'What will be the format of the event?',
+      answer: 'We will post a more detailed schedule closer to the wedding date, but for now, we are planning for a slideshow and music to open the room, followed by the ceremony and exchanging of vows, then breakout rooms with other guests at ‘tables’ and brief toasts at the end.',
+      open: false,
+    },
+    {
+      question: 'What if I’m running late?',
+      answer: 'Don’t worry! You can join anytime. We’re grateful to have Frank’s sister Katie and her boyfriend Adam hosting our Zoom event, so they will let you in whenever you are able to arrive. If you miss the whole event, we are hoping to record it and can share a recording with you at a later date.',
+      open: false,
+    },
+    {
+      question: 'What are your colors?',
+      answer: 'Don’t worry too much about colors, but the colors we’ve chosen for this Zoom wedding are navy and rose gold.',
+      open: false,
+    },
+    // {
+    //   question: '',
+    //   answer: '',
+    //   open: true,
     // },
   ]);
   const toggleFAQ = (index) =>{

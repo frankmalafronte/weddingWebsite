@@ -87,7 +87,36 @@ export default function OurStory() {
                           }
                           
 
-    }`);
+                          nyeBecca: file(relativePath: { eq: "nyeBecca.JPG" }) {
+                            childImageSharp {
+                              fluid(maxWidth:1200 maxHeight:800 fit:COVER) {
+                                ...GatsbyImageSharpFluid_withWebp
+                              }
+                              }
+                            }
+                          nyeFrank: file(relativePath: { eq: "nyeFrank.JPG" }) {
+                            childImageSharp {
+                              fluid(maxWidth:600 maxHeight:400 fit:COVER cropFocus:CENTER) {
+                                ...GatsbyImageSharpFluid_withWebp
+                              }
+                              }
+                            }
+                          snowstorm: file(relativePath: { eq: "snowstormBeccaFrank.JPG" }) {
+                            childImageSharp {
+                              fluid(maxWidth:1200 maxHeight:800 fit:COVER) {
+                                ...GatsbyImageSharpFluid_withWebp
+                              }
+                              }
+                            } 
+                          ahh: file(relativePath: { eq: "proposal/ah!!!.jpg" }) {
+                            childImageSharp {
+                              fluid(maxWidth:1200 maxHeight:1000 fit:COVER cropFocus:ENTROPY) {
+                                ...GatsbyImageSharpFluid_withWebp
+                              }
+                              }
+                            }            
+                      
+                          }`);
 
 
   return (
@@ -95,7 +124,55 @@ export default function OurStory() {
       <title>Becca + Frank</title>
       <Links>
       </Links>
-      <div id="Our Story" style={{display: 'flex', justifyContent: 'center'}}>
+
+      <div c id ="header" className ={styles.heroBottom} style={{paddingTop: '50px'}}>Our Story</div>
+
+      <div className={styles.weddingPartyContainer} id ="top level" >
+
+        <div id="His Story" className={styles.weddingPartyColumn}>
+          <div id ="nyeFrank" className={styles.weddingParty}>
+            <div>
+              <div><Img fluid = {data.nyeFrank.childImageSharp.fluid} /></div>
+              <h2>How We Met</h2>
+              <h2 style={{fontSize: '90%', marginTop: '-10px', fontStyle: 'italic'}}>(His perspective)</h2>
+              <p>In the winter of 2015 I was in a rut. With New Year’s approaching, I told my friends I was “over” New Year’s Eve and would be skipping it this year. I’m very lucky to have such great friends, because Ankit called and convinced me to give a usually forgettable night another go. I’m so glad I did. I met Becca and we connected right away, and had an hour-long conversation in the kitchen. She told me she worked at the New York Philharmonic, which I found very interesting, so I hid my ignorance about classical music and asked her a lot of questions about it! When we gathered in the courtyard to light our sparklers and count down the year, I knew I had to find her again. We locked eyes while holding our sparklers and after shouting “Happy New Year!” we kissed for the first time.</p>
+            </div>
+          </div>
+        </div>
+
+        <div id="Her Story" className={styles.weddingPartyColumn}>
+          <div id ="nyeBecca" className={styles.weddingParty}>
+            <div>
+              <div><Img fluid = {data.nyeBecca.childImageSharp.fluid} /></div>
+              <h2>How We Met</h2>
+              <h2 style={{fontSize: '90%', marginTop: '-10px', fontStyle: 'italic'}}>(Her perspective)</h2>
+              <p>New Year’s Eve 2015, I was with my friends Reese and Christine, enjoying a party at my friend Lauren and Steven’s place when Reese told us his buddy Kevin was hosting a party not too far away. Christine and I made a pact to go in and meet new people, and the second person we walked up to was Frank.
+                <br /><br />I remember his checked blazer and his stories of many different interests — the stock market, books he had read, politics, and past memorable jobs. Christine was an incredible wing-woman that night, slipping away casually when she saw that we were hitting it off. I remember him also asking a lot of questions, taking genuine interest in my career in the arts and my life in the city. We ended the conversation, but found each other shortly after midnight and started talking more and he asked for my number.
+                <br /><br />A few days later, he texted and we had our first official date at a tea shop in Manhattan. (He insisted on tea because I was cleansing for January!) I knew immediately that he was a special guy and someone I’d be able to talk to openly about everything. It’s amazing to me that five years later to the day, we’re tying the knot!</p>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+      <div id ="snowstorm" className={styles.weddingParty}>
+        <div style={{backgroundColor: 'white', width: '100%'}}>
+          <div style={{margin: '20px'}}>
+            <div className={styles.center} ><Img className={styles.centerPic} fluid = {data.snowstorm.childImageSharp.fluid} /></div>
+            <h2>January 2016<br />.<br />.<br />.<br /><br />September 2020</h2>
+
+            <div className={styles.center} ><Img className={styles.centerPic} fluid = {data.ahh.childImageSharp.fluid} /></div>
+            <h2>The Proposal</h2>
+            <h2 style={{fontSize: '90%', marginTop: '-10px', fontStyle: 'italic'}}>(Our perspective)</h2>
+            <p>We had been talking about getting married from early in our relationship, but the timing never felt quite right. That all changed in mid-August when a switched flipped and we were more ready than ever. With COVID, we hadn't traveled much at all, but with summer coming to a close and cases still relatively low, we decided to take a small trip on Labor Day weekend.
+              <br /><br />Frank planned out everything — the B&B where they stayed in the Berkshires, the hike on Alander Mountain, her Great-Grandma Appleby's ring that he had coordinated with Nancy pre-COVID, and even a tripod because he knew Becca would want photos.
+              <br /><br />When they reached the peak on a beautiful sunny Saturday morning, Becca brought out the selfie stick and noticed that Frank was looking through his bag for something. When she realized what it was, she got so excited that everything else was a blur until he said "Rebecca Mary Kathryn Brenner, will you marry me?" And of course she said yes!
+              <br /><br />The rest of the weekend was filled with hikes and phone calls to family and friends, and a visit with Frank's godfather Bill and his wife Susie who lived nearby. We're so grateful for everyone who has made the time since then so special, and can't wait to celebrate with you all again!</p>
+          </div>
+        </div>
+      </div>
+
+      {/* <div id="Our Story" style={{display: 'flex', justifyContent: 'center'}}>
         <div >How We Met</div>
       </div>
       <div>
@@ -148,7 +225,7 @@ Phasellus tellus enim, elementum sit amet laoreet sit amet, pharetra eget est. S
             </div>
           </div>
         </div>
-      </div>
+      </div>*/}
     </div>
   );
 }
