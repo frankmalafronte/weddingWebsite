@@ -28,11 +28,6 @@ h3 {
   font-size: 12pt;
 }
 
-.centerPic {
-  width: 100%;
-  padding-left: 0pt;
-}
-
 .heroTop {
   font-size: 30pt;
   display: flex;
@@ -77,10 +72,15 @@ h3 {
 }
 
 .center {
-  font-size: 75%;
   display: flex;
+<<<<<<< HEAD
   flex-direction: column;
   align-items: center;
+=======
+  flex-direction:column;
+  align-items: center;
+  padding:20px
+>>>>>>> 544ce3f0de722be41375219adfd3dd46733437d9
 }
 
 .title {
@@ -235,6 +235,9 @@ h3 {
   display: flex;
   flex-direction: column;
 }
+.centerPic {
+  width:100%
+}
 
 /* Large devices (laptops/desktops, 768px and up) */
 @media only screen and (min-width: 768px) {
@@ -261,7 +264,6 @@ body {
 
   .centerPic {
     width: 70%;
-    padding-left: 15%;
   }
 
   .heroTop {
@@ -307,10 +309,6 @@ body {
     text-decoration: underline;
   }
 
-  .center {
-    display: flex;
-    justify-content: center;
-  }
 
   .title {
     display: flex;

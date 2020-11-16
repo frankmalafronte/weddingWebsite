@@ -142,7 +142,7 @@ export default function WeddingParty() {
             <div className="wrapper">
               <div className="image"><Img fluid = {data.katie.childImageSharp.fluid} /></div>
               <h2>Katie </h2>
-              <p> Katie is Frank’s sister and a special member of the Malafronte family, and one of the first that Becca met — when Katie came to the city with her mom and Aunt Sue, Becca and Frank went to see them. She has such a calming, grounded presence and brings so much life to any party she’s at. Katie’s love of music and love for life is infectious, and Frank couldn’t have asked for a better sister. </p>
+              <p>Frank knows that it wasn’t always easy having two older brothers, but Katie always rolled with the punches (or golf balls). Today Frank believes his parents never gave him a greater gift. Frank and Katie love to cook together, and go to the movies, especially double features! Becca and Katie have a shared love of music, and Frank is convinced they will one day work together at Spotify. Becca feels so lucky to have such a calming, grounded presence in her wedding party who also brings so much life to any party she’s at. </p>
             </div></div>
 
         </div>
@@ -153,7 +153,7 @@ export default function WeddingParty() {
             <div className="wrapper">
               <div className="image"><Img fluid = {data.joe.childImageSharp.fluid} /></div>
               <h2>Joe (Best Man)</h2>
-              <p>Frank and Joe met in the early 90s (credit: Dylan Mal) Growing up in Madison, CT together with their sister Katie, they played baseball, rode their bikes around Bartlett Drive, and made up games in the backyard. They went to the beach, watched Derek Jeter, and played with their dog, Gryffindor. Frank is so blessed to have his brother to stand by his side on his wedding day.
+              <p>Frank and Joe met in the early 90’s. (credit: Dylan Mal) Growing up in Madison, CT, together with their sister Katie, they played baseball, rode their bikes around Bartlett Drive, and made up games in the backyard. They went to the beach, watched Derek Jeter, and played with their dog, Gryffindor. Whenever they talk, Frank always leaves inspired and energized. Frank is so blessed to have his brother to stand by his side on his wedding day. 
               </p>
             </div></div>
 
@@ -192,12 +192,12 @@ export default function WeddingParty() {
         </div>
       </div>
 
-      <div id ="Tim"className={styles.weddingParty}>
-        <div style={{backgroundColor: 'white'}}>
-          <div style={{padding: '20px'}}>
-            <div className={styles.center}><Img style ={{width: '60%'}}fluid = {data.tim.childImageSharp.fluid}/></div>
-            <h2>Tim (Officiant)</h2>
-            <p>Frank and Becca are thrilled to be married by their dear friend Tim, who has played a significant role in their relationship. Tim and Becca met within weeks after joining the New York Philharmonic staff, and they grew close after realizing they both lived in Astoria. They would often commute home together after concerts, where they would trade stores about life and laugh endlessly. Tim shares the couple's appreciation of family, love of the arts, and passion for good books. Tim has been a great source of wisdom, joy, and empathy for the couple through the years, and we know he will be the perfect person to lead the celebrations this New Year's Eve!
+      <div id ="Tim"className={styles.weddingParty}>	
+      <div style={{backgroundColor: 'white'}}>	
+      <div style={{padding: '20px'}}>	
+      <div className={styles.center}><Img className ={styles.centerPic} fluid = {data.tim.childImageSharp.fluid}/></div>	
+      <h2>Tim (Officiant)</h2>	
+      <p>Frank and Becca are thrilled to be married by their dear friend Tim, who has played a significant role in their relationship. Tim and Becca met within weeks after joining the New York Philharmonic staff, and they grew close after realizing they both lived in Astoria. They would often commute home together after concerts, where they would trade stores about life and laugh endlessly. Tim shares the couple's appreciation of family, love of the arts, and passion for good books. Tim has been a great source of wisdom, joy, and empathy for the couple through the years, and we know he will be the perfect person to lead the celebrations this New Year's Eve!	
             </p></div>
         </div>
       </div>

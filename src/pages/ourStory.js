@@ -135,7 +135,7 @@ export default function OurStory() {
               <div><Img fluid = {data.nyeFrank.childImageSharp.fluid} /></div>
               <h2>How We Met</h2>
               <h2 style={{fontSize: '90%', marginTop: '-10px', fontStyle: 'italic'}}>(His perspective)</h2>
-              <p>In the winter of 2015 I was in a rut. With New Year’s approaching, I told my friends I was “over” New Year’s Eve and would be skipping it this year. I’m very lucky to have such great friends, because Ankit called and convinced me to give a usually forgettable night another go. I’m so glad I did. Something something I met Becca and we connected right away, and had an hour-long conversation in the kitchen. When we gathered in the courtyard to light our sparklers and count down the year, I knew I had to find her again. We locked eyes while holding our sparklers and after shouting “Happy New Year!” we kissed for the first time.</p>
+              <p>In the winter of 2015 I was in a rut. With New Year’s approaching, I told my friends I was “over” New Year’s Eve and would be skipping it this year. I’m very lucky to have such great friends, because Ankit called and convinced me to give a usually forgettable night another go. I’m so glad I did. I met Becca and we connected right away, and had an hour-long conversation in the kitchen. She told me she worked at the New York Philharmonic, which I found very interesting, so I hid my ignorance about classical music and asked her a lot of questions about it! When we gathered in the courtyard to light our sparklers and count down the year, I knew I had to find her again. We locked eyes while holding our sparklers and after shouting “Happy New Year!” we kissed for the first time.</p>
             </div>
           </div>
         </div>
@@ -157,11 +157,16 @@ export default function OurStory() {
 
       <div id ="snowstorm" className={styles.weddingParty}>
         <div style={{backgroundColor: 'white', width: '100%'}}>
+<<<<<<< HEAD
           <div style={{padding: '20px'}}>
             <div className={styles.centerPic} ><Img fluid = {data.snowstorm.childImageSharp.fluid} /></div>
+=======
+          <div style={{margin: '20px'}}>
+            <div className={styles.center} ><Img className={styles.centerPic} fluid = {data.snowstorm.childImageSharp.fluid} /></div>
+>>>>>>> 544ce3f0de722be41375219adfd3dd46733437d9
             <h2>January 2016<br />.<br />.<br />.<br /><br />September 2020</h2>
 
-            <div className={styles.centerPic} ><Img fluid = {data.ahh.childImageSharp.fluid} /></div>
+            <div className={styles.center} ><Img className={styles.centerPic} fluid = {data.ahh.childImageSharp.fluid} /></div>
             <h2>The Proposal</h2>
             <h2 style={{fontSize: '90%', marginTop: '-10px', fontStyle: 'italic'}}>(Our perspective)</h2>
             <p>We had been talking about getting married from early in our relationship, but the timing never felt quite right. That all changed in mid-August when a switched flipped and we were more ready than ever. With COVID, we hadn't traveled much at all, but with summer coming to a close and cases still relatively low, we decided to take a small trip on Labor Day weekend.
