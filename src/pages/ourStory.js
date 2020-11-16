@@ -157,17 +157,17 @@ export default function OurStory() {
 
       <div id ="snowstorm" className={styles.weddingParty}>
         <div style={{backgroundColor: 'white', width: '100%'}}>
-          <div style={{margin: '20px'}}>
+          <div style={{padding: '20px'}}>
             <div className={styles.center} ><Img className={styles.centerPic} fluid = {data.snowstorm.childImageSharp.fluid} /></div>
             <h2>January 2016<br />.<br />.<br />.<br /><br />September 2020</h2>
 
             <div className={styles.center} ><Img className={styles.centerPic} fluid = {data.ahh.childImageSharp.fluid} /></div>
             <h2>The Proposal</h2>
             <h2 style={{fontSize: '90%', marginTop: '-10px', fontStyle: 'italic'}}>(Our perspective)</h2>
-            <p>We had been talking about getting married from early in our relationship, but the timing never felt quite right. That all changed in mid-August when a switched flipped and we were more ready than ever. With COVID, we hadn't traveled much at all, but with summer coming to a close and cases still relatively low, we decided to take a small trip on Labor Day weekend.
-              <br /><br />Frank planned out everything — the B&B where they stayed in the Berkshires, the hike on Alander Mountain, her Great-Grandma Appleby's ring that he had coordinated with Nancy pre-COVID, and even a tripod because he knew Becca would want photos.
-              <br /><br />When they reached the peak on a beautiful sunny Saturday morning, Becca brought out the selfie stick and noticed that Frank was looking through his bag for something. When she realized what it was, she got so excited that everything else was a blur until he said "Rebecca Mary Kathryn Brenner, will you marry me?" And of course she said yes!
-              <br /><br />The rest of the weekend was filled with hikes and phone calls to family and friends, and a visit with Frank's godfather Bill and his wife Susie who lived nearby. We're so grateful for everyone who has made the time since then so special, and can't wait to celebrate with you all again!</p>
+            <p>We had always talked about getting married, but the timing never felt quite right. This August though we realized that all the pieces had finally come together, and we were ready for the next step.  With COVID, we hadn't traveled much at all, but with summer coming to a close and cases still relatively low, we decided to take a small weekend trip on Labor Day weekend. 
+                <br/><br/>Frank planned out everything: the B&B where they stayed in the Berkshires, the hike on Alander Mountain, her Great-Grandma Appleby's ring that he had coordinated with Nancy pre-COVID, and even a tripod because he knew Becca would want photos. 
+                <br/><br/>When they reached the peak on a beautiful sunny Saturday morning, Becca brought out the selfie stick and noticed that Frank was looking through his bag for something. When she realized what it was, she got so excited that everything else was a blur until he said "Rebecca Mary Kathryn Brenner, will you marry me?" And of course she said yes! 
+                <br/><br/>The rest of the weekend was filled with hikes and phone calls to family and friends, and a visit with Frank's godfather Bill and his wife Susie who lived nearby. We're so grateful for everyone who has made the time since then so special, and can't wait to celebrate with you all again!</p>
           </div>
         </div>
       </div>
