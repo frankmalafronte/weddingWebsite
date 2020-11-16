@@ -79,8 +79,8 @@ h3 {
 .center {
   font-size: 75%;
   display: flex;
-  flex-direction:column;
-  align-items: center
+  flex-direction: column;
+  align-items: center;
 }
 
 .title {
@@ -321,6 +321,10 @@ body {
     font-size: 40px;
   }
 
+  .image img {
+    max-width: 70%;
+  }
+
   .faqContainer {
     display: flex;
     justify-content: center;
@@ -345,10 +349,12 @@ body {
     padding-bottom: 10px;
     transition: all 0.4s sease;
   }
+
   .faqOpen {
     margin-bottom: 15px;
     max-height: 1000px;
     opacity: 1;
+    content: "-";
   }
 
   .faqClosed {
@@ -356,6 +362,7 @@ body {
     max-height: 0;
     overflow-y: hidden;
     transition: all 0.4s ease;
+    content: "\f068";
   }
 
   .row {

@@ -74,7 +74,7 @@ export default function WeddingParty() {
         }
       david: file(relativePath: { eq: "weddingParty/david.jpg" }) {
         childImageSharp {
-          fluid(maxWidth:600 maxHeight:600 fit:COVER cropFocus:NORTH) {
+          fluid(maxWidth:600 maxHeight:700 fit:COVER cropFocus:CENTER) {
             ...GatsbyImageSharpFluid_withWebp
           }
           }
@@ -114,29 +114,28 @@ export default function WeddingParty() {
             <div className="wrapper">
               <div className="image"><Img fluid = {data.megan.childImageSharp.fluid} /></div>
               <h2>Megan (Maid of Honor)</h2>
-              <p>Megan is Becca’s cousin, but she feels more like the sister she always wanted. Growing up, they were thick as thieves, taking piano lessons together and playing with the family dogs Brittany, Champ, and Molly! Megan has been Becca’s travel companion on many adventures, including a trip to Australia after college that shaped both of their worldviews (and named Becca’s cats!). Through many life transitions, they have stayed close, and Becca is so grateful to have Megan by her side throughout this journey and most unusual time!</p>
+              <p>Megan is Becca’s cousin, but she feels more like the sister she always wanted. Growing up, they were thick as thieves, playing dress-up, taking piano lessons, and playing with the family dogs Brittany, Champ, and Molly! Megan has been Becca’s companion on many adventures, including a trip to Australia after college that shaped their worldviews (and named Becca’s cats!). She is one of the most thoughtful people we know, as evidenced by the sweet treats she bakes and homemade cards! Through many life transitions, they have stayed close, and Becca is so grateful to have Megan by her side throughout this journey.</p>
             </div></div>
 
           <div id ="laura" className={styles.weddingParty}>
             <div className="wrapper">
               <div className="image"><Img fluid = {data.laura.childImageSharp.fluid} /></div>
               <h2>Laura</h2>
-              <p>Laura and Becca met in a fitness class their first week at UNC-Chapel Hill, but became fast friends a few days later when they both showed up to tryouts for the UNC Women’s Rowing Crew and joined the team. They spent many early mornings that year trekking out to the weight room for training, and many nights either getting cupcakes from Sugarland bakery or going on adventures in Laura’s little red VW Beetle. Laura always keeps Becca laughing and smiling, and she’s grateful for her sunshine!</p>
+              <p>Laura and Becca met during their first weeks at UNC-Chapel Hill, when they both joined the UNC Women’s Rowing Crew freshman year. They spent many early mornings trekking out to the weight room, and many nights getting cupcakes from Sugarland or driving around in Laura’s little red VW Beetle. Laura was the first friend to get Becca to start running, and has a green thumb that has helped Becca through some plant emergencies! She always keeps Becca laughing and smiling, making the day a little sunnier where she is.</p>
             </div></div>
 
           <div id ="erin" className={styles.weddingParty}>
             <div className="wrapper">
               <div className="image"><Img fluid = {data.erin.childImageSharp.fluid} /></div>
               <h2>Erin</h2>
-              <p>Becca met Erin in Chapel Hill after college, when they quickly realized that they had so many friends in common that they were practically living parallel lives. They were partners in crime for many nights out and spontaneous adventures. They’d go to concerts, sing karaoke, go dancing, and drive in the rain with the convertible top down together! Erin inspired Becca to get her cats, and has been there through some of Becca’s best and worst days, always ready to take on what comes next.
-              </p>
+              <p>Becca met Erin in Chapel Hill after college, when they quickly realized that they had many mutual friends. They were partners in crime for many nights out and spontaneous adventures. Erin inspired Becca to adopt her cats after she adopted Jack (and later sweet Goldie!), and her knitting has kept Becca warm through NYC winters! Erin has been there through some of Becca’s best and worst days, always ready to take on what comes next.</p>
             </div></div>
 
           <div id ="christine" className={styles.weddingParty}>
             <div className="wrapper">
               <div className="image"><Img fluid = {data.christine.childImageSharp.fluid} /></div>
               <h2>Christine</h2>
-              <p>Christine and Becca met while working together at Carolina Performing Arts, where they both worked as students and after graduation. They stayed in touch even after Becca moved away, and Christine moved to NYC a year to the day after Becca did. Becca has counted Christine as a close member of Becca’s NYC family ever since, and she owes much of her sanity during quarantine to Christine.</p>
+              <p>Christine and Becca met while working together at Carolina Performing Arts during college and after. They grew close on a road trip to Dallas, and years later, when Christine moved to NYC exactly a year after Becca did, she made it feel more like home. Christine's adventurous spirit kept Becca in the know about arts and culture happening in the city, and Christine was by her side the moment she met Frank at that fateful New Year's party. :) Becca owes much of her sanity during quarantine (and throughout life) to Christine, and she's grateful to count Christine as a part of her NYC family.</p>
             </div></div>
 
           <div id ="katie" className={styles.weddingParty}>
@@ -193,16 +192,16 @@ export default function WeddingParty() {
         </div>
       </div>
 
-      <div id ="Tim"className={styles.weddingParty}>	
-      <div style={{backgroundColor: 'white'}}>	
-      <div style={{padding: '20px'}}>	
-      <div className={styles.center}><Img style ={{width:"60%"}}fluid = {data.tim.childImageSharp.fluid}/></div>	
-      <h2>Tim (Officiant)</h2>	
-      <p>Frank and Becca are thrilled to be married by their dear friend Tim, who has played a significant role in their relationship. Tim and Becca met within weeks after joining the New York Philharmonic staff, and they grew close after realizing they both lived in Astoria. They would often commute home together after concerts, where they would trade stores about life and laugh endlessly. Tim shares the couple's appreciation of family, love of the arts, and passion for good books. Tim has been a great source of wisdom, joy, and empathy for the couple through the years, and we know he will be the perfect person to lead the celebrations this New Year's Eve!	
+      <div id ="Tim"className={styles.weddingParty}>
+        <div style={{backgroundColor: 'white'}}>
+          <div style={{padding: '20px'}}>
+            <div className={styles.center}><Img style ={{width: '60%'}}fluid = {data.tim.childImageSharp.fluid}/></div>
+            <h2>Tim (Officiant)</h2>
+            <p>Frank and Becca are thrilled to be married by their dear friend Tim, who has played a significant role in their relationship. Tim and Becca met within weeks after joining the New York Philharmonic staff, and they grew close after realizing they both lived in Astoria. They would often commute home together after concerts, where they would trade stores about life and laugh endlessly. Tim shares the couple's appreciation of family, love of the arts, and passion for good books. Tim has been a great source of wisdom, joy, and empathy for the couple through the years, and we know he will be the perfect person to lead the celebrations this New Year's Eve!
             </p></div>
-            </div>	
-            </div>	
-     
+        </div>
+      </div>
+
       <div className={styles.weddingPartyContainer} id ="top level" >
 
         <div id="Bride Container" className={styles.weddingPartyColumn}>

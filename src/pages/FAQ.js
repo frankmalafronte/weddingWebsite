@@ -24,7 +24,7 @@ export default function FAQ() {
     {
       question: 'Will there be an in-person reception eventually?',
       answer: 'Yes! We’re not sure when it will be or what it will look like exactly, but our hope is to have an in-person, more traditional ceremony in North Carolina sometime in 2022.',
-      open: true,
+      open: false,
     },
     {
       question: 'New to Zoom? These instructions should help you get set up.',
@@ -36,14 +36,14 @@ export default function FAQ() {
     },
     {
       question: 'What should I wear?',
-      answer: 'The short answer is: whatever makes you happy! We’ll be wearing festive attire inspired by New Year’s Eve, but encourage you to wear whatever you would to a party! It can be an excuse to dress up, or an excuse to wear PJs to a wedding for the first time.',
+      answer: 'We’ll be wearing festive attire inspired by New Year’s Eve, but encourage you to wear whatever you would to a party! It can be an excuse to dress up, or an excuse to wear PJs to a wedding for the first time.',
       open: false,
     },
-    {
-      question: 'What if I’m home for the holidays and have other people in the room with me?',
-      answer: 'Feel free to invite them to join you — the more the merrier this year! If you’ve got kids joining you, let us know and we can try to pair you together with other parents. And feel free to bring your pets, too. We hope to have Sydney and Melbourne tuning in from the next room if we can!',
-      open: false,
-    },
+    // {
+    //   question: 'What if I’m home for the holidays and have other people in the room with me?',
+    //   answer: 'Feel free to invite them to join you — the more the merrier this year! If you’ve got kids joining you, let us know and we can try to pair you together with other parents. And feel free to bring your pets, too. We hope to have Sydney and Melbourne tuning in from the next room if we can!',
+    //   open: false,
+    // },
     {
       question: 'What will be the format of the event?',
       answer: 'We will post a more detailed schedule closer to the wedding date, but for now, we are planning for a slideshow and music to open the room, followed by the ceremony and exchanging of vows, then breakout rooms with other guests at ‘tables’ and brief toasts at the end.',
@@ -51,12 +51,12 @@ export default function FAQ() {
     },
     {
       question: 'What if I’m running late?',
-      answer: 'Don’t worry! You can join anytime. We’re grateful to have Frank’s sister Katie and her boyfriend Adam hosting our Zoom event, so they will let you in whenever you are able to arrive. If you miss the whole event, we are hoping to record it and can share a recording with you at a later date. Just let us know!',
+      answer: 'Don’t worry! You can join anytime. We’re grateful to have Frank’s sister Katie and her boyfriend Adam hosting our Zoom event, so they will let you in whenever you are able to arrive. If you miss the whole event, we are hoping to record it and can share a recording with you at a later date.',
       open: false,
     },
     {
       question: 'What are your colors?',
-      answer: 'We are staying open-minded about colors for this Zoom wedding, so don’t worry too much about colors. BUT we are thinking of rose gold, navy, and sparkles. :)',
+      answer: 'Don’t worry too much about colors, but the colors we’ve chosen for this Zoom wedding are navy and rose gold.',
       open: false,
     },
     // {
