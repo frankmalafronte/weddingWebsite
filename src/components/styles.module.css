@@ -73,14 +73,9 @@ h3 {
 
 .center {
   display: flex;
-<<<<<<< HEAD
-  flex-direction: column;
-  align-items: center;
-=======
   flex-direction:column;
   align-items: center;
   padding:20px
->>>>>>> 544ce3f0de722be41375219adfd3dd46733437d9
 }
 
 .title {

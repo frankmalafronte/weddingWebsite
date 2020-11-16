@@ -157,13 +157,8 @@ export default function OurStory() {
 
       <div id ="snowstorm" className={styles.weddingParty}>
         <div style={{backgroundColor: 'white', width: '100%'}}>
-<<<<<<< HEAD
-          <div style={{padding: '20px'}}>
-            <div className={styles.centerPic} ><Img fluid = {data.snowstorm.childImageSharp.fluid} /></div>
-=======
           <div style={{margin: '20px'}}>
             <div className={styles.center} ><Img className={styles.centerPic} fluid = {data.snowstorm.childImageSharp.fluid} /></div>
->>>>>>> 544ce3f0de722be41375219adfd3dd46733437d9
             <h2>January 2016<br />.<br />.<br />.<br /><br />September 2020</h2>
 
             <div className={styles.center} ><Img className={styles.centerPic} fluid = {data.ahh.childImageSharp.fluid} /></div>

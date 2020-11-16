@@ -142,7 +142,7 @@ export default function WeddingParty() {
             <div className="wrapper">
               <div className="image"><Img fluid = {data.katie.childImageSharp.fluid} /></div>
               <h2>Katie </h2>
-              <p>Frank knows that it wasn’t always easy having two older brothers, but Katie always rolled with the punches (or golf balls). Today Frank believes his parents never gave him a greater gift. Frank and Katie love to cook together, and go to the movies, especially double features! Becca and Katie have a shared love of music, and Frank is convinced they will one day work together at Spotify. Becca feels so lucky to have such a calming, grounded presence in her wedding party who also brings so much life to any party she’s at. </p>
+              <p>Frank knows that it wasn’t always easy having two older brothers, but Katie always rolled with the punches (or golf balls). Today Frank believes his parents never gave him a greater gift. Frank and Katie love to cook together and go to the movies, especially double features! Becca and Katie have a shared love of music, and Frank is convinced they will one day work together at Spotify. Becca feels so lucky to have such a calming, grounded presence in her wedding party who also brings so much life to any party she’s at. </p>
             </div></div>
 
         </div>
@@ -153,7 +153,7 @@ export default function WeddingParty() {
             <div className="wrapper">
               <div className="image"><Img fluid = {data.joe.childImageSharp.fluid} /></div>
               <h2>Joe (Best Man)</h2>
-              <p>Frank and Joe met in the early 90’s. (credit: Dylan Mal) Growing up in Madison, CT, together with their sister Katie, they played baseball, rode their bikes around Bartlett Drive, and made up games in the backyard. They went to the beach, watched Derek Jeter, and played with their dog, Gryffindor. Whenever they talk, Frank always leaves inspired and energized. Frank is so blessed to have his brother to stand by his side on his wedding day. 
+              <p>Frank and Joe met in the early 90s. (credit: Dylan Mal) Growing up in Madison, CT, together with their sister Katie, they played baseball, rode their bikes around Bartlett Drive, and made up games in the backyard. They went to the beach, watched Derek Jeter, and played with their dog, Gryffindor. Whenever they talk, Frank always leaves inspired and energized. Frank is so blessed to have his brother to stand by his side on his wedding day. 
               </p>
             </div></div>
 
