@@ -24,6 +24,12 @@ h2 {
   margin-bottom: 8pt;
 }
 
+.h2a {
+  font-size: 90%;
+  margin-top: -10px;
+  font-style: italic;
+}
+
 h3 {
   font-size: 12pt;
 }
@@ -76,6 +82,13 @@ h3 {
   flex-direction:column;
   align-items: center;
   padding:20px;
+}
+
+.centerWrapper {
+  padding: 20px;
+  background: white;
+  /* margin-left: '0%';
+  margin-right: '0%'; */
 }
 
 .title {
@@ -312,6 +325,13 @@ body {
     padding-top: 30px;
     margin: 0 auto;
     font-size: 40px;
+  }
+
+
+  .centerWrapper {
+    padding: 20px;
+    margin-left: 15%;
+    margin-right: 15%;
   }
 
   .image img {
