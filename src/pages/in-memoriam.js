@@ -38,36 +38,36 @@ export default function InMemoriam() {
                       }
                       }
                     }
-                          nyeBecca: file(relativePath: { eq: "nyeBecca.JPG" }) {
-                            childImageSharp {
-                              fluid(maxWidth:1200 maxHeight:800 fit:COVER) {
-                                ...GatsbyImageSharpFluid_withWebp
-                              }
-                              }
-                            }
-                          nyeFrank: file(relativePath: { eq: "nyeFrank.JPG" }) {
-                            childImageSharp {
-                              fluid(maxWidth:600 maxHeight:400 fit:COVER cropFocus:CENTER) {
-                                ...GatsbyImageSharpFluid_withWebp
-                              }
-                              }
-                            }
-                          snowstorm: file(relativePath: { eq: "snowstormBeccaFrank.JPG" }) {
-                            childImageSharp {
-                              fluid(maxWidth:1200 maxHeight:800 fit:COVER) {
-                                ...GatsbyImageSharpFluid_withWebp
-                              }
-                              }
-                            } 
-                          ahh: file(relativePath: { eq: "proposal/ah!!!.jpg" }) {
-                            childImageSharp {
-                              fluid(maxWidth:1200 maxHeight:1000 fit:COVER cropFocus:ENTROPY) {
-                                ...GatsbyImageSharpFluid_withWebp
-                              }
-                              }
-                            }            
-                      
-                          }`);
+                  ziccardiFrankEileen: file(relativePath: { eq: "inMemoriam/frank-eileen-ziccardi_07.15.jpg" }) {
+                    childImageSharp {
+                      fluid(maxWidth:800 maxHeight:1200 fit:COVER) {
+                        ...GatsbyImageSharpFluid_withWebp
+                      }
+                      }
+                    }
+                  nyeFrank: file(relativePath: { eq: "nyeFrank.JPG" }) {
+                    childImageSharp {
+                      fluid(maxWidth:600 maxHeight:400 fit:COVER cropFocus:CENTER) {
+                        ...GatsbyImageSharpFluid_withWebp
+                      }
+                      }
+                    }
+                  snowstorm: file(relativePath: { eq: "snowstormBeccaFrank.JPG" }) {
+                    childImageSharp {
+                      fluid(maxWidth:1200 maxHeight:800 fit:COVER) {
+                        ...GatsbyImageSharpFluid_withWebp
+                      }
+                      }
+                    } 
+                  ahh: file(relativePath: { eq: "proposal/ah!!!.jpg" }) {
+                    childImageSharp {
+                      fluid(maxWidth:1200 maxHeight:1000 fit:COVER cropFocus:ENTROPY) {
+                        ...GatsbyImageSharpFluid_withWebp
+                      }
+                      }
+                    }            
+              
+                  }`);
 
 
 
@@ -129,7 +129,7 @@ export default function InMemoriam() {
         <div id="Groom Container" className={styles.weddingPartyColumn}>
           <div id ="ziccardi" className={styles.weddingParty}>
             <div className="wrapper">
-              <div className="image"><Img fluid = {data.brennerRobertRuth.childImageSharp.fluid} /></div>
+              <div className="image"><Img fluid = {data.ziccardiFrankEileen.childImageSharp.fluid} /></div>
                 <h2>Frank and Eileen Ziccardi</h2>
                 <h2 className={styles.h2a}>Frank’s grandparents</h2>
                 <p> </p>

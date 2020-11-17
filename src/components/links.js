@@ -12,7 +12,6 @@ export default function Links({children}) {
         <Link to ="/"><button className={styles.dropButton}>Our Wedding</button></Link>
           <div className ={styles.dropDownContent} id="dropDownContainer">
           <Link to ="https://docs.google.com/forms/d/e/1FAIpQLSdZfPxCR_BM9FCAxx6h4Evt4WRBnEjO3g1SYnFUU8h-nYAc6g/viewform" target='_blank'>RSVP</Link>
-          <Link to ="/in-memoriam">In Memoriam</Link>
           </div>
         </div>
         <Link to ="/ourStory"><button className={styles.navLink}>Our Story</button></Link>
@@ -23,6 +22,7 @@ export default function Links({children}) {
             <Link to="/usInLove">Us In Love</Link>
             <Link to="/proposal">The Proposal</Link>
             <Link to="/engagement">Engagement</Link>
+            <Link to ="/in-memoriam">In Memoriam</Link>
             {/* <Link to="/cats">Our Boys 😺😺</Link> */}
           </div>
         </div>
