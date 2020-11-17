@@ -205,7 +205,7 @@ export default function WeddingParty() {
 
       <div className={styles.weddingPartyContainer} id ="top level" >
 
-        <div id="Bride Container" className={styles.weddingPartyColumn}>
+        <div id="Sydney Container" className={styles.weddingPartyColumn}>
           <div id ="sydney" className={styles.weddingParty}>
             <div className="wrapper">
               <div className="image"><Img fluid = {data.sydney.childImageSharp.fluid} /></div>
@@ -215,7 +215,7 @@ export default function WeddingParty() {
           </div>
         </div>
 
-        <div id="Bride Container" className={styles.weddingPartyColumn}>
+        <div id="Melbourne Container" className={styles.weddingPartyColumn}>
           <div id ="melbourne" className={styles.weddingParty}>
             <div className="wrapper">
               <div className="image"><Img fluid = {data.melbourne.childImageSharp.fluid} /></div>

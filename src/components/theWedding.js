@@ -28,7 +28,7 @@ const TheWedding = () => {
       <div className={styles.heroBottom}>December 31, 2020</div>
       <div>
         <Img fluid={data.coolGuy.childImageSharp.fluid}/>
-        <div className ={styles.heroBottom} style={{paddingTop: '50px'}}>The Wedding</div>
+        <div className ={styles.heroBottom} style={{paddingTop: '50px'}}>Our Zoom Wedding</div>
         <div className = {styles.faqContainer}>
           <div className={styles.faq} style={{fontSize: '16pt', textAlign: 'center'}}><br/>
             December 31, 2020<br/>5:30 – 7:30PM EST<br/>
