@@ -45,23 +45,23 @@ export default function InMemoriam() {
                       }
                       }
                     }
-                  nyeFrank: file(relativePath: { eq: "nyeFrank.JPG" }) {
+                  malafronteTonyDolores: file(relativePath: { eq: "inMemoriam/tony-dee-malafronte.jpg" }) {
                     childImageSharp {
-                      fluid(maxWidth:600 maxHeight:400 fit:COVER cropFocus:CENTER) {
+                      fluid(maxWidth:800 maxHeight:1200 fit:COVER) {
                         ...GatsbyImageSharpFluid_withWebp
                       }
                       }
                     }
-                  snowstorm: file(relativePath: { eq: "snowstormBeccaFrank.JPG" }) {
+                  garyAppleby: file(relativePath: { eq: "inMemoriam/gary-appleby-edit.jpg" }) {
                     childImageSharp {
-                      fluid(maxWidth:1200 maxHeight:800 fit:COVER) {
+                      fluid(maxWidth:1200 maxHeight:1200 fit:COVER) {
                         ...GatsbyImageSharpFluid_withWebp
                       }
                       }
                     } 
-                  ahh: file(relativePath: { eq: "proposal/ah!!!.jpg" }) {
+                  chipMalafronte: file(relativePath: { eq: "inMemoriam/chip-malafronte.jpg" }) {
                     childImageSharp {
-                      fluid(maxWidth:1200 maxHeight:1000 fit:COVER cropFocus:ENTROPY) {
+                      fluid(maxWidth:1200 maxHeight:1200 fit:COVER) {
                         ...GatsbyImageSharpFluid_withWebp
                       }
                       }
@@ -109,7 +109,7 @@ export default function InMemoriam() {
             <div className="wrapper">
               <div className="image"><Img fluid = {data.applebyJoyceHoward.childImageSharp.fluid} /></div>
                 <h2>Joyce and Howard Appleby</h2>
-                <h2 className={styles.h2a}>Becca’s grandparents</h2>
+                <h2 className={styles.h2a}><br/>{/* Becca’s grandparents*/}</h2>
                 <p>{/* Howard and Joyce would have taken an interest in meeting you; Howard asking questions and Joyce smiling and relating to you. Howard would’ve had a camera in hand documenting everything.*/}</p>
             </div>
           </div>
@@ -119,7 +119,7 @@ export default function InMemoriam() {
             <div className="wrapper">
               <div className="image"><Img fluid = {data.brennerRobertRuth.childImageSharp.fluid} /></div>
               <h2>Ruth and Robert Brenner</h2>
-              <h2 className={styles.h2a}>Becca’s grandparents</h2>
+              <h2 className={styles.h2a}><br/>{/* Becca’s grandparents*/}</h2> 
               <p>{/* Robert would have kept us smiling, taking photographs of everything going on, while Ruth would have been the first on the dance floor.*/}</p> 
             </div>
           </div>
@@ -131,7 +131,7 @@ export default function InMemoriam() {
             <div className="wrapper">
               <div className="image"><Img fluid = {data.ziccardiFrankEileen.childImageSharp.fluid} /></div>
                 <h2>Frank and Eileen Ziccardi</h2>
-                <h2 className={styles.h2a}>Frank’s grandparents</h2>
+                <h2 className={styles.h2a}><br/>{/* Frank’s grandparents*/}</h2>
                 <p> </p>
             </div>
           </div>
@@ -139,10 +139,33 @@ export default function InMemoriam() {
 
           <div id ="malafronte" className={styles.weddingParty}>
             <div className="wrapper">
-              <div className="image"><Img fluid = {data.brennerRobertRuth.childImageSharp.fluid} /></div>
-              <h2>Anthony and Delores Malafronte</h2>
-              <h2 className={styles.h2a}>Frank’s grandparents</h2>
+              <div className="image"><Img fluid = {data.malafronteTonyDolores.childImageSharp.fluid} /></div>
+              <h2>Anthony and Dolores Malafronte</h2>
+              <h2 className={styles.h2a}><br/>{/* Frank’s grandparents*/}</h2>
               <p> </p>
+            </div>
+          </div>
+
+        </div>
+      </div>
+
+
+      <div className={styles.weddingPartyContainer} id ="top level" >
+
+        <div id="Bride Container" className={styles.weddingPartyColumn}>
+            <div id ="gary" className={styles.weddingParty}>
+              <div className="wrapper">
+                <div className="image"><Img fluid = {data.garyAppleby.childImageSharp.fluid} /></div>
+                <h2>Gary Appleby</h2>
+              </div>
+            </div>
+        </div>
+
+        <div id="Groom Container" className={styles.weddingPartyColumn}>
+          <div id ="chip" className={styles.weddingParty}>
+            <div className="wrapper">
+              <div className="image"><Img fluid = {data.chipMalafronte.childImageSharp.fluid} /></div>
+              <h2>Chip Malafronte</h2>
             </div>
           </div>
         </div>
@@ -152,16 +175,9 @@ export default function InMemoriam() {
 
 
 
-
-
-
-
-
-
-
     </div>
 
 
-    </Links>
+  </Links>
   );
 }
