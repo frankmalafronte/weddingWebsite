@@ -197,7 +197,7 @@ export default function WeddingParty() {
         <div style={{margin: '20px', paddingBottom:'20px'}}>	
           <div className={styles.center}><Img className ={styles.centerPic} fluid = {data.tim.childImageSharp.fluid}/></div>	
             <h2>Tim (Officiant)</h2>	
-            <p>Frank and Becca are thrilled to be married by their dear friend Tim, who has played a significant role in their relationship. Tim and Becca met within weeks after joining the New York Philharmonic staff, and they grew close after realizing they both lived in Astoria. They would often commute home together after concerts, where they would trade stores about life and laugh endlessly. Tim shares the couple's appreciation of family, love of the arts, and passion for good books. Tim has been a great source of wisdom, joy, and empathy for the couple through the years, and we know he will be the perfect person to lead the celebrations this New Year's Eve!	
+            <p>Frank and Becca are thrilled to be married by their dear friend Tim, who has played a significant role in their relationship. Tim and Becca met within weeks after joining the New York Philharmonic staff, and they grew close after realizing they both lived in Astoria. They would often commute home together after concerts, where they would trade stories about life and laugh endlessly. Tim shares the couple's appreciation of family, love of the arts, and passion for good books. Tim has been a great source of wisdom, joy, and empathy for the couple through the years, and we know he will be the perfect person to lead the celebrations this New Year's Eve!	
             </p>
         </div>
       </div>

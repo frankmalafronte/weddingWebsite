@@ -45,7 +45,7 @@ export default function InMemoriam() {
                       }
                       }
                     }
-                  malafronteTonyDolores: file(relativePath: { eq: "inMemoriam/tony-dee-malafronte.jpg" }) {
+                  malafronteTonyDolores: file(relativePath: { eq: "inMemoriam/tony-dee-malafronte-highres.jpg" }) {
                     childImageSharp {
                       fluid(maxWidth:800 maxHeight:1200 fit:COVER) {
                         ...GatsbyImageSharpFluid_withWebp
@@ -84,7 +84,7 @@ export default function InMemoriam() {
             <div className={styles.center} ><Img className={styles.centerPic} fluid = {data.jimBrenner.childImageSharp.fluid} /></div>
             <h2>Jim Brenner</h2>
             <h2 className={styles.h2a}>Becca’s father</h2>
-            <p><b><i>Laissez les bons temps rouller.</i> Let the good times roll.</b> It’s a phrase that my dad loved to live by, probably even before he knew it. Jim Brenner loved life, and he lived it to the fullest. He knew each day was a gift to be cherished, and each friendship was one to be treasured. 
+            <p><b><i>Laissez les bons temps rouler.</i> Let the good times roll.</b> It’s a phrase that my dad loved to live by, probably even before he knew it. Jim Brenner loved life, and he lived it to the fullest. He knew each day was a gift to be cherished, and each friendship was one to be treasured. 
             <br/><br/>In the Hamilton musical, there is a song titled “Non-Stop” in which they ask Hamilton, “Why do you write like you're running out of time?” And it resonates so much with me because I felt like my father wrote with the same fervor — letters, poems, cards, and emails, ohhh the emails. We found a poem shortly before his funeral, titled “With More Like You,” which closed with this:
             <br/><br/></p>
             <p style={{textAlign:"center"}}><i>With more like you, the world would be
