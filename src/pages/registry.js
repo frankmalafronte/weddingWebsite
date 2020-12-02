@@ -16,7 +16,7 @@ export default function Photos() {
         <div className ={styles.faq}>
 
           <div><h3>We love receiving mail and especially cards. We’d love to add your card to our collage wall! Our mailing address is:
-          </h3><br /><h3 style ={{textAlign: 'center'}}>50 E 18 Street Apt C7<br />Brooklyn, NY, 11226</h3></div>
+          </h3><br /><h3 style ={{textAlign: 'center'}}>61 Shady Hill Lane<br />Middletown, CT, 06457</h3></div>
           <br></br>
           <div style ={{display: 'flex', justifyContent: 'center'}} ><h3>
             We are also registered at <a href="https://www.zola.com/registry/beccafrank" target="_blank">Zola.com</a>.
