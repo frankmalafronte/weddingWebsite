@@ -52,7 +52,7 @@ export default function InMemoriam() {
                       }
                       }
                     }
-                  garyAppleby: file(relativePath: { eq: "inMemoriam/gary-appleby-edit.jpg" }) {
+                  garyAppleby: file(relativePath: { eq: "inMemoriam/gary-appleby-2.jpg" }) {
                     childImageSharp {
                       fluid(maxWidth:1200 maxHeight:1200 fit:COVER) {
                         ...GatsbyImageSharpFluid_withWebp
