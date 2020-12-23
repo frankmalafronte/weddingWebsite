@@ -46,7 +46,7 @@ export default function FAQ() {
     // },
     {
       question: 'What will be the format of the event?',
-      answer: 'We will post a more detailed schedule closer to the wedding date, but for now, we are planning for a slideshow and music to open the room, followed by the ceremony and exchanging of vows, then breakout rooms with other guests at ‘tables’ and brief toasts at the end.',
+      answer: 'We will post a more detailed schedule closer to the wedding date, but for now, we are planning for a slideshow and music to open the room, followed by the ceremony and exchanging of vows, and brief toasts at the end.',
       open: false,
     },
     {
