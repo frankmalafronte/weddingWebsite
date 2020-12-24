@@ -12,6 +12,8 @@ export default function Links({children}) {
         <Link to ="/"><button className={styles.dropButton}>Our Wedding</button></Link>
           <div className ={styles.dropDownContent} id="dropDownContainer">
           <Link to ="https://docs.google.com/forms/d/e/1FAIpQLSdZfPxCR_BM9FCAxx6h4Evt4WRBnEjO3g1SYnFUU8h-nYAc6g/viewform" target='_blank'>RSVP</Link>
+          <Link to = "/cocktails">Cocktails</Link>
+
           </div>
         </div>
         <Link to ="/ourStory"><button className={styles.navLink}>Our Story</button></Link>
