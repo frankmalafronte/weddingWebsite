@@ -33,8 +33,11 @@ const TheWedding = () => {
           <div className={styles.faq} style={{fontSize: '16pt', textAlign: 'center'}}><br/>
             December 31, 2020<br/>5:30 – 7:30PM EST<br/>
             <br/>
-            On Zoom<br/>
-            (Link coming soon!)<br/><br/></div>
+            <a href="https://www.zola.com/registry/beccafrank" target="_blank"><a href="https://us02web.zoom.us/j/84784993103" target="_blank">Zoom Link!</a></a>
+            <div>Passcode: beccafrank</div>
+           <br/>
+           <br/>
+           </div>
           <div className={styles.faq} style={{fontSize: '14pt'}}>As we prepare to start the next chapter of our lives together,
           we want to be surrounded by all of the people who have helped shape who we are as individuals and as a couple. <br/><br/>
           That's why we are so grateful to be able to make things official over Zoom on New Year's Eve. <a href="/FAQ">Read more here </a></div>
