@@ -13,6 +13,7 @@ export default function Links({children}) {
           <div className ={styles.dropDownContent} id="dropDownContainer">
           <Link to ="https://docs.google.com/forms/d/e/1FAIpQLSdZfPxCR_BM9FCAxx6h4Evt4WRBnEjO3g1SYnFUU8h-nYAc6g/viewform" target='_blank'>RSVP</Link>
           <Link to = "/cocktails">Cocktails</Link>
+          <Link to = "/details">Details</Link>
 
           </div>
         </div>
@@ -25,7 +26,8 @@ export default function Links({children}) {
             <Link to="/proposal">The Proposal</Link>
             <Link to="/engagement">Engagement</Link>
             <Link to ="/in-memoriam">In Memoriam</Link>
-            {/* <Link to="/cats">Our Boys 😺😺</Link> */}
+            <Link to ="/weddingDay">Wedding Day</Link>
+            <Link to ="/crowdSource">Crowd Source</Link>
           </div>
         </div>
 
