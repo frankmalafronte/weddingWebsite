@@ -8,7 +8,7 @@ import {getWeddingDay} from '../hooks/weddingDay';
 
 
 export default function usInLove() {
-  const data = (getWeddingDay);
+  const data = getWeddingDay()
   const array = Object.values(data);
   return (
     <Links>

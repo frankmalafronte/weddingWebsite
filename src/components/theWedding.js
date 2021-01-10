@@ -9,7 +9,7 @@ import WeddingParty from './weddingParty';
 const TheWedding = () => {
   const data = useStaticQuery(graphql`
     query {
-      coolGuy: file(relativePath: { eq: "becca-frank-engagement.jpg" }) {
+      cover: file(relativePath: { eq: "weddingDay/sue/post/ceremony6.JPG" }) {
         id
         childImageSharp {
           fluid (maxWidth:1500 maxHeight:600 fit:COVER ) {
@@ -27,7 +27,7 @@ const TheWedding = () => {
       <div className={styles.heroTop}>Frank + Becca</div>
       <div className={styles.heroBottom}>December 31, 2020</div>
       <div>
-        <Img fluid={data.coolGuy.childImageSharp.fluid}/>
+        <Img fluid={data.cover.childImageSharp.fluid}/>
         <div className ={styles.heroBottom} style={{paddingTop: '50px'}}>Our Zoom Wedding</div>
         <div className = {styles.faqContainer}>
           <div className={styles.faq} style={{fontSize: '16pt', textAlign: 'center'}}><br/>
