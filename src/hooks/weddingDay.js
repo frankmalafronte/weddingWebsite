@@ -3,7 +3,7 @@ import {useStaticQuery, graphql} from 'gatsby';
 export const getWeddingDay = () =>{
   const data = useStaticQuery(graphql`
   query {
-    cakeTopper: file(relativePath: { eq: "weddingDay/sue/prep/cakeTopper.JPG" }) {
+    cake: file(relativePath: { eq: "weddingDay/sue/prep/cake.JPG" }) {
       childImageSharp {
       fluid(maxWidth:1200 maxHeight:1200 fit:COVER) {
       ...GatsbyImageSharpFluid_withWebp              
@@ -12,14 +12,14 @@ export const getWeddingDay = () =>{
     }
     stockings: file(relativePath: { eq: "weddingDay/sue/prep/stockings.jpg" }) {
       childImageSharp {
-        fluid(maxWidth:1200 maxHeight:1200 fit:COVER) {
+        fluid(maxWidth:1200 maxHeight:1200 fit:COVER cropFocus:EAST) {
           ...GatsbyImageSharpFluid_withWebp
         }
         }
       }  
       blackboard: file(relativePath: { eq: "weddingDay/sue/prep/blackboard.jpg" }) {
         childImageSharp {
-          fluid(maxWidth:1200 maxHeight:1200 fit:COVER) {
+          fluid(maxWidth:1200 maxHeight:1200 fit:COVER cropFocus:CENTER) {
             ...GatsbyImageSharpFluid_withWebp
           }
           }
