@@ -150,7 +150,91 @@ export const getWeddingDay = () =>{
                     }
                     }
                   }
-                  
+            tie2: file(relativePath: { eq: "weddingDay/condo/tie2.jpg" }) {
+              childImageSharp {
+                fluid(maxWidth:1200 maxHeight:1200 fit:COVER) {
+                  ...GatsbyImageSharpFluid_withWebp
+                }
+                }
+                }
+            tie3: file(relativePath: { eq: "weddingDay/condo/tie3.jpg" }) {
+              childImageSharp {
+                fluid(maxWidth:1200 maxHeight:1200 fit:COVER) {
+                  ...GatsbyImageSharpFluid_withWebp
+                }
+                }
+                }
+              tie4: file(relativePath: { eq: "weddingDay/condo/tie4.jpg" }) {
+                childImageSharp {
+                  fluid(maxWidth:1200 maxHeight:1200 fit:COVER) {
+                    ...GatsbyImageSharpFluid_withWebp
+                  }
+                  }
+                  }
+                  tie5: file(relativePath: { eq: "weddingDay/condo/tie5.jpg" }) {
+                    childImageSharp {
+                      fluid(maxWidth:1200 maxHeight:1200 fit:COVER) {
+                        ...GatsbyImageSharpFluid_withWebp
+                      }
+                      }
+                      }
+                      tie6: file(relativePath: { eq: "weddingDay/condo/tie6.jpg" }) {
+                        childImageSharp {
+                          fluid(maxWidth:1200 maxHeight:1200 fit:COVER) {
+                            ...GatsbyImageSharpFluid_withWebp
+                          }
+                          }
+                          }
+                    timHelp1: file(relativePath: { eq: "weddingDay/condo/timHelp1.jpg" }) {
+                      childImageSharp {
+                        fluid(maxWidth:1200 maxHeight:1200 fit:COVER) {
+                          ...GatsbyImageSharpFluid_withWebp
+                        }
+                        }
+                        }
+                    tiemHelp2: file(relativePath: { eq: "weddingDay/condo/timHelp2.jpg" }) {
+                      childImageSharp {
+                        fluid(maxWidth:1200 maxHeight:1200 fit:COVER) {
+                          ...GatsbyImageSharpFluid_withWebp
+                        }
+                        }
+                        }
+                    timHelp3: file(relativePath: { eq: "weddingDay/condo/timHelp3.jpg" }) {
+                      childImageSharp {
+                        fluid(maxWidth:1200 maxHeight:1200 fit:COVER) {
+                          ...GatsbyImageSharpFluid_withWebp
+                        }
+                        }
+                        }
+                        timHelp4: file(relativePath: { eq: "weddingDay/condo/timHelp4.jpg" }) {
+                          childImageSharp {
+                            fluid(maxWidth:1200 maxHeight:1200 fit:COVER) {
+                              ...GatsbyImageSharpFluid_withWebp
+                            }
+                            }
+                            }
+                        willow2: file(relativePath: { eq: "weddingDay/condo/willow2.jpg" }) {
+                          childImageSharp {
+                            fluid(maxWidth:1200 maxHeight:1200 fit:COVER) {
+                              ...GatsbyImageSharpFluid_withWebp
+                            }
+                            }
+                            }
+                        momFrank: file(relativePath: { eq: "weddingDay/condo/momFrank.jpg" }) {
+                          childImageSharp {
+                            fluid(maxWidth:1200 maxHeight:1200 fit:COVER) {
+                              ...GatsbyImageSharpFluid_withWebp
+                            }
+                            }
+                            }
+                  momFrank2: file(relativePath: { eq: "weddingDay/condo/momFrank2.jpg" }) {
+                    childImageSharp {
+                      fluid(maxWidth:1200 maxHeight:1200 fit:COVER) {
+                        ...GatsbyImageSharpFluid_withWebp
+                      }
+                      }
+                      }
+
                   mattDad: file(relativePath: { eq: "weddingDay/sue/ceremony/mattDad.JPG" }) {
                     childImageSharp {
                       fluid(maxWidth:1200 maxHeight:1200 fit:COVER) {
