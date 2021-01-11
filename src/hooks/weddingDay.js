@@ -67,6 +67,13 @@ export const getWeddingDay = () =>{
           }
           }
           }
+        tie4: file(relativePath: { eq: "weddingDay/condo/tie4.jpg" }) {
+          childImageSharp {
+            fluid(maxWidth:800 maxHeight:800 fit:COVER) {
+              ...GatsbyImageSharpFluid_withWebp
+            }
+            }
+          }
       tie5: file(relativePath: { eq: "weddingDay/condo/tie5.jpg" }) {
         childImageSharp {
           fluid(maxWidth:1200 maxHeight:1200 fit:COVER) {
@@ -390,32 +397,8 @@ export const getWeddingDay = () =>{
                   }
                   }
                 }
-<<<<<<< HEAD
-              beccaTim: file(relativePath: { eq: "weddingDay/sue/post/beccaTim.JPG" }) {
-=======
-                support: file(relativePath: { eq: "weddingDay/sue/prep/support.JPG" }) {
-                  childImageSharp {
-                    fluid(maxWidth:1200 maxHeight:1200 fit:COVER) {
-                      ...GatsbyImageSharpFluid_withWebp
-                    }
-                    }
-                  }
-            tie2: file(relativePath: { eq: "weddingDay/condo/tie2.jpg" }) {
-              childImageSharp {
-                fluid(maxWidth:1200 maxHeight:1200 fit:COVER) {
-                  ...GatsbyImageSharpFluid_withWebp
-                }
-                }
-                }
-              tie4: file(relativePath: { eq: "weddingDay/condo/tie4.jpg" }) {
->>>>>>> f6ec9a5d55b02b83fd1250da49796fb7a6cfa287
-                childImageSharp {
-                  fluid(maxWidth:800 maxHeight:800 fit:COVER) {
-                    ...GatsbyImageSharpFluid_withWebp
-                  }
-                  }
-                }
-                    tiemHelp2: file(relativePath: { eq: "weddingDay/condo/timHelp2.jpg" }) {
+           
+                    timHelp2: file(relativePath: { eq: "weddingDay/condo/timHelp2.jpg" }) {
                       childImageSharp {
                         fluid(maxWidth:1200 maxHeight:1200 fit:COVER) {
                           ...GatsbyImageSharpFluid_withWebp

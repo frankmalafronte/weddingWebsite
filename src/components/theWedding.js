@@ -34,8 +34,7 @@ const TheWedding = () => {
             December 31, 2020<br/>5:30 – 7:30PM EST<br/>
             <br/>
             <div></div>
-            <a href="https://www.zola.com/registry/beccafrank" target="_blank"><a href="https://us02web.zoom.us/j/84784993103" target="_blank">Zoom Link!</a></a>
-            <div>Passcode: beccafrank</div>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/fd5fzA4NDd8" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> 
            <br/>
            <br/>
            </div>
