@@ -67,6 +67,13 @@ export const getWeddingDay = () =>{
           }
           }
           }
+        tie4: file(relativePath: { eq: "weddingDay/condo/tie4.jpg" }) {
+          childImageSharp {
+            fluid(maxWidth:800 maxHeight:800 fit:COVER) {
+              ...GatsbyImageSharpFluid_withWebp
+            }
+            }
+          }
       tie5: file(relativePath: { eq: "weddingDay/condo/tie5.jpg" }) {
         childImageSharp {
           fluid(maxWidth:1200 maxHeight:1200 fit:COVER) {
@@ -421,7 +428,6 @@ export const getWeddingDay = () =>{
               }
               }
             }
-          
             tim1: file(relativePath: { eq: "weddingDay/sue/post/tim1.JPG" }) {
               childImageSharp {
                 fluid(maxWidth:800 maxHeight:800 fit:COVER) {
@@ -429,9 +435,6 @@ export const getWeddingDay = () =>{
                 }
                 }
               }
-
-                                
-                              
 
     }`);
   return data;

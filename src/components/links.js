@@ -22,14 +22,12 @@ export default function Links({children}) {
         <div className={styles.dropDown} >
           <button className={styles.dropButton}>Media</button>
           <div className ={styles.dropDownContent} id="dropDownContainer">
-            <Link to="/usInLove">Us In Love</Link>
-            <Link to="/proposal">The Proposal</Link>
-            <Link to="/engagement">Engagement</Link>
-            <Link to ="/weddingDay">Wedding Day</Link>
-            <Link to ="/crowdSource">Crowd Source</Link>
-            <Link to ="/music">Music</Link>
-
-
+          <Link to ="/weddingDay">Wedding Day</Link>
+          <Link to ="/music">Music</Link>
+          <Link to ="/fromOurFriends">From Our Friends</Link>
+          <Link to="/engagement">Engagement</Link>
+          <Link to="/usInLove">Us In Love</Link>
+          <Link to="/proposal">The Proposal</Link>
           </div>
         </div>
 
