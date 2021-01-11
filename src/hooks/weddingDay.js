@@ -150,6 +150,7 @@ export const getWeddingDay = () =>{
                     }
                     }
                   }
+                  
                   mattDad: file(relativePath: { eq: "weddingDay/sue/ceremony/mattDad.JPG" }) {
                     childImageSharp {
                       fluid(maxWidth:1200 maxHeight:1200 fit:COVER) {
@@ -235,7 +236,7 @@ export const getWeddingDay = () =>{
                                         }
                                         }
                                       }
-                                      theGuys: file(relativePath: { eq: "weddingDay/sue/post/theGirls.JPG" }) {
+                                      theGuys: file(relativePath: { eq: "weddingDay/sue/post/theGuys.JPG" }) {
                                         childImageSharp {
                                           fluid(maxWidth:1200 maxHeight:1200 fit:COVER) {
                                             ...GatsbyImageSharpFluid_withWebp
