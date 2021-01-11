@@ -9,7 +9,7 @@ import WeddingParty from './weddingParty';
 const TheWedding = () => {
   const data = useStaticQuery(graphql`
     query {
-      cover: file(relativePath: { eq: "weddingDay/sue/post/ceremony6.JPG" }) {
+      cover: file(relativePath: { eq: "weddingDay/sue/ceremony/ceremony6.JPG" }) {
         id
         childImageSharp {
           fluid (maxWidth:1500 maxHeight:600 fit:COVER ) {

@@ -60,6 +60,34 @@ export const getWeddingDay = () =>{
         }
         }
       }
+      tie2: file(relativePath: { eq: "weddingDay/condo/tie2.jpg" }) {
+        childImageSharp {
+          fluid(maxWidth:1200 maxHeight:1200 fit:COVER) {
+            ...GatsbyImageSharpFluid_withWebp
+          }
+          }
+          }
+      tie5: file(relativePath: { eq: "weddingDay/condo/tie5.jpg" }) {
+        childImageSharp {
+          fluid(maxWidth:1200 maxHeight:1200 fit:COVER) {
+            ...GatsbyImageSharpFluid_withWebp
+          }
+          }
+          }
+      tie6: file(relativePath: { eq: "weddingDay/condo/tie6.jpg" }) {
+        childImageSharp {
+          fluid(maxWidth:1200 maxHeight:1200 fit:COVER) {
+            ...GatsbyImageSharpFluid_withWebp
+          }
+          }
+          }
+      timHelp1: file(relativePath: { eq: "weddingDay/condo/timHelp1.jpg" }) {
+        childImageSharp {
+          fluid(maxWidth:1200 maxHeight:1200 fit:COVER) {
+            ...GatsbyImageSharpFluid_withWebp
+          }
+          }
+          }
       makeup: file(relativePath: { eq: "weddingDay/sue/prep/makeup.JPG" }) {
         childImageSharp {
           fluid(maxWidth:800 maxHeight:800 fit:COVER) {
@@ -67,20 +95,13 @@ export const getWeddingDay = () =>{
         }
           }
       }
-      makeup3: file(relativePath: { eq: "weddingDay/sue/prep/makeup3.JPG" }) {
-        childImageSharp {
-          fluid(maxWidth:800 maxHeight:800 fit:COVER cropFocus:CENTER) {
-            ...GatsbyImageSharpFluid_withWebp
-          }
-          }
-        }  
       beccaErin2: file(relativePath: { eq: "weddingDay/sue/prep/beccaErin2.JPG" }) {
         childImageSharp {
           fluid(maxWidth:800 maxHeight:800 fit:COVER cropFocus:EAST) {
             ...GatsbyImageSharpFluid_withWebp
         }
         }
-      } 
+      }  
       makeup2: file(relativePath: { eq: "weddingDay/sue/prep/makeup2.JPG" }) {
         childImageSharp {
           fluid(maxWidth:800 maxHeight:800 fit:COVER) {
@@ -88,6 +109,13 @@ export const getWeddingDay = () =>{
           }
           }
         }
+      makeup3: file(relativePath: { eq: "weddingDay/sue/prep/makeup3.JPG" }) {
+        childImageSharp {
+          fluid(maxWidth:800 maxHeight:800 fit:COVER cropFocus:CENTER) {
+            ...GatsbyImageSharpFluid_withWebp
+          }
+          }
+        } 
       lipstick: file(relativePath: { eq: "weddingDay/sue/prep/lipstick.JPG" }) {
         childImageSharp {
         fluid(maxWidth:800 maxHeight:800 fit:COVER cropFocus:CENTER) {
@@ -312,14 +340,14 @@ export const getWeddingDay = () =>{
               }
               }
             }
-          marion1: file(relativePath: { eq: "weddingDay/sue/post/beccaMarion4.JPG" }) {
+          marion1: file(relativePath: { eq: "weddingDay/sue/post/marion1.JPG" }) {
             childImageSharp {
               fluid(maxWidth:800 maxHeight:800 fit:COVER) {
                 ...GatsbyImageSharpFluid_withWebp
               }
               }
             }
-          mattMarion1: file(relativePath: { eq: "weddingDay/sue/post/beccaMarion4.JPG" }) {
+          mattMarion1: file(relativePath: { eq: "weddingDay/sue/post/mattMarion1.JPG" }) {
             childImageSharp {
               fluid(maxWidth:800 maxHeight:800 fit:COVER) {
                 ...GatsbyImageSharpFluid_withWebp
@@ -369,8 +397,49 @@ export const getWeddingDay = () =>{
                   }
                   }
                 }
-
-                                    
+                    tiemHelp2: file(relativePath: { eq: "weddingDay/condo/timHelp2.jpg" }) {
+                      childImageSharp {
+                        fluid(maxWidth:1200 maxHeight:1200 fit:COVER) {
+                          ...GatsbyImageSharpFluid_withWebp
+                        }
+                        }
+                        }
+                    timHelp3: file(relativePath: { eq: "weddingDay/condo/timHelp3.jpg" }) {
+                      childImageSharp {
+                        fluid(maxWidth:1200 maxHeight:1200 fit:COVER) {
+                          ...GatsbyImageSharpFluid_withWebp
+                        }
+                        }
+                        }
+                        timHelp4: file(relativePath: { eq: "weddingDay/condo/timHelp4.jpg" }) {
+                          childImageSharp {
+                            fluid(maxWidth:1200 maxHeight:1200 fit:COVER) {
+                              ...GatsbyImageSharpFluid_withWebp
+                            }
+                            }
+                            }
+                        willow2: file(relativePath: { eq: "weddingDay/condo/willow2.jpg" }) {
+                          childImageSharp {
+                            fluid(maxWidth:1200 maxHeight:1200 fit:COVER) {
+                              ...GatsbyImageSharpFluid_withWebp
+                            }
+                            }
+                            }
+                        momFrank: file(relativePath: { eq: "weddingDay/condo/momFrank.jpg" }) {
+                          childImageSharp {
+                            fluid(maxWidth:1200 maxHeight:1200 fit:COVER) {
+                              ...GatsbyImageSharpFluid_withWebp
+                            }
+                            }
+                            }
+                  momFrank2: file(relativePath: { eq: "weddingDay/condo/momFrank2.jpg" }) {
+                    childImageSharp {
+                      fluid(maxWidth:1200 maxHeight:1200 fit:COVER) {
+                        ...GatsbyImageSharpFluid_withWebp
+                      }
+                      }
+                      }
+                                
                               
                 
 
