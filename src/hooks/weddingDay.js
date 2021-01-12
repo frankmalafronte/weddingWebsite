@@ -12,7 +12,7 @@ export const getWeddingDay = () =>{
       }
     stockings: file(relativePath: { eq: "weddingDay/sue/prep/stockings.jpg" }) {
       childImageSharp {
-        fluid(maxWidth:800 maxHeight:800 fit:COVER cropFocus:CENTER) {
+        fluid(maxWidth:800 maxHeight:800 fit:COVER cropFocus:SOUTH) {
           ...GatsbyImageSharpFluid_withWebp
         }
         }
@@ -371,35 +371,6 @@ export const getWeddingDay = () =>{
               }
               }
             }
-          sueMarion2: file(relativePath: { eq: "weddingDay/sue/post/sueMarion2.JPG" }) {
-            childImageSharp {
-              fluid(maxWidth:800 maxHeight:800 fit:COVER cropFocus:CENTER) {
-                ...GatsbyImageSharpFluid_withWebp
-              }
-              }
-            }
-
-            license2: file(relativePath: { eq: "weddingDay/sue/license/license2.JPG" }) {
-              childImageSharp {
-                fluid(maxWidth:800 maxHeight:800 fit:COVER cropFocus:CENTER) {
-                  ...GatsbyImageSharpFluid_withWebp
-                }
-                }
-              }
-            blessing: file(relativePath: { eq: "weddingDay/sue/license/jesus.JPG" }) {
-              childImageSharp {
-                fluid(maxWidth:800 maxHeight:800 fit:COVER cropFocus:CENTER) {
-                  ...GatsbyImageSharpFluid_withWebp
-                }
-                }
-              }
-          marion1: file(relativePath: { eq: "weddingDay/sue/post/marion1.JPG" }) {
-            childImageSharp {
-              fluid(maxWidth:800 maxHeight:800 fit:COVER) {
-                ...GatsbyImageSharpFluid_withWebp
-              }
-              }
-            }
           mattsue1: file(relativePath: { eq: "weddingDay/sue/post/mattSue1.JPG" }) {
             childImageSharp {
               fluid(maxWidth:800 maxHeight:800 fit:COVER cropFocus:CENTER) {
@@ -407,16 +378,31 @@ export const getWeddingDay = () =>{
               }
               }
             }
-            mattMarion1: file(relativePath: { eq: "weddingDay/sue/post/mattMarion1.JPG" }) {
-              childImageSharp {
-                fluid(maxWidth:800 maxHeight:800 fit:COVER cropFocus:CENTER) {
-                  ...GatsbyImageSharpFluid_withWebp
-                }
-                }
+
+          license2: file(relativePath: { eq: "weddingDay/sue/license/license2.JPG" }) {
+            childImageSharp {
+              fluid(maxWidth:800 maxHeight:800 fit:COVER cropFocus:CENTER) {
+                ...GatsbyImageSharpFluid_withWebp
               }
-          sillyMatt: file(relativePath: { eq: "weddingDay/sue/post/sillyMatt.JPG" }) {
+              }
+            }
+          blessing: file(relativePath: { eq: "weddingDay/sue/license/jesus.JPG" }) {
+            childImageSharp {
+              fluid(maxWidth:800 maxHeight:800 fit:COVER cropFocus:CENTER) {
+                ...GatsbyImageSharpFluid_withWebp
+              }
+              }
+            }
+          breakouts: file(relativePath: { eq: "weddingDay/fromFriends/beccaFrankBreakouts.jpg" }) {
             childImageSharp {
               fluid(maxWidth:800 maxHeight:800 fit:COVER) {
+                ...GatsbyImageSharpFluid_withWebp
+              }
+              }
+            }
+          sueMarion2: file(relativePath: { eq: "weddingDay/sue/post/sueMarion2.JPG" }) {
+            childImageSharp {
+              fluid(maxWidth:800 maxHeight:800 fit:COVER cropFocus:CENTER) {
                 ...GatsbyImageSharpFluid_withWebp
               }
               }
@@ -428,7 +414,21 @@ export const getWeddingDay = () =>{
               }
               }
             }
-            tim1: file(relativePath: { eq: "weddingDay/sue/post/tim1.JPG" }) {
+          mattMarion1: file(relativePath: { eq: "weddingDay/sue/post/mattMarion1.JPG" }) {
+            childImageSharp {
+              fluid(maxWidth:800 maxHeight:800 fit:COVER cropFocus:CENTER) {
+                ...GatsbyImageSharpFluid_withWebp
+              }
+              }
+            }
+          sillyMatt: file(relativePath: { eq: "weddingDay/sue/post/sillyMatt.JPG" }) {
+            childImageSharp {
+              fluid(maxWidth:800 maxHeight:800 fit:COVER) {
+                ...GatsbyImageSharpFluid_withWebp
+              }
+              }
+            }
+            sparklers: file(relativePath: { eq: "weddingDay/fromFriends/beccaFrankSparklers.jpg" }) {
               childImageSharp {
                 fluid(maxWidth:800 maxHeight:800 fit:COVER) {
                   ...GatsbyImageSharpFluid_withWebp
