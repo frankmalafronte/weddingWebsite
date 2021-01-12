@@ -39,9 +39,7 @@ export default function Cocktails() {
       }`)
   
   return (
-    <div>
       <Links>
-      </Links>
       <div className ={styles.heroBottom} style={{paddingTop: '50px'}}>Cocktails</div>
       <div className={styles.weddingPartyContainer} id ="top level" >
       <div id="Drinks Container" className={styles.weddingPartyColumn}>
@@ -102,6 +100,7 @@ export default function Cocktails() {
   </div>
   </div>
     </div>
-    </div>
+    </Links>
+
   )
 }
