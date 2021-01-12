@@ -13,8 +13,8 @@ export default function Links({children}) {
           <div className ={styles.dropDownContent} id="dropDownContainer">
           <Link to = "/details">Special Details</Link>
           <Link to = "/cocktails">Cocktails</Link>
+          <Link to ="/weddingParty">Wedding Party</Link>
           <Link to ="/in-memoriam">In Memoriam</Link>
-
           </div>
         </div>
         <Link to ="/ourStory"><button className={styles.navLink}>Our Story</button></Link>

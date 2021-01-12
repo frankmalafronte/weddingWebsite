@@ -31,7 +31,6 @@ const TheWedding = () => {
         <div className ={styles.heroBottom} style={{paddingTop: '50px'}}>Our Zoom Wedding</div>
         <div className = {styles.faqContainer}>
           <div className={styles.faq}>
-            <div style={{fontSize: '16pt', textAlign: 'center'}}><br/>December 31, 2020<br/><br/></div>
             <div>Thank you to all who joined us for our Zoom ceremony! We hope you enjoy this recording of the big day and that it brings your smiles and joy. We have also added photos and videos from throughout the day, so be sure to check it out!
             <br/><br/>We hope you are safe and well, and we so look forward to the day we can all be in person together again! 
             <br/><br/>Love, Becca and Frank <br/><br/>
@@ -42,9 +41,7 @@ const TheWedding = () => {
            </div></div>
           
         </div>
- 
-        <WeddingParty/>
-      </div>
+       </div>
     </div>
   );
 };
