@@ -11,7 +11,7 @@ export default function Links({children}) {
         <div className={styles.dropDown} >
         <Link to ="/"><button className={styles.dropButton}>Our Wedding</button></Link>
           <div className ={styles.dropDownContent} id="dropDownContainer">
-          <Link to = "/details">Details</Link>
+          <Link to = "/details">Special Details</Link>
           <Link to = "/cocktails">Cocktails</Link>
           <Link to ="/in-memoriam">In Memoriam</Link>
 
@@ -20,7 +20,7 @@ export default function Links({children}) {
         <Link to ="/ourStory"><button className={styles.navLink}>Our Story</button></Link>
 
         <div className={styles.dropDown} >
-          <button className={styles.dropButton}>Media</button>
+          <button className={styles.dropButton}>Photos + Videos</button>
           <div className ={styles.dropDownContent} id="dropDownContainer">
           <Link to ="/weddingDay">Wedding Day</Link>
           <Link to ="/music">Music</Link>

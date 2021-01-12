@@ -4,11 +4,11 @@ import Img from 'gatsby-image';
 import Links from '../components/links';
 import styles from '../components/styles.module.css';
 import Gallery from '../components/Gallery';
-import {getCrowdSource} from '../hooks/fromOurFriends';
+import {getFromOurFriends} from '../hooks/fromOurFriends';
 
 
-export default function fromOurFriends() {
-  const data = getCrowdSource()
+export default function FromOurFriends() {
+  const data = getFromOurFriends()
   const array = Object.values(data);
   return (
     <Links>
