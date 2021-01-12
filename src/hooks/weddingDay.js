@@ -87,14 +87,7 @@ export const getWeddingDay = () =>{
             ...GatsbyImageSharpFluid_withWebp
           }
           }
-          }
-      timHelp1: file(relativePath: { eq: "weddingDay/condo/timHelp1.jpg" }) {
-        childImageSharp {
-          fluid(maxWidth:1200 maxHeight:1200 fit:COVER) {
-            ...GatsbyImageSharpFluid_withWebp
-          }
-          }
-          }
+        }
       makeup: file(relativePath: { eq: "weddingDay/sue/prep/makeup.JPG" }) {
         childImageSharp {
           fluid(maxWidth:800 maxHeight:800 fit:COVER) {
@@ -123,6 +116,13 @@ export const getWeddingDay = () =>{
           }
           }
         } 
+        timHelp1: file(relativePath: { eq: "weddingDay/condo/timHelp1.jpg" }) {
+          childImageSharp {
+            fluid(maxWidth:1200 maxHeight:1200 fit:COVER) {
+              ...GatsbyImageSharpFluid_withWebp
+            }
+            }
+            }
       tie4: file(relativePath: { eq: "weddingDay/condo/tie4.jpg" }) {
         childImageSharp {
           fluid(maxWidth:800 maxHeight:800 fit:COVER) {
