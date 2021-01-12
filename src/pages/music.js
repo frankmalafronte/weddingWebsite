@@ -14,7 +14,6 @@ export default function Music() {
     <div>
     <title>Becca + Frank</title>
     <Links>
-    </Links>
 
     <div c id ="header" className ={styles.heroBottom} style={{paddingTop: '50px'}}>Our Music</div>
     <h2 className={styles.h2a}>Sung by Becca’s mother, Nancy Appleby Brenner</h2>
@@ -42,19 +41,8 @@ export default function Music() {
       </div>
 
     </div>
-
+    </Links>
     </div>
-    
-
-
-
-
-
-
-
-
-
-
   );
 }
 

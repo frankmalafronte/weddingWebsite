@@ -3,7 +3,6 @@ import {useStaticQuery, graphql} from 'gatsby';
 import Img from 'gatsby-image';
 import styles from '../components/styles.module.css';
 import Links from './links';
-import WeddingParty from './weddingParty';
 
 
 const TheWedding = () => {

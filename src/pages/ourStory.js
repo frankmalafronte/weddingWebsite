@@ -123,7 +123,6 @@ export default function OurStory() {
     <div>
       <title>Becca + Frank</title>
       <Links>
-      </Links>
 
       <div c id ="header" className ={styles.heroBottom} style={{paddingTop: '50px'}}>Our Story</div>
 
@@ -224,6 +223,7 @@ Phasellus tellus enim, elementum sit amet laoreet sit amet, pharetra eget est. S
           </div>
         </div>
       </div>*/}
+            </Links>
     </div>
   );
 }
