@@ -34,7 +34,7 @@ const TheWedding = () => {
             <br/><br/>We hope you are safe and well, and we so look forward to the day we can all be in person together again! 
             <br/><br/>Love, Becca and Frank <br/><br/>
             <div></div>
-            <iframe width="100%" height="500" src="https://www.youtube.com/embed/fd5fzA4NDd8" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; fullscreen" allowfullscreen></iframe> 
+            <iframe width="100%" height="500" src="https://www.youtube.com/embed/1KcYNfRSWLA" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; fullscreen" allowfullscreen></iframe> 
            <br/>
            <br/>
            </div></div>

@@ -73,6 +73,8 @@ export default function InMemoriam() {
 
 
   return (
+    <div>
+    <title>Becca + Frank</title>
     <Links>
     <div id="parent">
 
@@ -179,5 +181,6 @@ export default function InMemoriam() {
 
 
   </Links>
+  </div>
   );
 }

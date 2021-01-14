@@ -60,6 +60,8 @@ export default function Details() {
     }`)
   
   return (
+    <div>
+    <title>Becca + Frank</title>
       <Links>
       <div className ={styles.heroBottom} style={{paddingTop: '50px'}}>Good Luck Traditions & Details</div>
       <div className={styles.weddingPartyContainer} id ="top level" >
@@ -144,7 +146,6 @@ export default function Details() {
         </div>
       </div>
     </Links>
-
-    
+  </div>
   )
 }

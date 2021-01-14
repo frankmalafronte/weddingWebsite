@@ -11,8 +11,11 @@ export default function FromOurFriends() {
   const data = getFromOurFriends()
   const array = Object.values(data);
   return (
+    <div>
+    <title>Becca + Frank</title>
     <Links>
       <Gallery photos = {data} array ={array}/>
     </Links>
+    </div>
   );
 }

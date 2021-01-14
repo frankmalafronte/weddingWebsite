@@ -90,6 +90,38 @@ export const getFromOurFriends = () =>{
     }
     }
 
+    elizabeth2: file(relativePath: { eq: "weddingDay/fromFriends/elizabeth2.jpg" }) {
+      childImageSharp {
+      fluid(maxWidth:1200 maxHeight:1200 fit:COVER) {
+      ...GatsbyImageSharpFluid_withWebp              
+     }
+    }
+    }
+
+    baby1: file(relativePath: { eq: "weddingDay/fromFriends/baby1.jpg" }) {
+      childImageSharp {
+      fluid(maxWidth:1200 maxHeight:1200 fit:COVER) {
+      ...GatsbyImageSharpFluid_withWebp              
+     }
+    }
+    }
+
+
+    elizabethAnthony: file(relativePath: { eq: "weddingDay/zoom/elizabethAnthony.png" }) {
+      childImageSharp {
+      fluid(maxWidth:1200 maxHeight:900 fit:COVER cropFocus:CENTER) {
+      ...GatsbyImageSharpFluid_withWebp              
+     }
+    }
+    }
+
+    matt: file(relativePath: { eq: "weddingDay/fromFriends/matt.jpg" }) {
+      childImageSharp {
+      fluid(maxWidth:1200 maxHeight:1200 fit:COVER) {
+      ...GatsbyImageSharpFluid_withWebp              
+     }
+    }
+    }  
     brennerCake: file(relativePath: { eq: "weddingDay/fromFriends/brennerCake.jpg" }) {
       childImageSharp {
       fluid(maxWidth:1200 maxHeight:1200 fit:COVER) {

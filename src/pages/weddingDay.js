@@ -11,8 +11,11 @@ export default function usInLove() {
   const data = getWeddingDay()
   const array = Object.values(data);
   return (
+    <div>
+    <title>Becca + Frank</title>
     <Links>
       <Gallery photos = {data} array ={array}/>
     </Links>
+    </div>
   );
 }
