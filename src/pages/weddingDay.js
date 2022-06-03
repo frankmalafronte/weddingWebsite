@@ -7,7 +7,7 @@ import Gallery from '../components/Gallery';
 import {getWeddingDay} from '../hooks/weddingDay';
 
 
-export default function usInLove() {
+export default function weddingDay() {
   const data = getWeddingDay()
   const array = Object.values(data);
   return (
